@@ -1,0 +1,445 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"Skill",
+				"skill_index"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"stick",
+				"sticky"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"mt",
+				"mt-3"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"w",
+				"w-100"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"fad",
+				"fade_in"
+			],
+			[
+				"fa",
+				"fade_in"
+			],
+			[
+				"qu",
+				"querySelectorAll"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"Back",
+				"background-color"
+			],
+			[
+				"H",
+				"height"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"write",
+				"write_CSV"
+			],
+			[
+				"stop",
+				"stopwords"
+			],
+			[
+				"fb",
+				"fb_post_data"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"son",
+				"song_length"
+			],
+			[
+				"ab",
+				"album"
+			],
+			[
+				"search",
+				"search_result"
+			],
+			[
+				"l",
+				"list_Song"
+			],
+			[
+				"gro",
+				"grown_in"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"yea",
+				"years_UM"
+			],
+			[
+				"pro",
+				"programs_written"
+			],
+			[
+				"y",
+				"years_UM"
+			],
+			[
+				"get",
+				"get_flickr_data"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"air",
+				"airport_code"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 135.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install Package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jane-chang/Google Drive/SI664/Assignment 1/assignment1.html",
+		"/Users/jane-chang/Google Drive/portfolio_web/index_interaction.js",
+		"/Users/jane-chang/Downloads/browser.svg",
+		"/Users/jane-chang/Downloads/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css",
+		"/Users/jane-chang/Google Drive/portfolio_web/css/bootstrap.min.css",
+		"/Users/jane-chang/Google Drive/portfolio_web/css/reset.css",
+		"/Users/jane-chang/Downloads/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css",
+		"/Users/jane-chang/Google Drive/portfolio_web/style.css",
+		"/Users/jane-chang/Google Drive/SI 506/PS7/index.html",
+		"/Users/jane-chang/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/jane-chang/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/jane-chang/Google Drive/SI 506/PS7/506F17_ps7.py",
+		"/Users/jane-chang/Downloads/section_11_solution.py",
+		"/Users/jane-chang/Downloads/section_10_solution.py",
+		"/Users/jane-chang/Downloads/section_9_itunes_solution_commented.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/506F17_ps9.py",
+		"/Users/jane-chang/Desktop/lab08.py",
+		"/Users/jane-chang/Desktop/FinalProject/SI506_finalproject.py",
+		"/Users/jane-chang/Desktop/FinalProject/README_506F17_FinalProject.txt",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/Final project/SI506_finalproject.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/Final project/SI506F_Final.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/Final project/cache_fb.json",
+		"/Users/jane-chang/Desktop/sample_facebook.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS8/506F17_ps8.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/samplepost.json",
+		"/Users/jane-chang/Google Drive/SI 506/lab1101.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/your_app_data.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/sample_fb_data.json",
+		"/Users/jane-chang/Google Drive/SI 506/test/TEST.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS9/sample_facebook.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS7/inclass.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS7/pset7_cached_data.json",
+		"/Users/jane-chang/Desktop/cache_diction_saved.json",
+		"/Users/jane-chang/Desktop/python_diction_saved.json",
+		"/Users/jane-chang/Google Drive/SI 506/PS6/506F17_ps6.py",
+		"/Users/jane-chang/Library/Application Support/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/Users/jane-chang/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/jane-chang/Google Drive/SI 506/PS7/sample_diction.json",
+		"/Users/jane-chang/Google Drive/SI 506/PS7/sample_flickr_response.json",
+		"/Users/jane-chang/Desktop/import json.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS6/python_diction_saved.json",
+		"/Users/jane-chang/Downloads/section8/section8_sample.py",
+		"/Users/jane-chang/Google Drive/SI 506/PS6/nested_data_ps6.json",
+		"/Users/jane-chang/Google Drive/prog1.py",
+		"/Users/jane-chang/Google Drive/another_text.txt",
+		"/Users/jane-chang/Google Drive/unix_test_text.txt",
+		"/Users/jane-chang/Google Drive/prog2.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 171.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Google Drive/SI 506/PS6/506F17_ps6.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
