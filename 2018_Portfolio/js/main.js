@@ -159,7 +159,7 @@ function historySlider() {
         historyimages.owlCarousel({
             singleItem: true,
             pagination: false,
-            autoPlay: 2000,
+            autoPlay: 4000,
             slideSpeed: 300
         });
     }
