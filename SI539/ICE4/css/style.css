@@ -90,7 +90,7 @@ header{
 	display: block;
 }
 .top-nav ul li, .menu-icon{
-	border-top: 1px solid #DDDDDA; /*CHANGE*/
+	/*border-top: 1px solid #DDDDDA; /*CHANGE*/*/
 }
 .top-nav ul li a{
 	font-size: 1em;
@@ -100,6 +100,7 @@ header{
 	display: block;
 	text-align: center;
 	margin: 0;
+	
 }
 .menu-icon a{
 	font-size: 1em;

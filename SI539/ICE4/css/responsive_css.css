@@ -1,86 +1,101 @@
+	.top-nav ul li{
+		/*border-top: 1px solid #DDDDDA; /*CHANGE*/
+		display: block;
+		width: 100%;
+		list-style: none;
+		margin: 0;
+	}
 @media only screen and (min-width: 500px){
 /*-----HEADER & NAVIGATION-----*/
-header{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 105%;
-    box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
-    width: 100%;
-    position: fixed;
-}
-/*mobile-first*/
-.top-nav ul{
-	list-style-type: none;
-	padding: 0;
-	background-color: #211D24; /*CHANGE*/
-	margin: 0;
-	display: block;
-	text-align: center;
-	/*display: inline-block;*/
-}
-.menu-icon{
-	border-top: 1px solid #DDDDDA; /*CHANGE*/
-}
-.top-nav ul li{
-	border-top: 1px solid #DDDDDA; /*CHANGE*/
-	display: block;
-	width: 100%;
-	list-style: none;
-	margin: 0;
-}
-.top-nav ul li a{
-	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
-	text-decoration: none;
-	padding: .5em 1em;
-	display: block;
-	text-align: center;
-}
-.menu-icon a{
-	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
-	text-decoration: none;
-	padding: .5em 1em;
-	display: block;
-	text-align: center;
-}
-.top-nav ul li a.current-page{
-	color: #F54320;
-	font-weight: bold;
-}
-.top-nav ul li a.current-page:before {
-  content: "\27A4  ";
-  color: #F54320;
-  /*padding-right: 4px;*/
-  position: relative;
-  top: 1px;
-}
-.top-nav ul li a:hover, .menu-icon a:hover, .top-nav ul li a:focus, .menu-icon a:focus{
-    background-color: #E3AD02;
-    color: #DDDDDA;
-    font-weight: bold;
-}
-.top-nav ul li a:hover:before, .top-nav ul li a:focus:before{
-    content: "\27A4  ";
-  	color: #DDDDDA;
-  	/*padding-right: 4px;*/
-  	position: relative;
-  	top: 1px;
-}
-/*implement menu toogle*/
-.top-nav.toggle-open ul{
-	display: block;
-}
+	header{
+		font-family: 'Quicksand', sans-serif;
+		font-size: 105%;
+	    box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
+	    width: 100%;
+	    position: fixed;
+	}
+	/*mobile-first*/
+	.top-nav ul{
+		list-style-type: none;
+		padding: 0;
+		background-color: #211D24; /*CHANGE*/
+		margin: 0;
+		display: block;
+		text-align: center;
+		/*display: inline-block;*/
+	}
+	.menu-icon{
+		border-top: 1px solid #DDDDDA; /*CHANGE*/
+	}
+	.top-nav ul li{
+		border-top: 1px solid #DDDDDA; /*CHANGE*/
+		/*border-top: 1px solid #DDDDDA; /*CHANGE*/
+		display: block;
+		width: 100%;
+		list-style: none;
+		margin: 0;
+	}
+	.top-nav ul li:before{
+		
+		content: ""; /* This is necessary for the pseudo element to work. */ 
+	    display: block; /* This will put the pseudo element on its own line. */
+	    margin: 0 auto; /* This will center the border. */
+	    width: 100%; /* Change this to whatever width you want. */
+	}
+	.top-nav ul li a{
+		font-size: 1em;
+		color: #DDDDDA; /*CHANGE*/
+		text-decoration: none;
+		padding: .5em 1em;
+		display: block;
+		text-align: center;
+	}
+	.menu-icon a{
+		font-size: 1em;
+		color: #DDDDDA; /*CHANGE*/
+		text-decoration: none;
+		padding: .5em 1em;
+		display: block;
+		text-align: center;
+	}
+	.top-nav ul li a.current-page{
+		color: #F54320;
+		font-weight: bold;
+	}
+	.top-nav ul li a.current-page:before {
+	  content: "\27A4  ";
+	  color: #F54320;
+	  /*padding-right: 4px;*/
+	  position: relative;
+	  top: 1px;
+	}
+	.top-nav ul li a:hover, .menu-icon a:hover, .top-nav ul li a:focus, .menu-icon a:focus{
+	    background-color: #E3AD02;
+	    color: #DDDDDA;
+	    font-weight: bold;
+	}
+	.top-nav ul li a:hover:before, .top-nav ul li a:focus:before{
+	    content: "\27A4  ";
+	  	color: #DDDDDA;
+	  	/*padding-right: 4px;*/
+	  	position: relative;
+	  	top: 1px;
+	}
+	/*implement menu toogle*/
+	.top-nav.toggle-open ul{
+		display: block;
+	}
 
-/*-----LOGO-----*/
-.logo{
-	background-color: #211D24; /*CHANGE*/
-	margin: 0;
-	text-align: center;
-	padding: .25em .75em;
-}
-.logo img{
-	height: 3em;
-}
+	/*-----LOGO-----*/
+	.logo{
+		background-color: #211D24; /*CHANGE*/
+		margin: 0;
+		text-align: center;
+		padding: .25em .75em;
+	}
+	.logo img{
+		height: 3em;
+	}
 	
 }
 
@@ -95,14 +110,23 @@ header{
 	/*display: inline-block;*/
 	}
 	.menu-icon{
-		border-top: 1px solid #DDDDDA; /*CHANGE*/
+		/*border-top: 1px solid #DDDDDA; /*CHANGE*/
 	}
 	.top-nav ul li{
-		border-top: 1px solid #f54320; /*CHANGE*/
+		border-top: 1px solid rgba(1,1,1,0); 
 		display: inline-block;
 		width: 20%;
 		list-style: none;
 		margin: 0;
+	}
+	.top-nav ul li:before{
+		border-bottom: 1px solid #f54320;
+		content: ""; /* This is necessary for the pseudo element to work. */ 
+	    display: block; /* This will put the pseudo element on its own line. */
+	    margin: 0 auto; /* This will center the border. */
+	    width: 110%; /* Change this to whatever width you want. */
+	    /*padding-bottom: 10px;  This creates some space between the element and the border. */
+    
 	}
 	.photo-cell {
      margin-bottom: 0%; 
@@ -172,6 +196,15 @@ header{
 		margin: 0;
 		text-align: center;
 		padding-top: 10px;
+	}
+	.top-nav ul li:before{
+		border-bottom: 1px rgba(0,0,0,0);
+		content: ""; /* This is necessary for the pseudo element to work. */ 
+	    /*display: block;*/ /* This will put the pseudo element on its own line. */
+	    margin: 0 auto; /* This will center the border. */
+	    width: 0%; /* Change this to whatever width you want. */
+	    /*padding-bottom: 10px;  This creates some space between the element and the border. */
+    
 	}
 	.photo-cell {
      margin-bottom: 0%; 
