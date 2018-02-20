@@ -1,0 +1,50 @@
+img{
+	border:2px solid black;
+	/*padding: 20px;*/
+	margin: 20px;
+}
+.hover, .active, .focus{
+	border-radius: 0px;
+	width: 300px;
+	height: : 300px;
+
+}
+.active:active{
+	border-radius: 0px;
+	width: 300px;
+	height: : 300px;
+
+}
+.hover:hover{
+	width: 350px;
+	height: : 350px;
+	border-radius: 100px;
+
+}
+.focus:focus{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.bar{
+	background-color: grey;
+	display: block;
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+}
+.bar .square{
+	background-color: blue;
+	display: block;
+	width: 50px;
+	height: 50px;
+	/*margin:15px;*/
+
+}
+.bar .square:focus{
+	transform: translate(1500px, 0px);
+}
+
+@keyframes go_right {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
