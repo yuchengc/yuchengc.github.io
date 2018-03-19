@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Employment Application Form</title>
+		
+		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cagliostro" rel="stylesheet">
+	</head>
+
+	<body>
+		<span class="title_style"><img src="img/job.png">
+		<h2 id="title"> Your Dream Job Starts Here... </h2></span>
+		<form name="application" action="" method="post">
+
+
+	       
+		   <div class="section">
+		   	<h4><u>Basic Information</u></h4>
+			</a>
+
+		      	<!-- Content -->
+		        <fieldset>
+					<legend>Account Information:</legend>
+					<label> First name:<input type="text" name="fname"   autofocus>
+					</label><br>
+
+				  	<label for="lname"> Last name:</label><input type="text" name="lname"><br>
+
+				  	<label> Email: <input type="email" name="email"   placeholder = "iyad@umich.edu"></label><br>
+
+				  	<label> Password: <input type="password"   name="password1"></label><br>
+
+				  	<label> Confirm Password: *<input type="password"   name="password2" onchange="validatePass(this)"></label><br>
+				</fieldset>
+
+				<fieldset>
+					<legend>Contact Information:</legend>
+					<label>Phone number: <input type="text"></label><br>
+
+				<label>Country of Citizenship: <select id="country" class="bfh-countries" data-country="US"></select></label><br>
+
+				<label> Address: <input type="text" id="address" name="address" size="50" placeholder = "1234 N Wells St"></label><br>
+				<label> City: <input type="text" name="city"  placeholder = "Ann Arbor"></label>
+				<label> State: <select class=" form-control bfh-states" data-country="US" data-state = "MI" required></select></label>
+				<label> Zip code: <input type="text" name="Zip code"  placeholder = "48108"></label><br>  
+				</fieldset>
+		      </div>
+		    
+
+	<div class="section">
+
+      <h4><u>Education and Work Experience</u></h4>
+        <fieldset> 
+		  <legend>Educational Information:</legend>
+		  
+		  <div id="education">
+		  <label> Degree:
+		  <select name="degree">
+				<option value="High school">High school</option>
+				<option value="BS">B.S</option>
+				<option value="BA">B.A</option>
+				<option value="Meng">M.Eng</option>
+				<option value="MA">M.A</option>
+				<option value="MS">M.S</option>
+				<option value="PhD">PhD</option>
+		  </select></label><br>
+
+		  <label> Institution name: <input type="text" name="inst_name" placeholder = "University of Michigan"></label><br>
+
+		  <label> Major: <input type="text" name="Major" placeholder = "Information System"></label><br>
+
+		  <label> GPA: <input type="number" step="any" name="GPA" min="0" max="4"></label> /4.0<br>
+
+		
+
+		<button id="addDegree"> Add degree </button>
+</div>
+		</fieldset>
+
+			<fieldset>
+			<legend>Work Experience:</legend>
+			<div id="work">
+				<label>Company Name: <input type="text" name="name" placeholder="Google"></label><br>
+				<label>Job Title: <input type="text" name="title" placeholder="Software Engineer"></label><br>
+				<label>Join Date: <input type="date" name="joindate"></label><br>
+				<label>End Date: <input type="date" name="enddate"></label><br>
+
+			</div>
+				<!-- Can automatically populate the duration using Javascript -->
+				<button id="addWork">Add Employer</button>
+			</fieldset>
+			
+
+      </div>
+    
+      <div class="section">
+      <h4><u>Position</u></h4>
+   
+
+    
+        <fieldset>
+			<legend>Type of Work:</legend>
+			What are you interested in applying for:<br>
+				<label><input type="checkbox" name="position" value="internship"> Internship</label><br>
+				<label><input type="checkbox" name="position" value="full-time"> Full-time</label><br>
+				<label><input type="checkbox" name="position" value="part-time"> Part-time</label><br>
+			</fieldset>
+			<!-- Resume ( ) and cover letter (optional) -->
+
+			<fieldset>
+			<legend>Resume and Cover Letter:</legend>
+			<label>Upload Resume: *<input type="file" name="resume" accept="application/pdf"  ></label><br>
+			<label>Upload Cover Letter: <input type="file" name="coverletter" accept="application/pdf"></label><br>
+			</fieldset>
+
+			<fieldset>
+			<legend>Position:</legend>
+
+			Which position are you interested in applying:<br>
+			<select name="position">
+				<optgroup label="Information Technology">
+					<option>Network Engineer</option>
+				</optgroup>
+				<optgroup label="Finance">
+					<option>Financial Analyst</option>
+				</optgroup>
+				<optgroup label="Software Development">
+					<option>Project Manager</option>
+				</optgroup>
+				<optgroup label="Legal">
+					<option>Attorney</option>
+				</optgroup>
+				<optgroup label="Human Resources">
+					<option>Coordinator</option>
+				</optgroup>
+				<optgroup label="Research">
+					<option>Research Associate</option>
+				</optgroup>
+				<optgroup label="Transport">
+					<option>Driver</option>
+				</optgroup>
+			</select><br>
+			
+			Office Location:
+			<input list="locations" name="locations">
+			<datalist id="locations">
+				<option value="New York">
+				<option value="San Francisco">
+				<option value="Detroit">
+				<option value="Ann Arbor">
+				<option value="Chicago">
+				<option value="Pittsburgh">
+			</datalist><br>
+
+			Expected Start Date: <input type="date" name="startdate"><br>
+			
+			Expected Salary: $<input type="range" name="salary" min="40" max="200" step="5" value="100" onchange="updateSalary(this)"><br/><span id="salary"></span>
+			<br>
+
+			<label>Personal Website/Portfolio: <input type="url" name="website" placeholder="www.mywebsite.com"></label><br>
+			
+			</fieldset>
+			
+      </div>
+   
+	<button class="submit_button" type="submit" >submit</button>
+
+	</form>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
+	
+	</body>
+</html>
