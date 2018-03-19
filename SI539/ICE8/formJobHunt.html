@@ -119,7 +119,7 @@
 			<fieldset>
 			<legend>Position:</legend>
 
-			Which position are you interested in applying:<br>
+			<label>Which position are you interested in applying:
 			<select name="position">
 				<optgroup label="Information Technology">
 					<option>Network Engineer</option>
@@ -142,10 +142,10 @@
 				<optgroup label="Transport">
 					<option>Driver</option>
 				</optgroup>
-			</select><br>
+			</select></label><br>
 			
 			Office Location:
-			<input list="locations" name="locations">
+			<label><input list="locations" name="locations">
 			<datalist id="locations">
 				<option value="New York">
 				<option value="San Francisco">
@@ -153,11 +153,11 @@
 				<option value="Ann Arbor">
 				<option value="Chicago">
 				<option value="Pittsburgh">
-			</datalist><br>
+			</datalist></label><br>
 
-			Expected Start Date: <input type="date" name="startdate"><br>
+			<label>Expected Start Date: <input type="date" name="startdate"></label><br>
 			
-			Expected Salary: $<input type="range" name="salary" min="40" max="200" step="5" value="100" onchange="updateSalary(this)"><br/><span id="salary"></span>
+			<label>Expected Salary: $ <span id=slider_text>100</span>  40<input id="slider" type="range" name="salary" min="40" max="200" step="5" value="100" onchange="updateSalary(this)">200<br/><span id="salary"></span></label>
 			<br>
 
 			<label>Personal Website/Portfolio: <input type="url" name="website" placeholder="www.mywebsite.com"></label><br>
@@ -173,9 +173,14 @@
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-formhelpers.min.js"></script>
-	
+	<script type="text/javascript">
+		function updateSalary(item) {
+          var a=document.getElementById('slider_text')
+          a.innerText=item.value; 
+        }
+	</script>
 	</body>
 </html>

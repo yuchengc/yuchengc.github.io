@@ -61,3 +61,10 @@ h2{
 	font-size: 40px;
 	/*line-height: 128px;*/
 }
+
+#slider_text{
+	color: red;
+	margin-right: 10px;
+	border: solid 1px grey;
+	padding: 2px;
+}
