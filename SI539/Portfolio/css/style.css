@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	font-family: 'Ubuntu', sans-serif;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.navbar img{
+	display: inline-block;
+	width: auto;
+	height: 30px;
+}
+
+.navbar ul{
+	display: inline-block;
+	float: right;
+}
+
+.navbar ul li{
+	display: inline-block;
+/*	padding-top: 5px;
+	padding-bottom: 5px;*/
+	padding: 10px 25px 10px 25px;  
+	font-size: 18px;
+}
+
+.navbar ul li a{
+	display: inline-block;
+	text-decoration: none;
+}
+.slider{
+	width: 100%;
+	height: auto;
+}
+
+.container_para{
+	width: 100%;
+}
+.parallax {
+	min-height: 600px;
+	margin: 0;
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.open_box{
+	position: relative;
+	border: 15px solid white;
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	top:200px;
+	left: 40%;
+}
+.fondo1{
+	background-image: url("../img/index_bd_1.jpeg");
+}
+
+p{
+	background-color: white;
+	color:Grey;
+	padding: 100px;
+	margin: 0;
+	font-size: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 16px;
+}
+
