@@ -10,22 +10,31 @@
 
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	
-	<nav class="navbar navbar-light bg-light">
-		<header class="header">
+	<nav class="navbar navbar-light bg-light" id="nav_bar">
+		<header class="header navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 			<a class="navbar-brand" href="#">
 			    <img src="img/logo.png" class="d-inline-block align-top" alt="">
 		    
 			</a>
 		</header>
-		<ul>
-			<li><a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a></li>
-			<li><a class="nav-link" href="#">Portfolio</a></li>
-			<li><a class="nav-link" href="#">Resume</a></li>
-			<li><a class="nav-link" href="#">Contact</a></li>
-		</ul>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul>
+				<li><a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a></li>
+				<li><a class="nav-link" href="#">Portfolio</a></li>
+				<li><a class="nav-link" href="#">Resume</a></li>
+				<li><a class="nav-link" href="#">Contact</a></li>
+			</ul>
+		</div>
 	</nav>
 	<div class="container_para">
 	
@@ -33,9 +42,28 @@
 			<!-- <img src="img/image_2.png" width="100%"> -->
 			<div class="open_box"></div>
 		</div>
+		<h1>About me</h1>
+		<div class="about_me">
+			<h3>Passionate about creating products and experiences that are transformative for users.</h3>
+			<p>I am an UX designer with professional knowledge in engineering, industrial design, and user interface (UI). With my years working experience in user experience (UX) research and interaction design, I am ready to take on any challenges in association with that and passionate to pursuit a success in the future.</p>
+		</div>
+		<div class="parallax fondo2" style="min-height: 300px; ">
+			<!-- <img src="img/image_2.png" width="100%"> -->
+			<div class="project_decor"></div>
+		</div>
 		<p>About me</p>
+		<div class="container project_area">
+			<div class="row">
+				<div class="project_box col-10 col-md-6"></div>
+				<div class="project_box col-10 col-md-6"></div>
+				<div class="project_box col-10 col-md-6"></div>
+				<div class="project_box col-10 col-md-6"></div>
+				<div class="project_box col-10 col-md-6"></div>
+				<div class="project_box col-10 col-md-6"></div>
+				<div></div>
+			</div>
 			
-
+		</div>
 		</div>
 		<div class="row"></div>
 		<div class="row"></div>

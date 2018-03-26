@@ -30,11 +30,13 @@
 	padding-bottom: 5px;*/
 	padding: 10px 25px 10px 25px;  
 	font-size: 18px;
+	color:white;
 }
 
 .navbar ul li a{
 	display: inline-block;
 	text-decoration: none;
+	color:black;
 }
 .slider{
 	width: 100%;
@@ -45,7 +47,18 @@
 	width: 100%;
 }
 .parallax {
-	min-height: 600px;
+	min-height: 700px;
+	margin: 0;
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.parallax2 {
+	min-height: 700px;
 	margin: 0;
 	
 	/* Create the parallax scrolling effect */
@@ -57,24 +70,58 @@
 }
 .open_box{
 	position: relative;
-	border: 15px solid white;
-	width: 300px;
-	height: 300px;
+	border: 35px solid white;
+	width: 400px;
+	height: 400px;
 	box-sizing: border-box;
-	top:200px;
-	left: 40%;
+	top:180px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .fondo1{
 	background-image: url("../img/index_bd_1.jpeg");
 }
-
-p{
+.fondo2{
+	background-image: url("../img/index_bd_1.jpeg");
+	background-position: 50% 200px;
+}
+.container_para h1{
 	background-color: white;
 	color:Grey;
-	padding: 100px;
+	padding-top: 100px;
+	padding-left: 100px;
 	margin: 0;
 	font-size: 50px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 16px;
 }
+.about_me{
+	background-color: white;
+	color:black;
+	padding: 100px;
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+	/*padding-bottom: 100px;*/
 
+}
+.project_area{
+	padding-top: 30vh;
+}
+.project_decor{
+	position: relative;
+	border: 15px solid #00F2E4;
+	width: 40vw;
+	height: 30vh;
+	box-sizing: border-box;
+	top:180px;
+	margin-left: 20%;
+	margin-right: 80%;
+	box-shadow: 0px 15px 10px -10px rgba(0,0,0,0.2) 
+}
+.project_box{
+	/*width: 40vw;*/
+	height: 50vh;
+	margin-bottom: 5vh;
+}
