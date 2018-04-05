@@ -1,0 +1,13 @@
+@media only screen and (min-width: 400px){
+	.open_box{
+		position: relative;
+		border: 15px solid white;
+		width: 65vw;
+		height: 65vw;
+		box-sizing: border-box;
+		top: 20vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (min-width: 650px){}
