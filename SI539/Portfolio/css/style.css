@@ -432,3 +432,23 @@ footer{
     display: block;
     margin: auto;
 }
+
+.screen_show{
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	/*margin-bottom: 3em;*/
+	/*margin-top: 3em;*/
+
+}	
+.screen_show img{
+	max-width: 80%;
+	height: auto;
+
+}
+
+.single-project-screen .row
+{
+	margin-top: 3em;
+	margin-top: 3em;
+}
