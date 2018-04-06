@@ -35,21 +35,30 @@ $( document ).ready(function() {
 			el.style.backgroundPosition = elBackgrounPos;
 
 		});
-
+		var w = window.innerWidth;
+		console.log("windows"+w)
 
 	    console.log( window.pageYOffset);
 	    // var nar=document.getElementsByClassName("navbar");
 		var nar=document.getElementById("nav_bar");
+		var scroll_y=window.pageYOffset;
 		// document.querySelector(".example");
+		if (w >= 650){
+			if (scroll_y>window.innerHeight){
+		    	console.log('scrolled down');
+		    	nar.style.backgroundColor="rgba(0,0,0,0.5)";
+		    }
+		    else if (scroll_y<window.innerHeight){
+		    	nar.style.backgroundColor="rgba(255,255,255,0)";
+		    }
 
-	    var scroll_y=window.pageYOffset;
-	    if (scroll_y>window.innerHeight){
-	    	console.log('scrolled down');
-	    	nar.style.backgroundColor="rgba(0,0,0,0.5)";
-	    }
-	    else if (scroll_y<window.innerHeight){
-	    	nar.style.backgroundColor="rgba(255,255,255,0)";
-	    }
+		}
+		else if(w < 650){
+			console.log("dark");
+			nar.style.backgroundColor="rgba(0,0,0,0.5)";
+		}
+	    
+	    
     };
 
     $('.project_box').hover(

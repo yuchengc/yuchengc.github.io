@@ -1,4 +1,5 @@
 @media only screen and (min-width: 400px){
+	
 	.open_box{
 		position: relative;
 		border: 15px solid white;
@@ -8,6 +9,28 @@
 		top: 20vw;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.selfie{
+		width: 100vw;
+		max-height: 40vh;
+		overflow: hidden;
+		/*background-image: url("../img/selfie.JPG"); */
+
+	}
+
+	.selfie>img{
+		width: auto;
+		height: 100%;
+		/*background-image: url("../img/selfie.JPG"); */
+
+	}
+	.project_area{
+		padding-top: 20vh;
+		margin-bottom: 5vh;
+	}
+	.icon-bar{
+		background-color: #ffffff;
 	}
 }
 @media only screen and (min-width: 650px){}
