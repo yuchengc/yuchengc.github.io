@@ -322,3 +322,26 @@
     top: 0;*/
     /*margin: 0 0 0 0px;*/
 }
+.cp-label{
+    width:100px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background: #ededed;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 5rem;
+
+}
+
+.cp-embed{
+    margin-bottom: 40px;
+    border: solid 5px #ededed;
+    height: 510px;
+}
+em{
+    font-style: normal;
+    color: #43BA9E;
+}
