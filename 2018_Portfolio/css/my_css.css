@@ -343,5 +343,103 @@
 }
 em{
     font-style: normal;
-    color: #43BA9E;
+    color: #05D3AB;
+    font-weight: bold;
+}
+.ul-title{
+    margin-top: 4rem;
+    /*font-weight: 300;*/
+}
+.interactive-process .step .step-icon{
+    width: 65%;
+    height: auto;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 20px;
+    transition-duration: 0.3s;
+
+}
+.interactive-process .step:hover .step-icon{
+    width: 75%;
+    height: auto;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 20px;
+
+}
+.interactive-process .step  h3{
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+.interactive-process .step .step-icon img{
+    width: 100%;
+    height: auto;
+}
+.interactive-process .step .sub-step-menu {
+    position: relative;
+    margin-top: 50px;
+/*    display: block;
+    height: 50px;*/
+}
+.interactive-process .step .sub-step-menu .sub-step{
+    position: relative;
+    /*margin-top: 35px;*/
+    display: block;
+    height: 50px;
+}
+.interactive-process .step .sub-step-menu .sub-step .step-label{
+    display: inline-block;
+    position: relative;
+    padding-left: 25%;
+    font-size:12px;
+    top:-5px;
+}
+.interactive-process .step .sub-step-menu .sub-step .point:after{
+    content:'';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    position: absolute;
+    left: calc(15% - 4px);
+}
+.interactive-process .step .sub-step-menu .sub-step .point:before{
+    content:'';
+    display: block;
+    width: 2px;
+    height: 50px;
+    background: black;
+    /*border: solid 2px black;*/
+    border-radius: 5px;
+    position: absolute;
+    left: 15%;
+    top: -42px;
+}
+
+.interactive-process .step:hover .sub-step-menu .sub-step .point:after{
+    content:'';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border: solid 4px black;
+    border-radius: 5px;
+    position: absolute;
+    left: calc(15% - 4px);
+}
+.interactive-process .step:hover .sub-step-menu .sub-step .point:before{
+    content:'';
+    display: block;
+    width: 2px;
+    height: 50px;
+    background: black;
+    /*border: solid 2px black;*/
+    border-radius: 5px;
+    position: absolute;
+    left: 15%;
+    top: -42px;
 }

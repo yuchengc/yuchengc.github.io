@@ -202,6 +202,11 @@ ul {
 }
 ul li {
     list-style-type: inherit;
+    line-height: 24px;
+}
+ul li p{
+    font-weight: 100;
+    line-height: 24px;
 }
 ul.list {
     display: block;
