@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+	<h1>Daily <em>CARBON</em> Footprint</h1>
+	<div class="introduction">
+		<div class="greeting">
+			<h2>Hello, Welcome to the daily carbon dioxide emission calculator</h2>
+			<h1>HOW BIG IS YOUR ENVIRONMENTAL FOOTPRINT?</h1>
+			<h4>Your living habits and daily behavior make up your own footprint. I like to help you estimate the impact of our environment and recognize which behavior has the highest carbon emissions.</h4>
+			
+		</div>
+		<div>
+			<h2>What is carbon footprint?</h2>
+			<h4>A carbon footprint is historically defined as the total emissions caused by an individual, event, organization, or product, expressed as carbon dioxide equivalent.</h4>
+			<h4>Most of the carbon footprint emissions for the average U.S. household come from "indirect" sources, e.g. fuel burned to produce goods far away from the final consumer. These are distinguished from emissions which come from burning fuel directly in one's car or stove, commonly referred to as "direct" sources of the consumer's carbon footprint.</h4>
+			<h4>An individual's, nation's, or organization's carbon footprint can be measured by undertaking a GHG emissions assessment or other calculative activities denoted as carbon accounting. Once the size of a carbon footprint is known, a strategy can be devised to reduce it, e.g. by technological developments, better process and product management, changed Green Public or Private Procurement (GPP), carbon capture, consumption strategies, carbon offsetting and others.
+
+			Several free online carbon footprint calculators exist, including a few supported by publicly available peer-reviewed data and calculations including the University of California, Berkeley's CoolClimate Network research consortium and CarbonStory. These websites ask you to answer more or less detailed questions about your diet, transportation choices, home size, shopping and recreational activities, usage of electricity, heating, and heavy appliances such as dryers and refrigerators, and so on. The website then estimates your carbon footprint based on your answers to these questions. A systematic literature review was conducted to objectively determine the best way to calculate individual/household carbon footprints. This review identified 13 calculation principles and subsequently used the same principles to evaluate the 15 most popular online carbon footprint calculators. A recent study’s results by Carnegie Mellon's Christopher Weber found that the calculation of carbon footprints for products is often filled with large uncertainties. The variables of owning electronic goods such as the production, shipment, and previous technology used to make that product, can make it difficult to create an accurate carbon footprint. It is important to question, and address the accuracy of Carbon Footprint techniques, especially due to its overwhelming popularity.</h4>
+			<p>Information resource : <a href="https://en.wikipedia.org/wiki/Carbon_footprint">wiki</a></p>
+		</div>
+		<div>
+			<h2>How to use?</h2>
+			<div class="instruction"><span class="bullet">1</span>Please enter your daily usage of below behaviors. You can click the spin button or type it directly.</div>
+			<div class="instruction"><span class="bullet">2</span>The rainbow bar represents the distribution of emission based on your daily behaviors.</div>
+			<div class="instruction"><span class="bullet">3</span>You can hover to the bubble for detailed information.</div>
+			<div class="instruction"><span class="bullet">4</span>You can add or remove any item you have entered. The chart will be updated</div>
+
+		</div>
+
+	</div>
+	<div class="charts">
+		<h1>LETS PLAY WITH THE CHART</h1>
+		<div class="dataview"></div>
+		<div id="chart1" class="chart1-frame"></div>
+		<div id="chart2" class="chart2-frame"></div>
+	</div>
+	<div class="control">
+
+		<!-- food -->
+		<span for="inputCoffee">
+			Coffee with paper cup
+
+			<div class="inputSet coffee">
+				<button class="minus">-</button>
+				<input type="number" name="inputCoffee" value="0" id="inputCoffee" class="inputNum" >
+				<button class="plus">+</button>
+				<p>cups</p>
+			</div>
+
+		</span>
+		<span for="inputMeat">Beef/ Meat
+			<div class="inputSet meat">
+				<button class="minus">-</button>
+				<input type="number" name="inputMeat" value="0" id="inputMeat" class="inputNum" min='0'>
+				<button class="plus">+</button>
+				<p>100 g</p>
+			</div>
+		</span>
+		<!-- transport --> 
+		<span for="inputCar">Drive a car
+			<div class="inputSet car">
+				<button class="minus">-</button>
+				<input type="number" name="inputCar" value="0" id="inputCar" class="inputNum" >
+				<button class="plus">+</button>
+				<p>mile</p>
+			</div>
+		</span>
+		<!-- <span for="inputBike">Ride a bike
+			<div class="inputSet bike">
+				<button class="minus">-</button>
+				<input type="number" name="inputBike" value="0" id="inputBike" class="inputNum" >
+				<button class="plus">+</button>
+				<p>mile</p>
+			</div>
+		</span> -->
+		<span for="inputBus">Take bus
+			<div class="inputSet bus">
+				<button class="minus">-</button>
+				<input type="number" name="inputBus" value="0" id="inputBus" class="inputNum" >
+				<button class="plus">+</button>
+				<p>mile</p>
+			</div>
+		</span>
+		<span for="inputElevator">Take Elevator
+			<div class="inputSet elevator">
+				<button class="minus">-</button>
+				<input type="number" name="inputElevator" value="0" id="inputElevator" class="inputNum" >
+				<button class="plus">+</button>
+				<p>floor</p>
+			</div>
+		</span>
+		<!-- electrical product -->
+		<span for="inputLamp">Use lamp
+			<div class="inputSet lamp">
+				<button class="minus">-</button>
+				<input type="number" name="inputLamp" value="0" id="inputLamp" class="inputNum" >
+				<button class="plus">+</button>
+				<p>hour</p>
+			</div>
+		</span>
+		<span for="inputComputer">Use laptop
+			<div class="inputSet laptop">
+				<button class="minus">-</button>
+				<input type="number" name="inputComputer" value="0" id="inputComputer" class="inputNum" >
+				<button class="plus">+</button>
+				<p>hour</p>
+			</div>
+		</span>
+		<span for="inputPhone">Use mobile phone
+			<div class="inputSet phone">
+				<button class="minus">-</button>
+				<input type="number" name="inputPhone" value="0" id="inputPhone" class="inputNum" >
+				<button class="plus">+</button>
+				<p>hour</p>
+			</div>
+		</span>
+		<span for="inputTV">Watch TV
+			<div class="inputSet tv">
+				<button class="minus">-</button>
+				<input type="number" name="inputTV" value="0" id="inputTV" class="inputNum" >
+				<button class="plus">+</button>
+				<p>hour</p>
+			</div>
+		</span>
+		<span for="inputAC">Use air conditioner
+			<div class="inputSet ac">
+				<button class="minus">-</button>
+				<input type="number" name="inputAC" value="0" id="inputAC" class="inputNum" >
+				<button class="plus">+</button>
+				<p>hour</p>
+			</div>
+		</span>
+		<span for="inputHT">Use heater
+			<div class="inputSet heater">
+				<button class="minus">-</button>
+				<input type="number" name="inputHT" value="0" id="inputHT" class="inputNum" >
+				<button class="plus">+</button>
+				<p>hour</p>
+			</div>
+		</span>
+		
+
+		<span for="inputClothes">New clothes
+			<div class="inputSet clothes">
+				<button class="minus">-</button>
+				<input type="text" name="inputEat" value="0" id="inputClothes" class="inputNum" >
+				<button class="plus">+</button>
+				<p>item</p>
+			</div>
+		</span>
+		
+		
+
+
+	</div>
+	
+<script type="text/javascript" src="js/draw.js"></script>
+<!-- <script src="https://unpkg.com/jeezy@1.11.2/lib/jeezy.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/drawbubble.js"></script> -->
+</body>
+</html>

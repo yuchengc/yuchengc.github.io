@@ -1,0 +1,193 @@
+*{
+	font-family: 'Poor Story', cursive;
+	position: relative;
+}
+body{
+	max-width:1024px;
+	padding: 0 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+em{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: #336699;
+}
+h2{
+	color:#FF3300;
+}
+.control{
+	padding: 30px 30px;
+	margin: 0 auto;
+}
+.control span{
+	display: inline-block;
+	position: relative;
+	height: 100px;
+	width: 185px;
+}
+.inputNum{
+	width: 60px;
+	height: 28px;
+	position: absolute;
+	left: 30px;
+	outline: none;
+	vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.minus{
+	width: 30px;
+	height: 34px;
+	background: #FF3333;
+	border:none;
+	display: inline-block;
+	position: absolute;
+	left:0;
+	border-radius: 8px 0 0 8px;
+	font-size: 20px;
+	color:white;
+	font-weight: bold;
+
+}
+.plus{
+	width: 30px;
+	height: 34px;
+	background: #FF3333;
+	border:none;
+	display: inline-block;
+	position: absolute;
+	left:90px;
+	border-radius: 0 8px 8px 0;
+	font-size: 20px;
+	color:white;
+	font-weight: bold;
+
+}
+.inputSet p{
+	position: absolute;
+	width: 120px;
+	top:15px;
+	/*right:0px;*/
+	text-align: right;
+	color:#4D4E50;
+	font-size: 16px;
+}
+.inputSet{
+	position: relative;
+}
+.control span{
+	font-size: 20px;
+}
+input[type='number'] {
+    width: 60px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.bbtoolTip {
+    position: absolute;
+    display: none;
+    min-width: 50px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 0px solid #069ea8;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    background: #DBD8DE
+}
+.amountLine{
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+.totalAmount{
+	font-size: 30px;
+	color: #FF3333;
+	font-weight: bold;
+}
+.totalTree{
+	font-size: 60px;
+	color: #009933;
+	font-weight: bold;
+}
+
+.dataview{
+	text-align: right;
+	position: relative;
+	top: 130px;
+	max-width:900px;
+	z-index: 10;
+}
+
+.coffee .minus, .coffee .plus{
+	background: #662D91;
+}
+.coffee .inputNum{
+	border:2px solid #662D91;
+}
+.meat .minus, .meat .plus{
+	background: #BF6AC4;
+}
+.meat .inputNum{border:2px solid #BF6AC4;}
+
+.car .minus, .car .plus{background: #DA1C5C}
+.car .inputNum{border:2px solid #DA1C5C;}
+
+.bus .minus, .bus .plus{background: #F5A0C5}
+.bus .inputNum{border:2px solid #F5A0C5;}
+
+.elevator .minus, .elevator .plus{background: #A01D21}
+.elevator .inputNum{border:2px solid #A01D21;}
+
+.lamp .minus, .lamp .plus{background: #F26522}
+.lamp .inputNum{border:2px solid #F26522;}
+
+.laptop .minus, .laptop .plus{background: #FFDE17}
+.laptop .inputNum{border:2px solid #FFDE17;}
+
+.phone .minus, .phone .plus{background: #58595B}
+.phone .inputNum{border:2px solid #58595B;}
+
+.tv .minus, .tv .plus{background: #8DC63F}
+.tv .inputNum{border:2px solid #8DC63F;}
+
+.ac .minus, .ac .plus{background: #006838 }
+.ac .inputNum{border:2px solid #006838;}
+
+.heater .minus, .heater .plus{background: #42BFB4}
+.heater .inputNum{border:2px solid #42BFB4;}
+
+.clothes .minus, .clothes .plus{background: #1B75BC}
+.clothes .inputNum{border:2px solid #1B75BC;}
+
+
+.bullet{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: #FF6600;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 10px;
+
+}
+.instruction{
+	margin-bottom: 10px;
+}
+.charts{
+	margin-top: 40px;
+}
