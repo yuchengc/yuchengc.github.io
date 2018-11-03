@@ -137,7 +137,10 @@ input[type='number'] {
 	max-width:900px;
 	z-index: 10;
 }
-
+.explain img{
+	margin-left: 20px;
+	/*width:150px;*/
+}
 .coffee .minus, .coffee .plus{
 	background: #662D91;
 }
