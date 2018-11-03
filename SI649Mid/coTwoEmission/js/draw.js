@@ -457,7 +457,7 @@ let drawBubbleBar=()=>{
 			    
 
 
-			    bbtooltip.style("left", d3.event.pageX - 80 + "px")                 
+			    bbtooltip.style("left", d3.event.pageX - 150 + "px")                 
 	            .style("top", d3.event.pageY -30 + "px")
 	            .style("display", "inline-block")
 	            .html("<b>" +(bb.type) + "</b>  : " + (dataCarbonEmission[bb.type])+" kgCO2");

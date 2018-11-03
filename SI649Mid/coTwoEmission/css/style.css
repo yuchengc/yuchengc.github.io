@@ -17,7 +17,13 @@ em{
 h2{
 	color:#FF3300;
 }
+
+.chart2-frame{
+
+}
 .control{
+	display: block;
+	position: relative;
 	padding: 30px 30px;
 	margin: 0 auto;
 }
@@ -127,7 +133,7 @@ input[type='number'] {
 .dataview{
 	text-align: right;
 	position: relative;
-	top: 130px;
+	top: 180px;
 	max-width:900px;
 	z-index: 10;
 }
@@ -190,4 +196,20 @@ input[type='number'] {
 }
 .charts{
 	margin-top: 40px;
+	position: relative;
+	height: 900px;
+}
+.cloudBG{
+	position: relative;
+	left: 20px;
+	width: 900px;
+	z-index: 0;
+	opacity: 0.3;
+}
+.chart2-frame{
+	position: absolute;
+	top:368px !important;
+	z-index: 2;
+	height: 500px;
+	display: block;
 }
