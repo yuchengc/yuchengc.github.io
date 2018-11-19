@@ -371,10 +371,11 @@ jQuery(window).load(function($) {
     var container = jQuery("#work-grid");
     if (container.length > 0) {
         container.isotope({
-            layoutMode: 'masonry',
+            layoutMode: 'fitRows',
             transitionDuration: '0.7s',
             columnWidth: 60
         });
+        console.log(container)
     };
 
     //Filter Portfolio
