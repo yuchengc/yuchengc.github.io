@@ -29,7 +29,7 @@
 	margin-bottom: 4em;
 }
 
-.single-project-details h1{
+.single-project-details > h1{
 	color: white;
 	display: flex;
 	width: 50px;
@@ -442,4 +442,58 @@ em{
     position: absolute;
     left: 15%;
     top: -42px;
+}
+.slogan{
+    font-size: 3rem;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    /*color: ;*/
+}
+.syngents_interview_question{
+    color:#222222;
+    font-weight: 500;
+}
+.focus-title{
+        font-size: 3rem;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    margin-top: 3rem;
+}
+.focus-subtitle{
+    font-size: 2rem;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    margin-top: 3rem;
+}
+.processPage-detail{
+    font-weight: 400;
+    color:#222222;
+    font-size: 14px;
+    list-style-type: none;
+    position: relative;
+}
+.processPage-detail li{
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    position: relative;
+}
+.processPage-detail li span{
+    width:2rem;
+    height:2rem;
+    background: #F39017;
+    display: inline-block;
+    position: relative;
+    /*top: 5px;*/
+    text-align: center;
+    line-height: 16px;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+.example-title{
+    padding-top: 3rem;
 }

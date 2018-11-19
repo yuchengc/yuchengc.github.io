@@ -2070,7 +2070,7 @@ ul.client-thumb-2 li a img:hover{
     opacity: 1;
 }
 .overlay-thumb:hover .details span {
-    top: 0;
+    /*top: 0;*/
 }
 .overlay-thumb:hover .title {
     transition-delay: 0.15s;
@@ -2088,9 +2088,9 @@ ul.client-thumb-2 li a img:hover{
 }
 .details span {
     display: block;
-    opacity: 0;
+    opacity: 1;
     position: relative;
-    top: 100px;
+    top: 0px;
     transition-property: top, opacity;
     transition-duration: 0.3s;
     transition-delay: 0s;
