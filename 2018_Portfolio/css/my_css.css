@@ -558,3 +558,7 @@ em{
 .feature-sub-title{
     color:#FE5C27;
 }
+.inner-video{
+    width: 100%;
+    height: auto;
+}
