@@ -1,3 +1,13 @@
+.col-nopadding {
+  
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+.inner-img{
+    width: 100%;
+    height: auto;
+}
 .single-project-details .process-images{
 	max-width: 100%;
 	height: auto;
@@ -454,12 +464,15 @@ em{
     color:#222222;
     font-weight: 500;
 }
+
+
 .focus-title{
         font-size: 3rem;
     border-radius: 0px;
     width: 100%;
     text-align: left;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .focus-subtitle{
     font-size: 2rem;
@@ -496,4 +509,52 @@ em{
 }
 .example-title{
     padding-top: 3rem;
+}
+
+.duudo-emphasized-title em{
+    /*color:#FF3E35 !important;*/
+}
+.sub-section{
+    margin-top: 5vh;
+}
+.duudo-feature-title{
+    display: flex;
+    -webkit-align-self: center; /* Safari 7.0+ */
+    align-self: center;
+    float: none;
+}
+.duudo-feature-title em{
+    display: flex;
+    -webkit-align-self: center; /* Safari 7.0+ */
+    align-self: center;
+}
+.duudo-feature{
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: flex-start; /* Safari 7.0+ */
+    display: flex;
+    align-items: flex-start;
+}
+.duudo-feature-bg{
+    background-image: url("../img/project_duudo/featureBG.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.duudo-title-text{
+    color:#000000;
+}
+
+@media (min-width: 992px) {
+.vertical-align-parent{
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: flex-start; /* Safari 7.0+ */
+    display: flex;
+    align-items: flex-start;
+}
+.vertical-align-item{
+    -webkit-align-self: center; /* Safari 7.0+ */
+    align-self: center;
+}
+}
+.feature-sub-title{
+    color:#FE5C27;
 }

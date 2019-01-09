@@ -203,6 +203,7 @@ ul {
 ul li {
     list-style-type: inherit;
     line-height: 24px;
+    font-weight: 100;
 }
 ul li p{
     font-weight: 100;
