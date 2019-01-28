@@ -467,12 +467,15 @@ em{
 
 
 .focus-title{
-        font-size: 3rem;
+    font-size: 3rem;
     border-radius: 0px;
     width: 100%;
     text-align: left;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+.focus-title-no-topmargin{
+    margin-top: 0rem;
 }
 .focus-subtitle{
     font-size: 2rem;

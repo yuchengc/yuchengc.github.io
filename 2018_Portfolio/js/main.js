@@ -122,6 +122,52 @@ $.fn.scrollToTop = function() {
     })
 };
 
+//Scroll Top 
+$.fn.scrollToSection = function() {
+    jQuery(this).hide().removeAttr('href');
+    if (jQuery(window).scrollTop() != '0') {
+        jQuery(this).fadeIn('slow')
+    }
+    var scrollDiv = jQuery(this);
+    
+    let section_num=this.selector[this.selector.length-1]
+    console.log("section_num",section_num)
+    let destination=$(`#section${section_num}-scroll`).offset().top
+    let next_destination
+    console.log(document.querySelector(`#section${section_num+1}-scroll`))
+    if($(`#section${parseInt(section_num)+1}-scroll`).length>0){
+        next_destination=$(`#section${parseInt(section_num)+1}-scroll`).offset().top
+    }
+    else{
+        next_destination=$(document).height()
+    }
+    console.log("destination",destination)
+    jQuery(window).scroll(function() {
+        if (jQuery(window).scrollTop() == '0') {
+            jQuery(scrollDiv).fadeOut('slow')
+        } else {
+            jQuery(scrollDiv).fadeIn('slow')
+        }
+    });
+    console.log("next_destination",next_destination)
+    jQuery(window).scroll(function() {
+        if (jQuery(window).scrollTop() >= destination.toString() &&  jQuery(window).scrollTop() < next_destination.toString() ) {
+            console.log("in seciotn")
+            console.log(this)
+            $(`#scroll-section${section_num}`).addClass('scroll-section-selected')
+            // jQuery(scrollDiv).fadeOut('slow')
+        } else{
+            $(`#scroll-section${section_num}`).removeClass('scroll-section-selected')
+            // jQuery(scrollDiv).fadeIn('slow')
+        }
+    });
+    jQuery(this).on('click', function() {
+        jQuery('html, body').animate({
+            scrollTop: destination
+        }, 'slow')
+    })
+};
+
 //Detect Mobile
 var isMobile = {
     Android: function() {
@@ -346,6 +392,10 @@ jQuery(document).ready(function($) {
 
     //Scroll Top
     jQuery('#scroll-top').scrollToTop();
+
+    jQuery('#scroll-section1').scrollToSection();
+    jQuery('#scroll-section2').scrollToSection();
+    jQuery('#scroll-section3').scrollToSection();
 
     //Like
     likeEf();
