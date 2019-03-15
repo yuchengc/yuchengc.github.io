@@ -47,10 +47,16 @@ em{
     z-index: 9;
 }
 .scroll-research{
-	bottom: 135px;
+	/*bottom: 165px;*/
+    bottom: 135px;
     right: 15px;
 }
 .scroll-design-iteration{
+	/*bottom: 135px;*/
+    bottom: 105px;
+    right: 15px;
+}
+.scroll-design-testing{
 	bottom: 105px;
     right: 15px;
 }

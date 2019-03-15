@@ -396,6 +396,7 @@ jQuery(document).ready(function($) {
     jQuery('#scroll-section1').scrollToSection();
     jQuery('#scroll-section2').scrollToSection();
     jQuery('#scroll-section3').scrollToSection();
+    jQuery('#scroll-section4').scrollToSection();
 
     //Like
     likeEf();
