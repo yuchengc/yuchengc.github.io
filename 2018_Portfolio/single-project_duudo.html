@@ -510,7 +510,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <div class="focus-title duudo-emphasized-title focus-title-no-topmargin" ><em>How did we display the major functions?</em></div>
+                    <div class="focus-title duudo-emphasized-title focus-title-no-topmargin" ><em>How did we design the app-level navigation, the major functions?</em></div>
 
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 col-nopadding">
@@ -681,6 +681,9 @@
                 <div class="col-md-7 col-sm-12 vertical-align-item">
                     <h5>2D UI vs AR interaction</h5>
                     <p>I tried several ways to design the timeline for helping users exploring the doodle evolution. Start from the basic 2D UI to the AR integration. Below lists the iteration of the timeline design.</p>
+                    <br>
+                    <br>
+                    <h5><b><em>Design proposal 1</em></b></h5>
                     <p>The first design of the timeline is the traditional 2D interface. I place the first doodle on the top and use the line to connect with the following doodle presenting the creation order. It is a safe design that could display the evolution information, but it lacks for the connection with the real doodle, the AR doodle. Thus, I start thinking about the possibility of showing the timeline in AR view.</p>
 
                 </div>
@@ -688,47 +691,80 @@
                     <img class="inner-img" src="img/project_duudo/timelineconcept.png" alt="png">
                 </div> -->
             </div>
-            <div class="row vertical-align-parent">
+            <div class="row vertical-align-parent margin-top-sub-section">
                 <div class="col-md-8 col-sm-12  vertical-align-item">
-                    <p>To directly view the evolution in AR view, I design the scrollable timeline on the bottom of the screen. There are two designs of the AR timeline.</p>
-                    <p>The first design: Slider</p>
+
+                    <h5><b><em>Design proposal 2</em></b></h5>
+                    <p>To directly interact with the AR doodle around users, I design the scrollable timeline on the bottom of the screen for users to view the change of the doodle wall. There are two version of the AR timeline.</p>
+                    <br>
+                    <p>The first version: Slider</p>
                     <p>The timeline is a slider with several tick marks. Each tick mark represents a doodle. Users can move the slider thumb around each tick mark and view the change of the doodles wall. The slider is shorter than the screen width. Users can view all tick marks and predict the number of added-on doodles.</p>
+                    <p>However, the marks will be crowded when there are many creations and users might not be able to target the specific one efficiently. Thus, we came out the second version.</p>
                     <br>
                     <!-- <p>The final design</p>
                     <p>The final design continues the slider concept but transforms it a little bit. The thumb, the circle in the center, is not moveable now but the whole track, the bar behind the thumb, is moveable. Users can swipe the track behind and view each doodle's author. When the tick mark moves under the thumb, the doodle belong to that tick will show up and the author's picture will display on the thumb.</p> -->
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-6 col-nopadding vertical-align-item">
-                    <img class="inner-img" src="img/project_duudo/timeline2.png" alt="png">
+                    <img class="inner-img" src="img/project_duudo/timeline1_1.png" alt="png">
 
                 </div>
             </div>
-            <div class="row vertical-align-parent">
+            <div class="row vertical-align-parent margin-top-sub-section">
                 <div class="col-md-4 col-sm-12 col-xs-6 col-nopadding vertical-align-item">
-                    <img class="inner-img" src="img/project_duudo/timelinefinal.png" alt="png">
+                    <img class="inner-img" src="img/project_duudo/timeline2_1.png" alt="png">
 
                 </div>
-                <div class="col-md-8 col-sm-12  vertical-align-item ">
+                <div class="col-md-7 col-sm-12 col-md-offset-1  vertical-align-item ">
                     
-                    <p>The final design</p>
+                    <h5><b><em>Final design decision</em></b></h5>
                     <p>The final design continues the slider concept but transforms it a little bit. The thumb, the circle in the center, is not moveable now but the whole track, the bar behind the thumb, is moveable. Users can swipe the track behind and view each doodle's author. When the tick mark moves under the thumb, the doodle belong to that tick will show up and the author's picture will display on the thumb.</p>
                 </div>
                 
             </div>
         </div>
     </div>
-    <!-- <div class="container" id="section3-scroll">
+    <div class="container" >
         <div class="single-project-details">
             <div class="row">
                 <div class="col-md-12 col-sm-12 margin-top-section">
                     <h3>Prototype Testing</h3>
-                    <div class="focus-title duudo-emphasized-title" ><em>How do we enhance the design via user feedback?</em>
+                    <div class="focus-title duudo-emphasized-title" ><em>What do we learn from the prototpye testing?</em>
                     </div>
+
                 </div>
                 
             </div>
+            <div class="row vertical-align-parent margin-top-sub-section">
+                <div class="col-md-6 col-sm-6 vertical-align-item">
+                    
+                    <h5><b><em>Hard to find the direction of the doodle</em></b></h5>
+                    <p>AR Timeline Design</p>
+                    <br>
+                    <p>Through our prototype testing section, we discovered some usability issues for the interaction of AR exploration. We observed that participants lost in the AR view and were not able to find the direction of next doodle when they used the timeline function. Users were not able to follow the order of the appearance because the next doodles have random positions. </p>
+                    <br>
+                    
+                </div>
+                <div class="col-md-3 col-sm-3 vertical-align-item">
+                    <img class="inner-img" src="img/project_duudo/testing1.png" alt="png">
+                </div>
+                <div class="col-md-3 col-sm-3 vertical-align-item">
+                    <img class="inner-img" src="img/project_duudo/testing2.png" alt="png">
+                </div>
+
+            </div>
+            <div class="row vertical-align-parent margin-top-sub-section">
+                <div class="col-md-4 col-sm-4 vertical-align-item">
+                    <img class="inner-img" src="img/project_duudo/timeline3.png" alt="png">
+                </div>
+                <div class="col-md-7 col-sm-12 col-md-offset-1  vertical-align-item">
+                    <h5>Solution</h5>
+                    <p>To solve this issue, Duudo needs to provide the indication and guide user to find the correct position and orientation. We carefully studied the AR indication design samples, including the visual component and the audio component. From that, we optimized our timeline design by adding the visual indication, a gradient light, to represents the direction of next doodle at the edge of the screen. Thus, user can follow the indication to find out the next doodle.</p>
+                </div>
+
+            </div>
         </div>
-    </div> -->
-    <div class="container margin-top-sub-section" id="section3-scroll">
+    </div>
+    <div class="container margin-top-section" id="section3-scroll">
         <div class="single-project-details">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
