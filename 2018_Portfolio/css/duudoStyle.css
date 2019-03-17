@@ -15,8 +15,24 @@ em{
 }
 
 .principle-box{
-	height: 100px;
+	height: auto;
 } 
+.principle-margin{
+    margin-top: 4rem;
+}
+.principle-number{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: #FE5C27;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 1.5rem;
+
+}
 .margin-top-section{
 	margin-top: 15rem;
 }
