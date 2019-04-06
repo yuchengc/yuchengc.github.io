@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Global Hunger Index</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styleMap.css">
+	<link rel="stylesheet" type="text/css" href="css/styleRadar.css">
+	<link rel="stylesheet" type="text/css" href="css/styleBar.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+
+
+	
+	<script src="js/radar.js" charset="utf-8"></script>
+</head>
+<body>
+	<!-- <div></div> -->
+	<div id="section_1" class="scetion-frame parallax">
+		<div id="pie-canvas-holder" class="left-column pie-canvas-holder">
+		    <canvas id="doughnutChart_area" width="500" height="500"></canvas>
+		    <img id="earth_pie" class="inner-img" src="img/blank_globe.svg" alt="earth">
+		</div>
+		<dir class="rigth-column">
+			<h1>Is <em>Undernourishment</em></h1>
+			<h1> still a problem?</h1>
+			<br>
+			<p>IT IS.</p>
+			<p>Even today, there are still <em>10%</em> of human-beings live without sufficient nutrients supply.</p>
+			<div class="small-maps">
+				<div class="smallMap">
+					<img class="inner-img-height" src="img/eastAsia.svg" alt="earth">
+					<div class="small-map-label label-eastAsia">2.59%</div>
+				</div>
+				<div class="smallMap">
+					<img class="inner-img-height" src="img/southAsia.svg" alt="earth">
+					<div class="small-map-label label-southAsia">3.52%</div>
+				</div>
+				<div class="smallMap" style="margin-left: 40px">
+					<img class="inner-img-height" src="img/africa.svg" alt="earth">
+					<div class="small-map-label label-africa">2.72%</div>
+				</div>
+			</div>
+		</dir>
+	</div>
+	<div id="section_2" class="scetion-frame ">
+		<div class="left-title-column">
+			<p>To better understand the situation of people suffering from hunger, we have a indicator called</p>
+			<!-- <br> -->
+			<div class="ghi-title-set">
+				<div>
+					<span class="initial ghi-title">G</span><span class="ghi-title">lobal</span>
+				</div>
+				<div>
+					<span class="initial ghi-title">H</span><span class="ghi-title">unger</span>
+				</div>
+				<div>
+					<span class="initial ghi-title">I</span><span class="ghi-title">ndex</span>
+				</div>
+			</div>
+			
+		</div>
+		<div class="right-factors-column">
+			<p>The GHI combines four key indicators of hunger</p>
+			<div class="factors-container">
+				<div class="one-factor">
+					<span class="factor-img">
+						<img src="img/undernourishment.svg" alt="undernourishment">
+					</span>
+					<span class="factor-text">
+						<h3>Under-Nourishment</h3>
+						<p>Inadequate amount of food for both adults and children</p>
+					</span>
+				</div>
+				<div class="one-factor">
+					<span class="factor-img">
+						<img src="img/wasting.svg" alt="wasting">
+					</span>
+					<span class="factor-text">
+						<h3>Child Wasting</h3>
+						<p>Children under age 5 whose weight is low for their height</p>
+					</span>
+				</div>
+				<div class="one-factor">
+					<span class="factor-img">
+						<img src="img/stunting.svg" alt="stunting">
+					</span>
+					<span class="factor-text">
+						<h3>Child Stunting</h3>
+						<p>Children under age 5 whose height is low for their age</p>
+					</span>
+				</div>
+				<div class="one-factor">
+					<span class="factor-img">
+						<img src="img/mortality.svg" alt="mortality">
+					</span>
+					<span class="factor-text">
+						<h3>Child Mortality</h3>
+						<p>Death of children under the age of 5</p>
+					</span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="section_3" class="scetion-frame ">
+		<div class="distribution-text-container">
+			<h2>How is GHI distributed?</h2>
+			<br>
+			<p>Let's see how GHI value is distributed worldwide.</p>
+			<br>
+			<p>South Asia, East Asia & Pacific and Sub-Suharan Africa still have the highest GHI values, but some Central American countries are also among the higest.</p>
+			
+			<p>But it's reliefing that the GHI is decreased through time around the world.</p>
+		</div>
+		<div id="globalMap">
+			<svg id="svgMap" width="1140" height="670" ></svg>
+			<div id="mapTooltip">
+				<span id="country" class="info"></span>
+				<br>
+                GHI: <span id="ghi" class="info"></span>
+			</div>
+			<div class="test">test</div>
+		</div>
+	</div>
+	<div id="section_4" class="scetion-frame ">
+		<!-- <h3>Smallmultiple radar</h3> -->
+		<div class="radar-text-container">
+			<h2>What does high GHI mean?</h2>
+			<br>
+			<p>To zoom in the detail of what it's like for high-GHI countries in terms of all the detailed factors, we have selected 12 Sub-Saharan African countries to show their detailed factor distributions.</p>
+			<br>
+			<p>These are the data for 1992</p>
+		</div>
+		<div class="smallMultipleRadar">
+			<div id="charts" class="chart-frame"></div>
+		</div>
+		
+	
+
+	</div>
+	<div id="section_5" class="scetion-frame ">
+		<div class="barchart-text-container">
+			<h2>Does Economy Improvement help?</h2>
+			<br>
+			<p>Generally, developemnt of economy would result in lower GHI in all aspects, however, outliers that live outside this "common sense" exist, which indicate that the situation might be much more complicated.</p>
+			<br>
+			<p>For example, a country listed above named "Djibouti" has incresed its DGP rapidly for the recent 20 years, although the Undernourishment rate (for all population) has dropped significantly, its Stunting and Wasting rates (only for children under 5) remain high and are event going upwards.</p>
+		</div>
+		<div class="barchart-container">
+			<div>
+	            <div class="select align-items-center justify-content-center vis_5_finalInteraction">
+	            	<select   name="slctCry" id="myFinaldropdown"></select>
+	          	</div>
+	        </div>
+
+	        <!-- Dora's code START -->
+	        <div id="bar-and-line-chart"></div>
+	        <div class="legend vis_5_finalInteraction">
+	            <div class="legendButtons">
+	                <div class="legend-left">
+	                    <p>Economy Status Indicator</p>
+	                    <!-- <button class= "econBtn" id='povertyBtn'>Poverty Rate</button> -->
+	                    <button class='gdpBtn'>GDP</button>
+	                </div>
+	                <div class="legend-right">
+	                    <p>GHI Indicators (%)</p>
+	                    <button class= "filterBtn undernourishmentBtn" >Undernourishment</button>
+	                    <button class= "filterBtn stuntingBtn">Stunting</button>
+	                    <button class= "filterBtn wastingBtn" >Wasting</button>
+	                    <button class= "filterBtn mortalityBtn">Mortality</button>
+	                    <!-- <button class= "filterBtn" id='Underweight'>Underweight Rate</button> -->
+	                </div>
+	            </div>
+	            <div class="legendRadioCountries">
+
+	            </div>
+
+	        </div>
+		</div>
+		<div class="explore-barchart-text-container">
+			<h2>Explore Worldwide GDP-GHI Correlation</h2>
+			<br>
+			<p>Here you can check over 100 countries or regions around the world to check how strong the pattern of GDP-GHI correlation is, how common outliers exist, who are they, and feel free to dig deeper from here.</p>
+			<br>
+		</div>
+		
+	</div>
+	
+	<!-- <canvas id="myChart"></canvas> -->
+	<script src="js/pieChart.js"></script>
+	
+	<script src="js/drawRadar.js"></script>
+	<script src="js/drawMap2.js"></script>
+	<script src="js/drawLineBar.js"></script>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,5250 @@
+[
+   {
+      "Code":"AFG",
+      "Global Hunger Index":49.3,
+      "Longtitude":66,
+      "Entity":"Afghanistan",
+      "Year":1992,
+      "Latitude":33
+   },
+   {
+      "Code":"AFG",
+      "Global Hunger Index":52.4,
+      "Longtitude":66,
+      "Entity":"Afghanistan",
+      "Year":2000,
+      "Latitude":33
+   },
+   {
+      "Code":"AFG",
+      "Global Hunger Index":39.2,
+      "Longtitude":66,
+      "Entity":"Afghanistan",
+      "Year":2008,
+      "Latitude":33
+   },
+   {
+      "Code":"AFG",
+      "Global Hunger Index":34.8,
+      "Longtitude":66,
+      "Entity":"Afghanistan",
+      "Year":2016,
+      "Latitude":33
+   },
+   {
+      "Code":"AFG",
+      "Global Hunger Index":33.3,
+      "Longtitude":66,
+      "Entity":"Afghanistan",
+      "Year":2017,
+      "Latitude":33
+   },
+   {
+      "Code":"AFG",
+      "Global Hunger Index":34.3,
+      "Longtitude":66,
+      "Entity":"Afghanistan",
+      "Year":2018,
+      "Latitude":33
+   },
+   {
+      "Code":"ALB",
+      "Global Hunger Index":20.4,
+      "Longtitude":20,
+      "Entity":"Albania",
+      "Year":1992,
+      "Latitude":41
+   },
+   {
+      "Code":"ALB",
+      "Global Hunger Index":21.1,
+      "Longtitude":20,
+      "Entity":"Albania",
+      "Year":2000,
+      "Latitude":41
+   },
+   {
+      "Code":"ALB",
+      "Global Hunger Index":16.9,
+      "Longtitude":20,
+      "Entity":"Albania",
+      "Year":2008,
+      "Latitude":41
+   },
+   {
+      "Code":"ALB",
+      "Global Hunger Index":11.9,
+      "Longtitude":20,
+      "Entity":"Albania",
+      "Year":2016,
+      "Latitude":41
+   },
+   {
+      "Code":"ALB",
+      "Global Hunger Index":11.1,
+      "Longtitude":20,
+      "Entity":"Albania",
+      "Year":2017,
+      "Latitude":41
+   },
+   {
+      "Code":"ALB",
+      "Global Hunger Index":12.2,
+      "Longtitude":20,
+      "Entity":"Albania",
+      "Year":2018,
+      "Latitude":41
+   },
+   {
+      "Code":"DZA",
+      "Global Hunger Index":16.8,
+      "Longtitude":3,
+      "Entity":"Algeria",
+      "Year":1992,
+      "Latitude":28
+   },
+   {
+      "Code":"DZA",
+      "Global Hunger Index":14.8,
+      "Longtitude":3,
+      "Entity":"Algeria",
+      "Year":2000,
+      "Latitude":28
+   },
+   {
+      "Code":"DZA",
+      "Global Hunger Index":10.8,
+      "Longtitude":3,
+      "Entity":"Algeria",
+      "Year":2008,
+      "Latitude":28
+   },
+   {
+      "Code":"DZA",
+      "Global Hunger Index":8.7,
+      "Longtitude":3,
+      "Entity":"Algeria",
+      "Year":2016,
+      "Latitude":28
+   },
+   {
+      "Code":"DZA",
+      "Global Hunger Index":9.5,
+      "Longtitude":3,
+      "Entity":"Algeria",
+      "Year":2017,
+      "Latitude":28
+   },
+   {
+      "Code":"DZA",
+      "Global Hunger Index":9.4,
+      "Longtitude":3,
+      "Entity":"Algeria",
+      "Year":2018,
+      "Latitude":28
+   },
+   {
+      "Code":"AGO",
+      "Global Hunger Index":65.9,
+      "Longtitude":18.5,
+      "Entity":"Angola",
+      "Year":1992,
+      "Latitude":-12.5
+   },
+   {
+      "Code":"AGO",
+      "Global Hunger Index":57.8,
+      "Longtitude":18.5,
+      "Entity":"Angola",
+      "Year":2000,
+      "Latitude":-12.5
+   },
+   {
+      "Code":"AGO",
+      "Global Hunger Index":40.5,
+      "Longtitude":18.5,
+      "Entity":"Angola",
+      "Year":2008,
+      "Latitude":-12.5
+   },
+   {
+      "Code":"AGO",
+      "Global Hunger Index":32.8,
+      "Longtitude":18.5,
+      "Entity":"Angola",
+      "Year":2016,
+      "Latitude":-12.5
+   },
+   {
+      "Code":"AGO",
+      "Global Hunger Index":32.5,
+      "Longtitude":18.5,
+      "Entity":"Angola",
+      "Year":2017,
+      "Latitude":-12.5
+   },
+   {
+      "Code":"AGO",
+      "Global Hunger Index":29.5,
+      "Longtitude":18.5,
+      "Entity":"Angola",
+      "Year":2018,
+      "Latitude":-12.5
+   },
+   {
+      "Code":"ARG",
+      "Global Hunger Index":5.8,
+      "Longtitude":-64,
+      "Entity":"Argentina",
+      "Year":1992,
+      "Latitude":-34
+   },
+   {
+      "Code":"ARG",
+      "Global Hunger Index":5.3,
+      "Longtitude":-64,
+      "Entity":"Argentina",
+      "Year":2000,
+      "Latitude":-34
+   },
+   {
+      "Code":"ARG",
+      "Global Hunger Index":5,
+      "Longtitude":-64,
+      "Entity":"Argentina",
+      "Year":2008,
+      "Latitude":-34
+   },
+   {
+      "Code":"ARG",
+      "Global Hunger Index":5,
+      "Longtitude":-64,
+      "Entity":"Argentina",
+      "Year":2016,
+      "Latitude":-34
+   },
+   {
+      "Code":"ARG",
+      "Global Hunger Index":5.4,
+      "Longtitude":-64,
+      "Entity":"Argentina",
+      "Year":2017,
+      "Latitude":-34
+   },
+   {
+      "Code":"ARG",
+      "Global Hunger Index":5.3,
+      "Longtitude":-64,
+      "Entity":"Argentina",
+      "Year":2018,
+      "Latitude":-34
+   },
+   {
+      "Code":"ARM",
+      "Global Hunger Index":17.4,
+      "Longtitude":45,
+      "Entity":"Armenia",
+      "Year":2000,
+      "Latitude":40
+   },
+   {
+      "Code":"ARM",
+      "Global Hunger Index":11.7,
+      "Longtitude":45,
+      "Entity":"Armenia",
+      "Year":2008,
+      "Latitude":40
+   },
+   {
+      "Code":"ARM",
+      "Global Hunger Index":8.7,
+      "Longtitude":45,
+      "Entity":"Armenia",
+      "Year":2016,
+      "Latitude":40
+   },
+   {
+      "Code":"ARM",
+      "Global Hunger Index":7.7,
+      "Longtitude":45,
+      "Entity":"Armenia",
+      "Year":2017,
+      "Latitude":40
+   },
+   {
+      "Code":"ARM",
+      "Global Hunger Index":7.6,
+      "Longtitude":45,
+      "Entity":"Armenia",
+      "Year":2018,
+      "Latitude":40
+   },
+   {
+      "Code":"AZE",
+      "Global Hunger Index":27.2,
+      "Longtitude":47.5,
+      "Entity":"Azerbaijan",
+      "Year":2000,
+      "Latitude":40.5
+   },
+   {
+      "Code":"AZE",
+      "Global Hunger Index":15.7,
+      "Longtitude":47.5,
+      "Entity":"Azerbaijan",
+      "Year":2008,
+      "Latitude":40.5
+   },
+   {
+      "Code":"AZE",
+      "Global Hunger Index":9.8,
+      "Longtitude":47.5,
+      "Entity":"Azerbaijan",
+      "Year":2016,
+      "Latitude":40.5
+   },
+   {
+      "Code":"AZE",
+      "Global Hunger Index":9.6,
+      "Longtitude":47.5,
+      "Entity":"Azerbaijan",
+      "Year":2017,
+      "Latitude":40.5
+   },
+   {
+      "Code":"AZE",
+      "Global Hunger Index":9.5,
+      "Longtitude":47.5,
+      "Entity":"Azerbaijan",
+      "Year":2018,
+      "Latitude":40.5
+   },
+   {
+      "Code":"BGD",
+      "Global Hunger Index":52.4,
+      "Longtitude":90,
+      "Entity":"Bangladesh",
+      "Year":1992,
+      "Latitude":24
+   },
+   {
+      "Code":"BGD",
+      "Global Hunger Index":38.5,
+      "Longtitude":90,
+      "Entity":"Bangladesh",
+      "Year":2000,
+      "Latitude":24
+   },
+   {
+      "Code":"BGD",
+      "Global Hunger Index":32.4,
+      "Longtitude":90,
+      "Entity":"Bangladesh",
+      "Year":2008,
+      "Latitude":24
+   },
+   {
+      "Code":"BGD",
+      "Global Hunger Index":27.1,
+      "Longtitude":90,
+      "Entity":"Bangladesh",
+      "Year":2016,
+      "Latitude":24
+   },
+   {
+      "Code":"BGD",
+      "Global Hunger Index":26.5,
+      "Longtitude":90,
+      "Entity":"Bangladesh",
+      "Year":2017,
+      "Latitude":24
+   },
+   {
+      "Code":"BGD",
+      "Global Hunger Index":26.1,
+      "Longtitude":90,
+      "Entity":"Bangladesh",
+      "Year":2018,
+      "Latitude":24
+   },
+   {
+      "Code":"BLR",
+      "Global Hunger Index":5,
+      "Longtitude":28,
+      "Entity":"Belarus",
+      "Year":2000,
+      "Latitude":53
+   },
+   {
+      "Code":"BLR",
+      "Global Hunger Index":5,
+      "Longtitude":28,
+      "Entity":"Belarus",
+      "Year":2008,
+      "Latitude":53
+   },
+   {
+      "Code":"BLR",
+      "Global Hunger Index":5,
+      "Longtitude":28,
+      "Entity":"Belarus",
+      "Year":2016,
+      "Latitude":53
+   },
+   {
+      "Code":"BEN",
+      "Global Hunger Index":44.6,
+      "Longtitude":2.25,
+      "Entity":"Benin",
+      "Year":1992,
+      "Latitude":9.5
+   },
+   {
+      "Code":"BEN",
+      "Global Hunger Index":38.1,
+      "Longtitude":2.25,
+      "Entity":"Benin",
+      "Year":2000,
+      "Latitude":9.5
+   },
+   {
+      "Code":"BEN",
+      "Global Hunger Index":31.8,
+      "Longtitude":2.25,
+      "Entity":"Benin",
+      "Year":2008,
+      "Latitude":9.5
+   },
+   {
+      "Code":"BEN",
+      "Global Hunger Index":23.2,
+      "Longtitude":2.25,
+      "Entity":"Benin",
+      "Year":2016,
+      "Latitude":9.5
+   },
+   {
+      "Code":"BEN",
+      "Global Hunger Index":24.4,
+      "Longtitude":2.25,
+      "Entity":"Benin",
+      "Year":2017,
+      "Latitude":9.5
+   },
+   {
+      "Code":"BEN",
+      "Global Hunger Index":24.3,
+      "Longtitude":2.25,
+      "Entity":"Benin",
+      "Year":2018,
+      "Latitude":9.5
+   },
+   {
+      "Code":"BOL",
+      "Global Hunger Index":36.7,
+      "Longtitude":-65,
+      "Entity":"Bolivia",
+      "Year":1992,
+      "Latitude":-17
+   },
+   {
+      "Code":"BOL",
+      "Global Hunger Index":30.8,
+      "Longtitude":-65,
+      "Entity":"Bolivia",
+      "Year":2000,
+      "Latitude":-17
+   },
+   {
+      "Code":"BOL",
+      "Global Hunger Index":23.9,
+      "Longtitude":-65,
+      "Entity":"Bolivia",
+      "Year":2008,
+      "Latitude":-17
+   },
+   {
+      "Code":"BOL",
+      "Global Hunger Index":15.4,
+      "Longtitude":-65,
+      "Entity":"Bolivia",
+      "Year":2016,
+      "Latitude":-17
+   },
+   {
+      "Code":"BOL",
+      "Global Hunger Index":17.2,
+      "Longtitude":-65,
+      "Entity":"Bolivia",
+      "Year":2017,
+      "Latitude":-17
+   },
+   {
+      "Code":"BOL",
+      "Global Hunger Index":16.7,
+      "Longtitude":-65,
+      "Entity":"Bolivia",
+      "Year":2018,
+      "Latitude":-17
+   },
+   {
+      "Code":"BIH",
+      "Global Hunger Index":9.6,
+      "Longtitude":17.833333,
+      "Entity":"Bosnia and Herzegovina",
+      "Year":2000,
+      "Latitude":44.25
+   },
+   {
+      "Code":"BIH",
+      "Global Hunger Index":6.7,
+      "Longtitude":17.833333,
+      "Entity":"Bosnia and Herzegovina",
+      "Year":2008,
+      "Latitude":44.25
+   },
+   {
+      "Code":"BIH",
+      "Global Hunger Index":5,
+      "Longtitude":17.833333,
+      "Entity":"Bosnia and Herzegovina",
+      "Year":2016,
+      "Latitude":44.25
+   },
+   {
+      "Code":"BWA",
+      "Global Hunger Index":32.4,
+      "Longtitude":24,
+      "Entity":"Botswana",
+      "Year":1992,
+      "Latitude":-22
+   },
+   {
+      "Code":"BWA",
+      "Global Hunger Index":33,
+      "Longtitude":24,
+      "Entity":"Botswana",
+      "Year":2000,
+      "Latitude":-22
+   },
+   {
+      "Code":"BWA",
+      "Global Hunger Index":30.9,
+      "Longtitude":24,
+      "Entity":"Botswana",
+      "Year":2008,
+      "Latitude":-22
+   },
+   {
+      "Code":"BWA",
+      "Global Hunger Index":23,
+      "Longtitude":24,
+      "Entity":"Botswana",
+      "Year":2016,
+      "Latitude":-22
+   },
+   {
+      "Code":"BWA",
+      "Global Hunger Index":24.4,
+      "Longtitude":24,
+      "Entity":"Botswana",
+      "Year":2017,
+      "Latitude":-22
+   },
+   {
+      "Code":"BWA",
+      "Global Hunger Index":25.5,
+      "Longtitude":24,
+      "Entity":"Botswana",
+      "Year":2018,
+      "Latitude":-22
+   },
+   {
+      "Code":"BRA",
+      "Global Hunger Index":16.1,
+      "Longtitude":-55,
+      "Entity":"Brazil",
+      "Year":1992,
+      "Latitude":-10
+   },
+   {
+      "Code":"BRA",
+      "Global Hunger Index":11.8,
+      "Longtitude":-55,
+      "Entity":"Brazil",
+      "Year":2000,
+      "Latitude":-10
+   },
+   {
+      "Code":"BRA",
+      "Global Hunger Index":5.4,
+      "Longtitude":-55,
+      "Entity":"Brazil",
+      "Year":2008,
+      "Latitude":-10
+   },
+   {
+      "Code":"BRA",
+      "Global Hunger Index":5,
+      "Longtitude":-55,
+      "Entity":"Brazil",
+      "Year":2016,
+      "Latitude":-10
+   },
+   {
+      "Code":"BRA",
+      "Global Hunger Index":5.4,
+      "Longtitude":-55,
+      "Entity":"Brazil",
+      "Year":2017,
+      "Latitude":-10
+   },
+   {
+      "Code":"BRA",
+      "Global Hunger Index":8.5,
+      "Longtitude":-55,
+      "Entity":"Brazil",
+      "Year":2018,
+      "Latitude":-10
+   },
+   {
+      "Code":"BGR",
+      "Global Hunger Index":9.3,
+      "Longtitude":25,
+      "Entity":"Bulgaria",
+      "Year":1992,
+      "Latitude":43
+   },
+   {
+      "Code":"BGR",
+      "Global Hunger Index":9.5,
+      "Longtitude":25,
+      "Entity":"Bulgaria",
+      "Year":2000,
+      "Latitude":43
+   },
+   {
+      "Code":"BGR",
+      "Global Hunger Index":8.8,
+      "Longtitude":25,
+      "Entity":"Bulgaria",
+      "Year":2008,
+      "Latitude":43
+   },
+   {
+      "Code":"BGR",
+      "Global Hunger Index":8.3,
+      "Longtitude":25,
+      "Entity":"Bulgaria",
+      "Year":2016,
+      "Latitude":43
+   },
+   {
+      "Code":"BGR",
+      "Global Hunger Index":5.4,
+      "Longtitude":25,
+      "Entity":"Bulgaria",
+      "Year":2017,
+      "Latitude":43
+   },
+   {
+      "Code":"BGR",
+      "Global Hunger Index":5,
+      "Longtitude":25,
+      "Entity":"Bulgaria",
+      "Year":2018,
+      "Latitude":43
+   },
+   {
+      "Code":"BFA",
+      "Global Hunger Index":47.7,
+      "Longtitude":-2,
+      "Entity":"Burkina Faso",
+      "Year":1992,
+      "Latitude":13
+   },
+   {
+      "Code":"BFA",
+      "Global Hunger Index":48.4,
+      "Longtitude":-2,
+      "Entity":"Burkina Faso",
+      "Year":2000,
+      "Latitude":13
+   },
+   {
+      "Code":"BFA",
+      "Global Hunger Index":37.1,
+      "Longtitude":-2,
+      "Entity":"Burkina Faso",
+      "Year":2008,
+      "Latitude":13
+   },
+   {
+      "Code":"BFA",
+      "Global Hunger Index":31,
+      "Longtitude":-2,
+      "Entity":"Burkina Faso",
+      "Year":2016,
+      "Latitude":13
+   },
+   {
+      "Code":"BFA",
+      "Global Hunger Index":27.6,
+      "Longtitude":-2,
+      "Entity":"Burkina Faso",
+      "Year":2017,
+      "Latitude":13
+   },
+   {
+      "Code":"BFA",
+      "Global Hunger Index":27.7,
+      "Longtitude":-2,
+      "Entity":"Burkina Faso",
+      "Year":2018,
+      "Latitude":13
+   },
+   {
+      "Code":"KHM",
+      "Global Hunger Index":45.3,
+      "Longtitude":105,
+      "Entity":"Cambodia",
+      "Year":1992,
+      "Latitude":13
+   },
+   {
+      "Code":"KHM",
+      "Global Hunger Index":44.7,
+      "Longtitude":105,
+      "Entity":"Cambodia",
+      "Year":2000,
+      "Latitude":13
+   },
+   {
+      "Code":"KHM",
+      "Global Hunger Index":26.6,
+      "Longtitude":105,
+      "Entity":"Cambodia",
+      "Year":2008,
+      "Latitude":13
+   },
+   {
+      "Code":"KHM",
+      "Global Hunger Index":21.7,
+      "Longtitude":105,
+      "Entity":"Cambodia",
+      "Year":2016,
+      "Latitude":13
+   },
+   {
+      "Code":"KHM",
+      "Global Hunger Index":22.2,
+      "Longtitude":105,
+      "Entity":"Cambodia",
+      "Year":2017,
+      "Latitude":13
+   },
+   {
+      "Code":"KHM",
+      "Global Hunger Index":23.7,
+      "Longtitude":105,
+      "Entity":"Cambodia",
+      "Year":2018,
+      "Latitude":13
+   },
+   {
+      "Code":"CMR",
+      "Global Hunger Index":40.4,
+      "Longtitude":12,
+      "Entity":"Cameroon",
+      "Year":1992,
+      "Latitude":6
+   },
+   {
+      "Code":"CMR",
+      "Global Hunger Index":40.3,
+      "Longtitude":12,
+      "Entity":"Cameroon",
+      "Year":2000,
+      "Latitude":6
+   },
+   {
+      "Code":"CMR",
+      "Global Hunger Index":30.5,
+      "Longtitude":12,
+      "Entity":"Cameroon",
+      "Year":2008,
+      "Latitude":6
+   },
+   {
+      "Code":"CMR",
+      "Global Hunger Index":22.9,
+      "Longtitude":12,
+      "Entity":"Cameroon",
+      "Year":2016,
+      "Latitude":6
+   },
+   {
+      "Code":"CMR",
+      "Global Hunger Index":22.1,
+      "Longtitude":12,
+      "Entity":"Cameroon",
+      "Year":2017,
+      "Latitude":6
+   },
+   {
+      "Code":"CMR",
+      "Global Hunger Index":21.1,
+      "Longtitude":12,
+      "Entity":"Cameroon",
+      "Year":2018,
+      "Latitude":6
+   },
+   {
+      "Code":"CAF",
+      "Global Hunger Index":52.2,
+      "Longtitude":21,
+      "Entity":"Central African Republic",
+      "Year":1992,
+      "Latitude":7
+   },
+   {
+      "Code":"CAF",
+      "Global Hunger Index":51.5,
+      "Longtitude":21,
+      "Entity":"Central African Republic",
+      "Year":2000,
+      "Latitude":7
+   },
+   {
+      "Code":"CAF",
+      "Global Hunger Index":48,
+      "Longtitude":21,
+      "Entity":"Central African Republic",
+      "Year":2008,
+      "Latitude":7
+   },
+   {
+      "Code":"CAF",
+      "Global Hunger Index":46.1,
+      "Longtitude":21,
+      "Entity":"Central African Republic",
+      "Year":2016,
+      "Latitude":7
+   },
+   {
+      "Code":"CAF",
+      "Global Hunger Index":50.9,
+      "Longtitude":21,
+      "Entity":"Central African Republic",
+      "Year":2017,
+      "Latitude":7
+   },
+   {
+      "Code":"CAF",
+      "Global Hunger Index":53.7,
+      "Longtitude":21,
+      "Entity":"Central African Republic",
+      "Year":2018,
+      "Latitude":7
+   },
+   {
+      "Code":"TCD",
+      "Global Hunger Index":62.5,
+      "Longtitude":19,
+      "Entity":"Chad",
+      "Year":1992,
+      "Latitude":15
+   },
+   {
+      "Code":"TCD",
+      "Global Hunger Index":51.9,
+      "Longtitude":19,
+      "Entity":"Chad",
+      "Year":2000,
+      "Latitude":15
+   },
+   {
+      "Code":"TCD",
+      "Global Hunger Index":50.9,
+      "Longtitude":19,
+      "Entity":"Chad",
+      "Year":2008,
+      "Latitude":15
+   },
+   {
+      "Code":"TCD",
+      "Global Hunger Index":44.3,
+      "Longtitude":19,
+      "Entity":"Chad",
+      "Year":2016,
+      "Latitude":15
+   },
+   {
+      "Code":"TCD",
+      "Global Hunger Index":43.5,
+      "Longtitude":19,
+      "Entity":"Chad",
+      "Year":2017,
+      "Latitude":15
+   },
+   {
+      "Code":"TCD",
+      "Global Hunger Index":45.4,
+      "Longtitude":19,
+      "Entity":"Chad",
+      "Year":2018,
+      "Latitude":15
+   },
+   {
+      "Code":"CHL",
+      "Global Hunger Index":6.2,
+      "Longtitude":-71,
+      "Entity":"Chile",
+      "Year":1992,
+      "Latitude":-30
+   },
+   {
+      "Code":"CHL",
+      "Global Hunger Index":5,
+      "Longtitude":-71,
+      "Entity":"Chile",
+      "Year":2000,
+      "Latitude":-30
+   },
+   {
+      "Code":"CHL",
+      "Global Hunger Index":5,
+      "Longtitude":-71,
+      "Entity":"Chile",
+      "Year":2008,
+      "Latitude":-30
+   },
+   {
+      "Code":"CHL",
+      "Global Hunger Index":5,
+      "Longtitude":-71,
+      "Entity":"Chile",
+      "Year":2016,
+      "Latitude":-30
+   },
+   {
+      "Code":"CHN",
+      "Global Hunger Index":26.4,
+      "Longtitude":105,
+      "Entity":"China",
+      "Year":1992,
+      "Latitude":35
+   },
+   {
+      "Code":"CHN",
+      "Global Hunger Index":15.9,
+      "Longtitude":105,
+      "Entity":"China",
+      "Year":2000,
+      "Latitude":35
+   },
+   {
+      "Code":"CHN",
+      "Global Hunger Index":11.5,
+      "Longtitude":105,
+      "Entity":"China",
+      "Year":2008,
+      "Latitude":35
+   },
+   {
+      "Code":"CHN",
+      "Global Hunger Index":7.7,
+      "Longtitude":105,
+      "Entity":"China",
+      "Year":2016,
+      "Latitude":35
+   },
+   {
+      "Code":"CHN",
+      "Global Hunger Index":7.5,
+      "Longtitude":105,
+      "Entity":"China",
+      "Year":2017,
+      "Latitude":35
+   },
+   {
+      "Code":"CHN",
+      "Global Hunger Index":7.6,
+      "Longtitude":105,
+      "Entity":"China",
+      "Year":2018,
+      "Latitude":35
+   },
+   {
+      "Code":"COL",
+      "Global Hunger Index":15.1,
+      "Longtitude":-72,
+      "Entity":"Colombia",
+      "Year":1992,
+      "Latitude":4
+   },
+   {
+      "Code":"COL",
+      "Global Hunger Index":11.4,
+      "Longtitude":-72,
+      "Entity":"Colombia",
+      "Year":2000,
+      "Latitude":4
+   },
+   {
+      "Code":"COL",
+      "Global Hunger Index":9.3,
+      "Longtitude":-72,
+      "Entity":"Colombia",
+      "Year":2008,
+      "Latitude":4
+   },
+   {
+      "Code":"COL",
+      "Global Hunger Index":8.5,
+      "Longtitude":-72,
+      "Entity":"Colombia",
+      "Year":2016,
+      "Latitude":4
+   },
+   {
+      "Code":"COL",
+      "Global Hunger Index":8,
+      "Longtitude":-72,
+      "Entity":"Colombia",
+      "Year":2017,
+      "Latitude":4
+   },
+   {
+      "Code":"COL",
+      "Global Hunger Index":7.7,
+      "Longtitude":-72,
+      "Entity":"Colombia",
+      "Year":2018,
+      "Latitude":4
+   },
+   {
+      "Code":"COM",
+      "Global Hunger Index":30.8,
+      "Longtitude":44.25,
+      "Entity":"Comoros",
+      "Year":2018,
+      "Latitude":-12.166667
+   },
+   {
+      "Global Hunger Index":37.6,
+      "Year":1992,
+      "Code":"COG",
+      "Entity":"Congo",
+      "Longtitude":21.7587,
+      "Latitude":-4.0383
+   },
+   {
+      "Global Hunger Index":37.2,
+      "Year":2000,
+      "Code":"COG",
+      "Entity":"Congo",
+      "Longtitude":21.7587,
+      "Latitude":-4.0383
+   },
+   {
+      "Global Hunger Index":31.9,
+      "Year":2008,
+      "Code":"COG",
+      "Entity":"Congo",
+      "Longtitude":21.7587,
+      "Latitude":-4.0383
+   },
+   {
+      "Global Hunger Index":26.6,
+      "Year":2016,
+      "Code":"COG",
+      "Entity":"Congo",
+      "Longtitude":21.7587,
+      "Latitude":-4.0383
+   },
+   {
+      "Global Hunger Index":25.6,
+      "Year":2017,
+      "Code":"COG",
+      "Entity":"Congo",
+      "Longtitude":21.7587,
+      "Latitude":-4.0383
+   },
+   {
+      "Global Hunger Index":30.4,
+      "Year":2018,
+      "Code":"COG",
+      "Entity":"Congo",
+      "Longtitude":21.7587,
+      "Latitude":-4.0383
+   },
+   {
+      "Code":"CRI",
+      "Global Hunger Index":7.6,
+      "Longtitude":-84,
+      "Entity":"Costa Rica",
+      "Year":1992,
+      "Latitude":10
+   },
+   {
+      "Code":"CRI",
+      "Global Hunger Index":6.3,
+      "Longtitude":-84,
+      "Entity":"Costa Rica",
+      "Year":2000,
+      "Latitude":10
+   },
+   {
+      "Code":"CRI",
+      "Global Hunger Index":5,
+      "Longtitude":-84,
+      "Entity":"Costa Rica",
+      "Year":2008,
+      "Latitude":10
+   },
+   {
+      "Code":"CRI",
+      "Global Hunger Index":5,
+      "Longtitude":-84,
+      "Entity":"Costa Rica",
+      "Year":2016,
+      "Latitude":10
+   },
+   {
+      "Code":"CRI",
+      "Global Hunger Index":5.3,
+      "Longtitude":-84,
+      "Entity":"Costa Rica",
+      "Year":2017,
+      "Latitude":10
+   },
+   {
+      "Code":"CIV",
+      "Global Hunger Index":31.8,
+      "Longtitude":-5,
+      "Entity":"Cote d'Ivoire",
+      "Year":1992,
+      "Latitude":8
+   },
+   {
+      "Code":"CIV",
+      "Global Hunger Index":31.4,
+      "Longtitude":-5,
+      "Entity":"Cote d'Ivoire",
+      "Year":2000,
+      "Latitude":8
+   },
+   {
+      "Code":"CIV",
+      "Global Hunger Index":34.1,
+      "Longtitude":-5,
+      "Entity":"Cote d'Ivoire",
+      "Year":2008,
+      "Latitude":8
+   },
+   {
+      "Code":"CIV",
+      "Global Hunger Index":25.7,
+      "Longtitude":-5,
+      "Entity":"Cote d'Ivoire",
+      "Year":2016,
+      "Latitude":8
+   },
+   {
+      "Code":"CIV",
+      "Global Hunger Index":26.5,
+      "Longtitude":-5,
+      "Entity":"Cote d'Ivoire",
+      "Year":2017,
+      "Latitude":8
+   },
+   {
+      "Code":"CIV",
+      "Global Hunger Index":25.9,
+      "Longtitude":-5,
+      "Entity":"Cote d'Ivoire",
+      "Year":2018,
+      "Latitude":8
+   },
+   {
+      "Code":"HRV",
+      "Global Hunger Index":6.2,
+      "Longtitude":15.5,
+      "Entity":"Croatia",
+      "Year":2000,
+      "Latitude":45.166667
+   },
+   {
+      "Code":"HRV",
+      "Global Hunger Index":5,
+      "Longtitude":15.5,
+      "Entity":"Croatia",
+      "Year":2008,
+      "Latitude":45.166667
+   },
+   {
+      "Code":"HRV",
+      "Global Hunger Index":5,
+      "Longtitude":15.5,
+      "Entity":"Croatia",
+      "Year":2016,
+      "Latitude":45.166667
+   },
+   {
+      "Code":"CUB",
+      "Global Hunger Index":8.7,
+      "Longtitude":-79.5,
+      "Entity":"Cuba",
+      "Year":1992,
+      "Latitude":22
+   },
+   {
+      "Code":"CUB",
+      "Global Hunger Index":6.1,
+      "Longtitude":-79.5,
+      "Entity":"Cuba",
+      "Year":2000,
+      "Latitude":22
+   },
+   {
+      "Code":"CUB",
+      "Global Hunger Index":5,
+      "Longtitude":-79.5,
+      "Entity":"Cuba",
+      "Year":2008,
+      "Latitude":22
+   },
+   {
+      "Code":"CUB",
+      "Global Hunger Index":5,
+      "Longtitude":-79.5,
+      "Entity":"Cuba",
+      "Year":2016,
+      "Latitude":22
+   },
+   {
+      "Code":"DJI",
+      "Global Hunger Index":61.1,
+      "Longtitude":42.5,
+      "Entity":"Djibouti",
+      "Year":1992,
+      "Latitude":11.5
+   },
+   {
+      "Code":"DJI",
+      "Global Hunger Index":48.5,
+      "Longtitude":42.5,
+      "Entity":"Djibouti",
+      "Year":2000,
+      "Latitude":11.5
+   },
+   {
+      "Code":"DJI",
+      "Global Hunger Index":35.9,
+      "Longtitude":42.5,
+      "Entity":"Djibouti",
+      "Year":2008,
+      "Latitude":11.5
+   },
+   {
+      "Code":"DJI",
+      "Global Hunger Index":32.7,
+      "Longtitude":42.5,
+      "Entity":"Djibouti",
+      "Year":2016,
+      "Latitude":11.5
+   },
+   {
+      "Code":"DJI",
+      "Global Hunger Index":31.4,
+      "Longtitude":42.5,
+      "Entity":"Djibouti",
+      "Year":2017,
+      "Latitude":11.5
+   },
+   {
+      "Code":"DJI",
+      "Global Hunger Index":30.1,
+      "Longtitude":42.5,
+      "Entity":"Djibouti",
+      "Year":2018,
+      "Latitude":11.5
+   },
+   {
+      "Code":"DOM",
+      "Global Hunger Index":25,
+      "Longtitude":-70.666667,
+      "Entity":"Dominican Republic",
+      "Year":1992,
+      "Latitude":19
+   },
+   {
+      "Code":"DOM",
+      "Global Hunger Index":19.4,
+      "Longtitude":-70.666667,
+      "Entity":"Dominican Republic",
+      "Year":2000,
+      "Latitude":19
+   },
+   {
+      "Code":"DOM",
+      "Global Hunger Index":15.6,
+      "Longtitude":-70.666667,
+      "Entity":"Dominican Republic",
+      "Year":2008,
+      "Latitude":19
+   },
+   {
+      "Code":"DOM",
+      "Global Hunger Index":11.1,
+      "Longtitude":-70.666667,
+      "Entity":"Dominican Republic",
+      "Year":2016,
+      "Latitude":19
+   },
+   {
+      "Code":"DOM",
+      "Global Hunger Index":11.6,
+      "Longtitude":-70.666667,
+      "Entity":"Dominican Republic",
+      "Year":2017,
+      "Latitude":19
+   },
+   {
+      "Code":"DOM",
+      "Global Hunger Index":10.3,
+      "Longtitude":-70.666667,
+      "Entity":"Dominican Republic",
+      "Year":2018,
+      "Latitude":19
+   },
+   {
+      "Code":"ECU",
+      "Global Hunger Index":23.6,
+      "Longtitude":-77.5,
+      "Entity":"Ecuador",
+      "Year":1992,
+      "Latitude":-2
+   },
+   {
+      "Code":"ECU",
+      "Global Hunger Index":20.2,
+      "Longtitude":-77.5,
+      "Entity":"Ecuador",
+      "Year":2000,
+      "Latitude":-2
+   },
+   {
+      "Code":"ECU",
+      "Global Hunger Index":17.5,
+      "Longtitude":-77.5,
+      "Entity":"Ecuador",
+      "Year":2008,
+      "Latitude":-2
+   },
+   {
+      "Code":"ECU",
+      "Global Hunger Index":13.9,
+      "Longtitude":-77.5,
+      "Entity":"Ecuador",
+      "Year":2016,
+      "Latitude":-2
+   },
+   {
+      "Code":"ECU",
+      "Global Hunger Index":14.4,
+      "Longtitude":-77.5,
+      "Entity":"Ecuador",
+      "Year":2017,
+      "Latitude":-2
+   },
+   {
+      "Code":"ECU",
+      "Global Hunger Index":11.8,
+      "Longtitude":-77.5,
+      "Entity":"Ecuador",
+      "Year":2018,
+      "Latitude":-2
+   },
+   {
+      "Code":"EGY",
+      "Global Hunger Index":19.3,
+      "Longtitude":30,
+      "Entity":"Egypt",
+      "Year":1992,
+      "Latitude":27
+   },
+   {
+      "Code":"EGY",
+      "Global Hunger Index":15.3,
+      "Longtitude":30,
+      "Entity":"Egypt",
+      "Year":2000,
+      "Latitude":27
+   },
+   {
+      "Code":"EGY",
+      "Global Hunger Index":16.1,
+      "Longtitude":30,
+      "Entity":"Egypt",
+      "Year":2008,
+      "Latitude":27
+   },
+   {
+      "Code":"EGY",
+      "Global Hunger Index":13.7,
+      "Longtitude":30,
+      "Entity":"Egypt",
+      "Year":2016,
+      "Latitude":27
+   },
+   {
+      "Code":"EGY",
+      "Global Hunger Index":14.7,
+      "Longtitude":30,
+      "Entity":"Egypt",
+      "Year":2017,
+      "Latitude":27
+   },
+   {
+      "Code":"EGY",
+      "Global Hunger Index":14.8,
+      "Longtitude":30,
+      "Entity":"Egypt",
+      "Year":2018,
+      "Latitude":27
+   },
+   {
+      "Code":"SLV",
+      "Global Hunger Index":19.1,
+      "Longtitude":-88.916667,
+      "Entity":"El Salvador",
+      "Year":1992,
+      "Latitude":13.833333
+   },
+   {
+      "Code":"SLV",
+      "Global Hunger Index":16.8,
+      "Longtitude":-88.916667,
+      "Entity":"El Salvador",
+      "Year":2000,
+      "Latitude":13.833333
+   },
+   {
+      "Code":"SLV",
+      "Global Hunger Index":12.6,
+      "Longtitude":-88.916667,
+      "Entity":"El Salvador",
+      "Year":2008,
+      "Latitude":13.833333
+   },
+   {
+      "Code":"SLV",
+      "Global Hunger Index":11.2,
+      "Longtitude":-88.916667,
+      "Entity":"El Salvador",
+      "Year":2016,
+      "Latitude":13.833333
+   },
+   {
+      "Code":"SLV",
+      "Global Hunger Index":11.1,
+      "Longtitude":-88.916667,
+      "Entity":"El Salvador",
+      "Year":2017,
+      "Latitude":13.833333
+   },
+   {
+      "Code":"SLV",
+      "Global Hunger Index":10.1,
+      "Longtitude":-88.916667,
+      "Entity":"El Salvador",
+      "Year":2018,
+      "Latitude":13.833333
+   },
+   {
+      "Code":"EST",
+      "Global Hunger Index":5.3,
+      "Longtitude":26,
+      "Entity":"Estonia",
+      "Year":2000,
+      "Latitude":59
+   },
+   {
+      "Code":"EST",
+      "Global Hunger Index":5,
+      "Longtitude":26,
+      "Entity":"Estonia",
+      "Year":2008,
+      "Latitude":59
+   },
+   {
+      "Code":"EST",
+      "Global Hunger Index":5,
+      "Longtitude":26,
+      "Entity":"Estonia",
+      "Year":2016,
+      "Latitude":59
+   },
+   {
+      "Code":"ETH",
+      "Global Hunger Index":70.9,
+      "Longtitude":38,
+      "Entity":"Ethiopia",
+      "Year":1992,
+      "Latitude":8
+   },
+   {
+      "Code":"ETH",
+      "Global Hunger Index":58.5,
+      "Longtitude":38,
+      "Entity":"Ethiopia",
+      "Year":2000,
+      "Latitude":8
+   },
+   {
+      "Code":"ETH",
+      "Global Hunger Index":43,
+      "Longtitude":38,
+      "Entity":"Ethiopia",
+      "Year":2008,
+      "Latitude":8
+   },
+   {
+      "Code":"ETH",
+      "Global Hunger Index":33.4,
+      "Longtitude":38,
+      "Entity":"Ethiopia",
+      "Year":2016,
+      "Latitude":8
+   },
+   {
+      "Code":"ETH",
+      "Global Hunger Index":32.3,
+      "Longtitude":38,
+      "Entity":"Ethiopia",
+      "Year":2017,
+      "Latitude":8
+   },
+   {
+      "Code":"ETH",
+      "Global Hunger Index":29.1,
+      "Longtitude":38,
+      "Entity":"Ethiopia",
+      "Year":2018,
+      "Latitude":8
+   },
+   {
+      "Code":"FJI",
+      "Global Hunger Index":11.7,
+      "Longtitude":178,
+      "Entity":"Fiji",
+      "Year":1992,
+      "Latitude":-18
+   },
+   {
+      "Code":"FJI",
+      "Global Hunger Index":10.2,
+      "Longtitude":178,
+      "Entity":"Fiji",
+      "Year":2000,
+      "Latitude":-18
+   },
+   {
+      "Code":"FJI",
+      "Global Hunger Index":8.7,
+      "Longtitude":178,
+      "Entity":"Fiji",
+      "Year":2008,
+      "Latitude":-18
+   },
+   {
+      "Code":"FJI",
+      "Global Hunger Index":8.5,
+      "Longtitude":178,
+      "Entity":"Fiji",
+      "Year":2016,
+      "Latitude":-18
+   },
+   {
+      "Code":"FJI",
+      "Global Hunger Index":8.1,
+      "Longtitude":178,
+      "Entity":"Fiji",
+      "Year":2017,
+      "Latitude":-18
+   },
+   {
+      "Code":"FJI",
+      "Global Hunger Index":9,
+      "Longtitude":178,
+      "Entity":"Fiji",
+      "Year":2018,
+      "Latitude":-18
+   },
+   {
+      "Code":"GAB",
+      "Global Hunger Index":21.1,
+      "Longtitude":11.75,
+      "Entity":"Gabon",
+      "Year":1992,
+      "Latitude":-1
+   },
+   {
+      "Code":"GAB",
+      "Global Hunger Index":18.5,
+      "Longtitude":11.75,
+      "Entity":"Gabon",
+      "Year":2000,
+      "Latitude":-1
+   },
+   {
+      "Code":"GAB",
+      "Global Hunger Index":15.6,
+      "Longtitude":11.75,
+      "Entity":"Gabon",
+      "Year":2008,
+      "Latitude":-1
+   },
+   {
+      "Code":"GAB",
+      "Global Hunger Index":12,
+      "Longtitude":11.75,
+      "Entity":"Gabon",
+      "Year":2016,
+      "Latitude":-1
+   },
+   {
+      "Code":"GAB",
+      "Global Hunger Index":13.8,
+      "Longtitude":11.75,
+      "Entity":"Gabon",
+      "Year":2017,
+      "Latitude":-1
+   },
+   {
+      "Code":"GAB",
+      "Global Hunger Index":15.4,
+      "Longtitude":11.75,
+      "Entity":"Gabon",
+      "Year":2018,
+      "Latitude":-1
+   },
+   {
+      "Code":"GMB",
+      "Global Hunger Index":33.5,
+      "Longtitude":-15.5,
+      "Entity":"Gambia",
+      "Year":1992,
+      "Latitude":13.5
+   },
+   {
+      "Code":"GMB",
+      "Global Hunger Index":27.9,
+      "Longtitude":-15.5,
+      "Entity":"Gambia",
+      "Year":2000,
+      "Latitude":13.5
+   },
+   {
+      "Code":"GMB",
+      "Global Hunger Index":24.5,
+      "Longtitude":-15.5,
+      "Entity":"Gambia",
+      "Year":2008,
+      "Latitude":13.5
+   },
+   {
+      "Code":"GMB",
+      "Global Hunger Index":20.9,
+      "Longtitude":-15.5,
+      "Entity":"Gambia",
+      "Year":2016,
+      "Latitude":13.5
+   },
+   {
+      "Code":"GMB",
+      "Global Hunger Index":23.2,
+      "Longtitude":-15.5,
+      "Entity":"Gambia",
+      "Year":2017,
+      "Latitude":13.5
+   },
+   {
+      "Code":"GMB",
+      "Global Hunger Index":22.3,
+      "Longtitude":-15.5,
+      "Entity":"Gambia",
+      "Year":2018,
+      "Latitude":13.5
+   },
+   {
+      "Code":"GEO",
+      "Global Hunger Index":15.2,
+      "Longtitude":43.499905,
+      "Entity":"Georgia",
+      "Year":2000,
+      "Latitude":41.999981
+   },
+   {
+      "Code":"GEO",
+      "Global Hunger Index":8.2,
+      "Longtitude":43.499905,
+      "Entity":"Georgia",
+      "Year":2008,
+      "Latitude":41.999981
+   },
+   {
+      "Code":"GEO",
+      "Global Hunger Index":8.2,
+      "Longtitude":43.499905,
+      "Entity":"Georgia",
+      "Year":2016,
+      "Latitude":41.999981
+   },
+   {
+      "Code":"GEO",
+      "Global Hunger Index":7.7,
+      "Longtitude":43.499905,
+      "Entity":"Georgia",
+      "Year":2017,
+      "Latitude":41.999981
+   },
+   {
+      "Code":"GEO",
+      "Global Hunger Index":8.1,
+      "Longtitude":43.499905,
+      "Entity":"Georgia",
+      "Year":2018,
+      "Latitude":41.999981
+   },
+   {
+      "Code":"GHA",
+      "Global Hunger Index":42.7,
+      "Longtitude":-2,
+      "Entity":"Ghana",
+      "Year":1992,
+      "Latitude":8
+   },
+   {
+      "Code":"GHA",
+      "Global Hunger Index":29.9,
+      "Longtitude":-2,
+      "Entity":"Ghana",
+      "Year":2000,
+      "Latitude":8
+   },
+   {
+      "Code":"GHA",
+      "Global Hunger Index":22.7,
+      "Longtitude":-2,
+      "Entity":"Ghana",
+      "Year":2008,
+      "Latitude":8
+   },
+   {
+      "Code":"GHA",
+      "Global Hunger Index":13.9,
+      "Longtitude":-2,
+      "Entity":"Ghana",
+      "Year":2016,
+      "Latitude":8
+   },
+   {
+      "Code":"GHA",
+      "Global Hunger Index":16.2,
+      "Longtitude":-2,
+      "Entity":"Ghana",
+      "Year":2017,
+      "Latitude":8
+   },
+   {
+      "Code":"GHA",
+      "Global Hunger Index":15.2,
+      "Longtitude":-2,
+      "Entity":"Ghana",
+      "Year":2018,
+      "Latitude":8
+   },
+   {
+      "Code":"GTM",
+      "Global Hunger Index":28.4,
+      "Longtitude":-90.25,
+      "Entity":"Guatemala",
+      "Year":1992,
+      "Latitude":15.5
+   },
+   {
+      "Code":"GTM",
+      "Global Hunger Index":28,
+      "Longtitude":-90.25,
+      "Entity":"Guatemala",
+      "Year":2000,
+      "Latitude":15.5
+   },
+   {
+      "Code":"GTM",
+      "Global Hunger Index":21.9,
+      "Longtitude":-90.25,
+      "Entity":"Guatemala",
+      "Year":2008,
+      "Latitude":15.5
+   },
+   {
+      "Code":"GTM",
+      "Global Hunger Index":20.7,
+      "Longtitude":-90.25,
+      "Entity":"Guatemala",
+      "Year":2016,
+      "Latitude":15.5
+   },
+   {
+      "Code":"GTM",
+      "Global Hunger Index":20.7,
+      "Longtitude":-90.25,
+      "Entity":"Guatemala",
+      "Year":2017,
+      "Latitude":15.5
+   },
+   {
+      "Code":"GTM",
+      "Global Hunger Index":20.8,
+      "Longtitude":-90.25,
+      "Entity":"Guatemala",
+      "Year":2018,
+      "Latitude":15.5
+   },
+   {
+      "Code":"GIN",
+      "Global Hunger Index":46.1,
+      "Longtitude":-10,
+      "Entity":"Guinea",
+      "Year":1992,
+      "Latitude":11
+   },
+   {
+      "Code":"GIN",
+      "Global Hunger Index":44.4,
+      "Longtitude":-10,
+      "Entity":"Guinea",
+      "Year":2000,
+      "Latitude":11
+   },
+   {
+      "Code":"GIN",
+      "Global Hunger Index":33.9,
+      "Longtitude":-10,
+      "Entity":"Guinea",
+      "Year":2008,
+      "Latitude":11
+   },
+   {
+      "Code":"GIN",
+      "Global Hunger Index":28.1,
+      "Longtitude":-10,
+      "Entity":"Guinea",
+      "Year":2016,
+      "Latitude":11
+   },
+   {
+      "Code":"GIN",
+      "Global Hunger Index":28.6,
+      "Longtitude":-10,
+      "Entity":"Guinea",
+      "Year":2017,
+      "Latitude":11
+   },
+   {
+      "Code":"GIN",
+      "Global Hunger Index":28.9,
+      "Longtitude":-10,
+      "Entity":"Guinea",
+      "Year":2018,
+      "Latitude":11
+   },
+   {
+      "Code":"GNB",
+      "Global Hunger Index":45.2,
+      "Longtitude":-15,
+      "Entity":"Guinea-Bissau",
+      "Year":1992,
+      "Latitude":12
+   },
+   {
+      "Code":"GNB",
+      "Global Hunger Index":43.9,
+      "Longtitude":-15,
+      "Entity":"Guinea-Bissau",
+      "Year":2000,
+      "Latitude":12
+   },
+   {
+      "Code":"GNB",
+      "Global Hunger Index":31.9,
+      "Longtitude":-15,
+      "Entity":"Guinea-Bissau",
+      "Year":2008,
+      "Latitude":12
+   },
+   {
+      "Code":"GNB",
+      "Global Hunger Index":27.4,
+      "Longtitude":-15,
+      "Entity":"Guinea-Bissau",
+      "Year":2016,
+      "Latitude":12
+   },
+   {
+      "Code":"GNB",
+      "Global Hunger Index":30.6,
+      "Longtitude":-15,
+      "Entity":"Guinea-Bissau",
+      "Year":2017,
+      "Latitude":12
+   },
+   {
+      "Code":"GNB",
+      "Global Hunger Index":29.1,
+      "Longtitude":-15,
+      "Entity":"Guinea-Bissau",
+      "Year":2018,
+      "Latitude":12
+   },
+   {
+      "Code":"GUY",
+      "Global Hunger Index":24.1,
+      "Longtitude":-59,
+      "Entity":"Guyana",
+      "Year":1992,
+      "Latitude":5
+   },
+   {
+      "Code":"GUY",
+      "Global Hunger Index":18.8,
+      "Longtitude":-59,
+      "Entity":"Guyana",
+      "Year":2000,
+      "Latitude":5
+   },
+   {
+      "Code":"GUY",
+      "Global Hunger Index":16.9,
+      "Longtitude":-59,
+      "Entity":"Guyana",
+      "Year":2008,
+      "Latitude":5
+   },
+   {
+      "Code":"GUY",
+      "Global Hunger Index":14.5,
+      "Longtitude":-59,
+      "Entity":"Guyana",
+      "Year":2016,
+      "Latitude":5
+   },
+   {
+      "Code":"GUY",
+      "Global Hunger Index":13.7,
+      "Longtitude":-59,
+      "Entity":"Guyana",
+      "Year":2017,
+      "Latitude":5
+   },
+   {
+      "Code":"GUY",
+      "Global Hunger Index":12.6,
+      "Longtitude":-59,
+      "Entity":"Guyana",
+      "Year":2018,
+      "Latitude":5
+   },
+   {
+      "Code":"HTI",
+      "Global Hunger Index":51.6,
+      "Longtitude":-72.416667,
+      "Entity":"Haiti",
+      "Year":1992,
+      "Latitude":19
+   },
+   {
+      "Code":"HTI",
+      "Global Hunger Index":42.8,
+      "Longtitude":-72.416667,
+      "Entity":"Haiti",
+      "Year":2000,
+      "Latitude":19
+   },
+   {
+      "Code":"HTI",
+      "Global Hunger Index":43.4,
+      "Longtitude":-72.416667,
+      "Entity":"Haiti",
+      "Year":2008,
+      "Latitude":19
+   },
+   {
+      "Code":"HTI",
+      "Global Hunger Index":36.9,
+      "Longtitude":-72.416667,
+      "Entity":"Haiti",
+      "Year":2016,
+      "Latitude":19
+   },
+   {
+      "Code":"HTI",
+      "Global Hunger Index":34.2,
+      "Longtitude":-72.416667,
+      "Entity":"Haiti",
+      "Year":2017,
+      "Latitude":19
+   },
+   {
+      "Code":"HTI",
+      "Global Hunger Index":35.4,
+      "Longtitude":-72.416667,
+      "Entity":"Haiti",
+      "Year":2018,
+      "Latitude":19
+   },
+   {
+      "Code":"HND",
+      "Global Hunger Index":25.8,
+      "Longtitude":-86.5,
+      "Entity":"Honduras",
+      "Year":1992,
+      "Latitude":15
+   },
+   {
+      "Code":"HND",
+      "Global Hunger Index":20.3,
+      "Longtitude":-86.5,
+      "Entity":"Honduras",
+      "Year":2000,
+      "Latitude":15
+   },
+   {
+      "Code":"HND",
+      "Global Hunger Index":16.8,
+      "Longtitude":-86.5,
+      "Entity":"Honduras",
+      "Year":2008,
+      "Latitude":15
+   },
+   {
+      "Code":"HND",
+      "Global Hunger Index":13.2,
+      "Longtitude":-86.5,
+      "Entity":"Honduras",
+      "Year":2016,
+      "Latitude":15
+   },
+   {
+      "Code":"HND",
+      "Global Hunger Index":14.3,
+      "Longtitude":-86.5,
+      "Entity":"Honduras",
+      "Year":2017,
+      "Latitude":15
+   },
+   {
+      "Code":"HND",
+      "Global Hunger Index":14.4,
+      "Longtitude":-86.5,
+      "Entity":"Honduras",
+      "Year":2018,
+      "Latitude":15
+   },
+   {
+      "Code":"IND",
+      "Global Hunger Index":46.4,
+      "Longtitude":77,
+      "Entity":"India",
+      "Year":1992,
+      "Latitude":20
+   },
+   {
+      "Code":"IND",
+      "Global Hunger Index":38.2,
+      "Longtitude":77,
+      "Entity":"India",
+      "Year":2000,
+      "Latitude":20
+   },
+   {
+      "Code":"IND",
+      "Global Hunger Index":36,
+      "Longtitude":77,
+      "Entity":"India",
+      "Year":2008,
+      "Latitude":20
+   },
+   {
+      "Code":"IND",
+      "Global Hunger Index":28.5,
+      "Longtitude":77,
+      "Entity":"India",
+      "Year":2016,
+      "Latitude":20
+   },
+   {
+      "Code":"IND",
+      "Global Hunger Index":31.4,
+      "Longtitude":77,
+      "Entity":"India",
+      "Year":2017,
+      "Latitude":20
+   },
+   {
+      "Code":"IND",
+      "Global Hunger Index":31.1,
+      "Longtitude":77,
+      "Entity":"India",
+      "Year":2018,
+      "Latitude":20
+   },
+   {
+      "Code":"IDN",
+      "Global Hunger Index":35.8,
+      "Longtitude":120,
+      "Entity":"Indonesia",
+      "Year":1992,
+      "Latitude":-5
+   },
+   {
+      "Code":"IDN",
+      "Global Hunger Index":25.3,
+      "Longtitude":120,
+      "Entity":"Indonesia",
+      "Year":2000,
+      "Latitude":-5
+   },
+   {
+      "Code":"IDN",
+      "Global Hunger Index":28.6,
+      "Longtitude":120,
+      "Entity":"Indonesia",
+      "Year":2008,
+      "Latitude":-5
+   },
+   {
+      "Code":"IDN",
+      "Global Hunger Index":21.9,
+      "Longtitude":120,
+      "Entity":"Indonesia",
+      "Year":2016,
+      "Latitude":-5
+   },
+   {
+      "Code":"IDN",
+      "Global Hunger Index":22,
+      "Longtitude":120,
+      "Entity":"Indonesia",
+      "Year":2017,
+      "Latitude":-5
+   },
+   {
+      "Code":"IDN",
+      "Global Hunger Index":21.9,
+      "Longtitude":120,
+      "Entity":"Indonesia",
+      "Year":2018,
+      "Latitude":-5
+   },
+   {
+      "Code":"IRN",
+      "Global Hunger Index":17.5,
+      "Longtitude":53,
+      "Entity":"Iran",
+      "Year":1992,
+      "Latitude":32
+   },
+   {
+      "Code":"IRN",
+      "Global Hunger Index":13.7,
+      "Longtitude":53,
+      "Entity":"Iran",
+      "Year":2000,
+      "Latitude":32
+   },
+   {
+      "Code":"IRN",
+      "Global Hunger Index":8.8,
+      "Longtitude":53,
+      "Entity":"Iran",
+      "Year":2008,
+      "Latitude":32
+   },
+   {
+      "Code":"IRN",
+      "Global Hunger Index":6.7,
+      "Longtitude":53,
+      "Entity":"Iran",
+      "Year":2016,
+      "Latitude":32
+   },
+   {
+      "Code":"IRN",
+      "Global Hunger Index":7.6,
+      "Longtitude":53,
+      "Entity":"Iran",
+      "Year":2017,
+      "Latitude":32
+   },
+   {
+      "Code":"IRN",
+      "Global Hunger Index":7.3,
+      "Longtitude":53,
+      "Entity":"Iran",
+      "Year":2018,
+      "Latitude":32
+   },
+   {
+      "Code":"IRQ",
+      "Global Hunger Index":19.6,
+      "Longtitude":44,
+      "Entity":"Iraq",
+      "Year":1992,
+      "Latitude":33
+   },
+   {
+      "Code":"IRQ",
+      "Global Hunger Index":24.9,
+      "Longtitude":44,
+      "Entity":"Iraq",
+      "Year":2000,
+      "Latitude":33
+   },
+   {
+      "Code":"IRQ",
+      "Global Hunger Index":24.5,
+      "Longtitude":44,
+      "Entity":"Iraq",
+      "Year":2008,
+      "Latitude":33
+   },
+   {
+      "Code":"IRQ",
+      "Global Hunger Index":22,
+      "Longtitude":44,
+      "Entity":"Iraq",
+      "Year":2016,
+      "Latitude":33
+   },
+   {
+      "Code":"IRQ",
+      "Global Hunger Index":22.9,
+      "Longtitude":44,
+      "Entity":"Iraq",
+      "Year":2017,
+      "Latitude":33
+   },
+   {
+      "Code":"IRQ",
+      "Global Hunger Index":22.1,
+      "Longtitude":44,
+      "Entity":"Iraq",
+      "Year":2018,
+      "Latitude":33
+   },
+   {
+      "Code":"JAM",
+      "Global Hunger Index":12.4,
+      "Longtitude":-77.5,
+      "Entity":"Jamaica",
+      "Year":1992,
+      "Latitude":18.25
+   },
+   {
+      "Code":"JAM",
+      "Global Hunger Index":8.6,
+      "Longtitude":-77.5,
+      "Entity":"Jamaica",
+      "Year":2000,
+      "Latitude":18.25
+   },
+   {
+      "Code":"JAM",
+      "Global Hunger Index":7.4,
+      "Longtitude":-77.5,
+      "Entity":"Jamaica",
+      "Year":2008,
+      "Latitude":18.25
+   },
+   {
+      "Code":"JAM",
+      "Global Hunger Index":7.9,
+      "Longtitude":-77.5,
+      "Entity":"Jamaica",
+      "Year":2016,
+      "Latitude":18.25
+   },
+   {
+      "Code":"JAM",
+      "Global Hunger Index":8,
+      "Longtitude":-77.5,
+      "Entity":"Jamaica",
+      "Year":2017,
+      "Latitude":18.25
+   },
+   {
+      "Code":"JAM",
+      "Global Hunger Index":8.6,
+      "Longtitude":-77.5,
+      "Entity":"Jamaica",
+      "Year":2018,
+      "Latitude":18.25
+   },
+   {
+      "Code":"JOR",
+      "Global Hunger Index":12.6,
+      "Longtitude":36,
+      "Entity":"Jordan",
+      "Year":1992,
+      "Latitude":31
+   },
+   {
+      "Code":"JOR",
+      "Global Hunger Index":9.8,
+      "Longtitude":36,
+      "Entity":"Jordan",
+      "Year":2000,
+      "Latitude":31
+   },
+   {
+      "Code":"JOR",
+      "Global Hunger Index":5.9,
+      "Longtitude":36,
+      "Entity":"Jordan",
+      "Year":2008,
+      "Latitude":31
+   },
+   {
+      "Code":"JOR",
+      "Global Hunger Index":5.7,
+      "Longtitude":36,
+      "Entity":"Jordan",
+      "Year":2016,
+      "Latitude":31
+   },
+   {
+      "Code":"JOR",
+      "Global Hunger Index":6.7,
+      "Longtitude":36,
+      "Entity":"Jordan",
+      "Year":2017,
+      "Latitude":31
+   },
+   {
+      "Code":"JOR",
+      "Global Hunger Index":11.2,
+      "Longtitude":36,
+      "Entity":"Jordan",
+      "Year":2018,
+      "Latitude":31
+   },
+   {
+      "Code":"KAZ",
+      "Global Hunger Index":10.7,
+      "Longtitude":68,
+      "Entity":"Kazakhstan",
+      "Year":2000,
+      "Latitude":48
+   },
+   {
+      "Code":"KAZ",
+      "Global Hunger Index":10.7,
+      "Longtitude":68,
+      "Entity":"Kazakhstan",
+      "Year":2008,
+      "Latitude":48
+   },
+   {
+      "Code":"KAZ",
+      "Global Hunger Index":7.8,
+      "Longtitude":68,
+      "Entity":"Kazakhstan",
+      "Year":2016,
+      "Latitude":48
+   },
+   {
+      "Code":"KAZ",
+      "Global Hunger Index":5.8,
+      "Longtitude":68,
+      "Entity":"Kazakhstan",
+      "Year":2017,
+      "Latitude":48
+   },
+   {
+      "Code":"KAZ",
+      "Global Hunger Index":5.5,
+      "Longtitude":68,
+      "Entity":"Kazakhstan",
+      "Year":2018,
+      "Latitude":48
+   },
+   {
+      "Code":"KEN",
+      "Global Hunger Index":38.5,
+      "Longtitude":38,
+      "Entity":"Kenya",
+      "Year":1992,
+      "Latitude":1
+   },
+   {
+      "Code":"KEN",
+      "Global Hunger Index":37.6,
+      "Longtitude":38,
+      "Entity":"Kenya",
+      "Year":2000,
+      "Latitude":1
+   },
+   {
+      "Code":"KEN",
+      "Global Hunger Index":29.6,
+      "Longtitude":38,
+      "Entity":"Kenya",
+      "Year":2008,
+      "Latitude":1
+   },
+   {
+      "Code":"KEN",
+      "Global Hunger Index":21.9,
+      "Longtitude":38,
+      "Entity":"Kenya",
+      "Year":2016,
+      "Latitude":1
+   },
+   {
+      "Code":"KEN",
+      "Global Hunger Index":21,
+      "Longtitude":38,
+      "Entity":"Kenya",
+      "Year":2017,
+      "Latitude":1
+   },
+   {
+      "Code":"KEN",
+      "Global Hunger Index":23.2,
+      "Longtitude":38,
+      "Entity":"Kenya",
+      "Year":2018,
+      "Latitude":1
+   },
+   {
+      "Code":"KWT",
+      "Global Hunger Index":26,
+      "Longtitude":47.75,
+      "Entity":"Kuwait",
+      "Year":1992,
+      "Latitude":29.5
+   },
+   {
+      "Code":"KWT",
+      "Global Hunger Index":5,
+      "Longtitude":47.75,
+      "Entity":"Kuwait",
+      "Year":2000,
+      "Latitude":29.5
+   },
+   {
+      "Code":"KWT",
+      "Global Hunger Index":5,
+      "Longtitude":47.75,
+      "Entity":"Kuwait",
+      "Year":2008,
+      "Latitude":29.5
+   },
+   {
+      "Code":"KWT",
+      "Global Hunger Index":5,
+      "Longtitude":47.75,
+      "Entity":"Kuwait",
+      "Year":2016,
+      "Latitude":29.5
+   },
+   {
+      "Code":"KGZ",
+      "Global Hunger Index":19.4,
+      "Longtitude":75,
+      "Entity":"Kyrgyzstan",
+      "Year":2000,
+      "Latitude":41
+   },
+   {
+      "Code":"KGZ",
+      "Global Hunger Index":13.1,
+      "Longtitude":75,
+      "Entity":"Kyrgyzstan",
+      "Year":2008,
+      "Latitude":41
+   },
+   {
+      "Code":"KGZ",
+      "Global Hunger Index":9.1,
+      "Longtitude":75,
+      "Entity":"Kyrgyzstan",
+      "Year":2016,
+      "Latitude":41
+   },
+   {
+      "Code":"KGZ",
+      "Global Hunger Index":9.3,
+      "Longtitude":75,
+      "Entity":"Kyrgyzstan",
+      "Year":2017,
+      "Latitude":41
+   },
+   {
+      "Code":"KGZ",
+      "Global Hunger Index":9.3,
+      "Longtitude":75,
+      "Entity":"Kyrgyzstan",
+      "Year":2018,
+      "Latitude":41
+   },
+   {
+      "Code":"LAO",
+      "Global Hunger Index":52.2,
+      "Longtitude":105,
+      "Entity":"Laos",
+      "Year":1992,
+      "Latitude":18
+   },
+   {
+      "Code":"LAO",
+      "Global Hunger Index":48.8,
+      "Longtitude":105,
+      "Entity":"Laos",
+      "Year":2000,
+      "Latitude":18
+   },
+   {
+      "Code":"LAO",
+      "Global Hunger Index":33.9,
+      "Longtitude":105,
+      "Entity":"Laos",
+      "Year":2008,
+      "Latitude":18
+   },
+   {
+      "Code":"LAO",
+      "Global Hunger Index":28.1,
+      "Longtitude":105,
+      "Entity":"Laos",
+      "Year":2016,
+      "Latitude":18
+   },
+   {
+      "Code":"LAO",
+      "Global Hunger Index":27.5,
+      "Longtitude":105,
+      "Entity":"Laos",
+      "Year":2017,
+      "Latitude":18
+   },
+   {
+      "Code":"LAO",
+      "Global Hunger Index":25.3,
+      "Longtitude":105,
+      "Entity":"Laos",
+      "Year":2018,
+      "Latitude":18
+   },
+   {
+      "Code":"LVA",
+      "Global Hunger Index":6.6,
+      "Longtitude":25,
+      "Entity":"Latvia",
+      "Year":2000,
+      "Latitude":57
+   },
+   {
+      "Code":"LVA",
+      "Global Hunger Index":5,
+      "Longtitude":25,
+      "Entity":"Latvia",
+      "Year":2008,
+      "Latitude":57
+   },
+   {
+      "Code":"LVA",
+      "Global Hunger Index":5,
+      "Longtitude":25,
+      "Entity":"Latvia",
+      "Year":2016,
+      "Latitude":57
+   },
+   {
+      "Code":"LBN",
+      "Global Hunger Index":11.4,
+      "Longtitude":35.833333,
+      "Entity":"Lebanon",
+      "Year":1992,
+      "Latitude":33.833333
+   },
+   {
+      "Code":"LBN",
+      "Global Hunger Index":9,
+      "Longtitude":35.833333,
+      "Entity":"Lebanon",
+      "Year":2000,
+      "Latitude":33.833333
+   },
+   {
+      "Code":"LBN",
+      "Global Hunger Index":8.3,
+      "Longtitude":35.833333,
+      "Entity":"Lebanon",
+      "Year":2008,
+      "Latitude":33.833333
+   },
+   {
+      "Code":"LBN",
+      "Global Hunger Index":7.1,
+      "Longtitude":35.833333,
+      "Entity":"Lebanon",
+      "Year":2016,
+      "Latitude":33.833333
+   },
+   {
+      "Code":"LBN",
+      "Global Hunger Index":8.1,
+      "Longtitude":35.833333,
+      "Entity":"Lebanon",
+      "Year":2017,
+      "Latitude":33.833333
+   },
+   {
+      "Code":"LBN",
+      "Global Hunger Index":11.7,
+      "Longtitude":35.833333,
+      "Entity":"Lebanon",
+      "Year":2018,
+      "Latitude":33.833333
+   },
+   {
+      "Code":"LSO",
+      "Global Hunger Index":25.9,
+      "Longtitude":28.25,
+      "Entity":"Lesotho",
+      "Year":1992,
+      "Latitude":-29.5
+   },
+   {
+      "Code":"LSO",
+      "Global Hunger Index":32.9,
+      "Longtitude":28.25,
+      "Entity":"Lesotho",
+      "Year":2000,
+      "Latitude":-29.5
+   },
+   {
+      "Code":"LSO",
+      "Global Hunger Index":28,
+      "Longtitude":28.25,
+      "Entity":"Lesotho",
+      "Year":2008,
+      "Latitude":-29.5
+   },
+   {
+      "Code":"LSO",
+      "Global Hunger Index":22.7,
+      "Longtitude":28.25,
+      "Entity":"Lesotho",
+      "Year":2016,
+      "Latitude":-29.5
+   },
+   {
+      "Code":"LSO",
+      "Global Hunger Index":24.1,
+      "Longtitude":28.25,
+      "Entity":"Lesotho",
+      "Year":2017,
+      "Latitude":-29.5
+   },
+   {
+      "Code":"LSO",
+      "Global Hunger Index":23.7,
+      "Longtitude":28.25,
+      "Entity":"Lesotho",
+      "Year":2018,
+      "Latitude":-29.5
+   },
+   {
+      "Code":"LBR",
+      "Global Hunger Index":49.7,
+      "Longtitude":-9.5,
+      "Entity":"Liberia",
+      "Year":1992,
+      "Latitude":6.5
+   },
+   {
+      "Code":"LBR",
+      "Global Hunger Index":47.4,
+      "Longtitude":-9.5,
+      "Entity":"Liberia",
+      "Year":2000,
+      "Latitude":6.5
+   },
+   {
+      "Code":"LBR",
+      "Global Hunger Index":38.6,
+      "Longtitude":-9.5,
+      "Entity":"Liberia",
+      "Year":2008,
+      "Latitude":6.5
+   },
+   {
+      "Code":"LBR",
+      "Global Hunger Index":30.7,
+      "Longtitude":-9.5,
+      "Entity":"Liberia",
+      "Year":2016,
+      "Latitude":6.5
+   },
+   {
+      "Code":"LBR",
+      "Global Hunger Index":35.3,
+      "Longtitude":-9.5,
+      "Entity":"Liberia",
+      "Year":2017,
+      "Latitude":6.5
+   },
+   {
+      "Code":"LBR",
+      "Global Hunger Index":33.3,
+      "Longtitude":-9.5,
+      "Entity":"Liberia",
+      "Year":2018,
+      "Latitude":6.5
+   },
+   {
+      "Code":"LTU",
+      "Global Hunger Index":5.2,
+      "Longtitude":24,
+      "Entity":"Lithuania",
+      "Year":2000,
+      "Latitude":56
+   },
+   {
+      "Code":"LTU",
+      "Global Hunger Index":5,
+      "Longtitude":24,
+      "Entity":"Lithuania",
+      "Year":2008,
+      "Latitude":56
+   },
+   {
+      "Code":"LTU",
+      "Global Hunger Index":5,
+      "Longtitude":24,
+      "Entity":"Lithuania",
+      "Year":2016,
+      "Latitude":56
+   },
+   {
+      "Code":"MKD",
+      "Global Hunger Index":7.9,
+      "Longtitude":22,
+      "Entity":"Macedonia",
+      "Year":2000,
+      "Latitude":41.833333
+   },
+   {
+      "Code":"MKD",
+      "Global Hunger Index":6.2,
+      "Longtitude":22,
+      "Entity":"Macedonia",
+      "Year":2008,
+      "Latitude":41.833333
+   },
+   {
+      "Code":"MKD",
+      "Global Hunger Index":5.8,
+      "Longtitude":22,
+      "Entity":"Macedonia",
+      "Year":2016,
+      "Latitude":41.833333
+   },
+   {
+      "Code":"MKD",
+      "Global Hunger Index":5.3,
+      "Longtitude":22,
+      "Entity":"Macedonia",
+      "Year":2017,
+      "Latitude":41.833333
+   },
+   {
+      "Code":"MKD",
+      "Global Hunger Index":5.9,
+      "Longtitude":22,
+      "Entity":"Macedonia",
+      "Year":2018,
+      "Latitude":41.833333
+   },
+   {
+      "Code":"MDG",
+      "Global Hunger Index":44.6,
+      "Longtitude":47,
+      "Entity":"Madagascar",
+      "Year":1992,
+      "Latitude":-20
+   },
+   {
+      "Code":"MDG",
+      "Global Hunger Index":44.2,
+      "Longtitude":47,
+      "Entity":"Madagascar",
+      "Year":2000,
+      "Latitude":-20
+   },
+   {
+      "Code":"MDG",
+      "Global Hunger Index":37.1,
+      "Longtitude":47,
+      "Entity":"Madagascar",
+      "Year":2008,
+      "Latitude":-20
+   },
+   {
+      "Code":"MDG",
+      "Global Hunger Index":35.4,
+      "Longtitude":47,
+      "Entity":"Madagascar",
+      "Year":2016,
+      "Latitude":-20
+   },
+   {
+      "Code":"MDG",
+      "Global Hunger Index":38.3,
+      "Longtitude":47,
+      "Entity":"Madagascar",
+      "Year":2017,
+      "Latitude":-20
+   },
+   {
+      "Code":"MDG",
+      "Global Hunger Index":38,
+      "Longtitude":47,
+      "Entity":"Madagascar",
+      "Year":2018,
+      "Latitude":-20
+   },
+   {
+      "Code":"MWI",
+      "Global Hunger Index":57.6,
+      "Longtitude":34,
+      "Entity":"Malawi",
+      "Year":1992,
+      "Latitude":-13.5
+   },
+   {
+      "Code":"MWI",
+      "Global Hunger Index":45.3,
+      "Longtitude":34,
+      "Entity":"Malawi",
+      "Year":2000,
+      "Latitude":-13.5
+   },
+   {
+      "Code":"MWI",
+      "Global Hunger Index":31.8,
+      "Longtitude":34,
+      "Entity":"Malawi",
+      "Year":2008,
+      "Latitude":-13.5
+   },
+   {
+      "Code":"MWI",
+      "Global Hunger Index":26.9,
+      "Longtitude":34,
+      "Entity":"Malawi",
+      "Year":2016,
+      "Latitude":-13.5
+   },
+   {
+      "Code":"MWI",
+      "Global Hunger Index":27.2,
+      "Longtitude":34,
+      "Entity":"Malawi",
+      "Year":2017,
+      "Latitude":-13.5
+   },
+   {
+      "Code":"MWI",
+      "Global Hunger Index":26.5,
+      "Longtitude":34,
+      "Entity":"Malawi",
+      "Year":2018,
+      "Latitude":-13.5
+   },
+   {
+      "Code":"MYS",
+      "Global Hunger Index":20.1,
+      "Longtitude":112.5,
+      "Entity":"Malaysia",
+      "Year":1992,
+      "Latitude":2.5
+   },
+   {
+      "Code":"MYS",
+      "Global Hunger Index":15.5,
+      "Longtitude":112.5,
+      "Entity":"Malaysia",
+      "Year":2000,
+      "Latitude":2.5
+   },
+   {
+      "Code":"MYS",
+      "Global Hunger Index":13.4,
+      "Longtitude":112.5,
+      "Entity":"Malaysia",
+      "Year":2008,
+      "Latitude":2.5
+   },
+   {
+      "Code":"MYS",
+      "Global Hunger Index":9.7,
+      "Longtitude":112.5,
+      "Entity":"Malaysia",
+      "Year":2016,
+      "Latitude":2.5
+   },
+   {
+      "Code":"MYS",
+      "Global Hunger Index":10.2,
+      "Longtitude":112.5,
+      "Entity":"Malaysia",
+      "Year":2017,
+      "Latitude":2.5
+   },
+   {
+      "Code":"MYS",
+      "Global Hunger Index":13.3,
+      "Longtitude":112.5,
+      "Entity":"Malaysia",
+      "Year":2018,
+      "Latitude":2.5
+   },
+   {
+      "Code":"MLI",
+      "Global Hunger Index":50.2,
+      "Longtitude":-4,
+      "Entity":"Mali",
+      "Year":1992,
+      "Latitude":17
+   },
+   {
+      "Code":"MLI",
+      "Global Hunger Index":43.9,
+      "Longtitude":-4,
+      "Entity":"Mali",
+      "Year":2000,
+      "Latitude":17
+   },
+   {
+      "Code":"MLI",
+      "Global Hunger Index":34.4,
+      "Longtitude":-4,
+      "Entity":"Mali",
+      "Year":2008,
+      "Latitude":17
+   },
+   {
+      "Code":"MLI",
+      "Global Hunger Index":28.1,
+      "Longtitude":-4,
+      "Entity":"Mali",
+      "Year":2016,
+      "Latitude":17
+   },
+   {
+      "Code":"MLI",
+      "Global Hunger Index":28.6,
+      "Longtitude":-4,
+      "Entity":"Mali",
+      "Year":2017,
+      "Latitude":17
+   },
+   {
+      "Code":"MLI",
+      "Global Hunger Index":27.8,
+      "Longtitude":-4,
+      "Entity":"Mali",
+      "Year":2018,
+      "Latitude":17
+   },
+   {
+      "Code":"MRT",
+      "Global Hunger Index":39.7,
+      "Longtitude":-12,
+      "Entity":"Mauritania",
+      "Year":1992,
+      "Latitude":20
+   },
+   {
+      "Code":"MRT",
+      "Global Hunger Index":33.6,
+      "Longtitude":-12,
+      "Entity":"Mauritania",
+      "Year":2000,
+      "Latitude":20
+   },
+   {
+      "Code":"MRT",
+      "Global Hunger Index":23.6,
+      "Longtitude":-12,
+      "Entity":"Mauritania",
+      "Year":2008,
+      "Latitude":20
+   },
+   {
+      "Code":"MRT",
+      "Global Hunger Index":22.1,
+      "Longtitude":-12,
+      "Entity":"Mauritania",
+      "Year":2016,
+      "Latitude":20
+   },
+   {
+      "Code":"MRT",
+      "Global Hunger Index":25.2,
+      "Longtitude":-12,
+      "Entity":"Mauritania",
+      "Year":2017,
+      "Latitude":20
+   },
+   {
+      "Code":"MRT",
+      "Global Hunger Index":27.3,
+      "Longtitude":-12,
+      "Entity":"Mauritania",
+      "Year":2018,
+      "Latitude":20
+   },
+   {
+      "Code":"MUS",
+      "Global Hunger Index":17.5,
+      "Longtitude":57.583333,
+      "Entity":"Mauritius",
+      "Year":1992,
+      "Latitude":-20.3
+   },
+   {
+      "Code":"MUS",
+      "Global Hunger Index":16.2,
+      "Longtitude":57.583333,
+      "Entity":"Mauritius",
+      "Year":2000,
+      "Latitude":-20.3
+   },
+   {
+      "Code":"MUS",
+      "Global Hunger Index":14.8,
+      "Longtitude":57.583333,
+      "Entity":"Mauritius",
+      "Year":2008,
+      "Latitude":-20.3
+   },
+   {
+      "Code":"MUS",
+      "Global Hunger Index":13.2,
+      "Longtitude":57.583333,
+      "Entity":"Mauritius",
+      "Year":2016,
+      "Latitude":-20.3
+   },
+   {
+      "Code":"MUS",
+      "Global Hunger Index":13.3,
+      "Longtitude":57.583333,
+      "Entity":"Mauritius",
+      "Year":2017,
+      "Latitude":-20.3
+   },
+   {
+      "Code":"MUS",
+      "Global Hunger Index":11,
+      "Longtitude":57.583333,
+      "Entity":"Mauritius",
+      "Year":2018,
+      "Latitude":-20.3
+   },
+   {
+      "Code":"MEX",
+      "Global Hunger Index":14.6,
+      "Longtitude":-102,
+      "Entity":"Mexico",
+      "Year":1992,
+      "Latitude":23
+   },
+   {
+      "Code":"MEX",
+      "Global Hunger Index":10.8,
+      "Longtitude":-102,
+      "Entity":"Mexico",
+      "Year":2000,
+      "Latitude":23
+   },
+   {
+      "Code":"MEX",
+      "Global Hunger Index":8.4,
+      "Longtitude":-102,
+      "Entity":"Mexico",
+      "Year":2008,
+      "Latitude":23
+   },
+   {
+      "Code":"MEX",
+      "Global Hunger Index":7.2,
+      "Longtitude":-102,
+      "Entity":"Mexico",
+      "Year":2016,
+      "Latitude":23
+   },
+   {
+      "Code":"MEX",
+      "Global Hunger Index":6.5,
+      "Longtitude":-102,
+      "Entity":"Mexico",
+      "Year":2017,
+      "Latitude":23
+   },
+   {
+      "Code":"MEX",
+      "Global Hunger Index":6.5,
+      "Longtitude":-102,
+      "Entity":"Mexico",
+      "Year":2018,
+      "Latitude":23
+   },
+   {
+      "Code":"MDA",
+      "Global Hunger Index":15.1,
+      "Longtitude":29,
+      "Entity":"Moldova",
+      "Year":2000,
+      "Latitude":47
+   },
+   {
+      "Code":"MDA",
+      "Global Hunger Index":11.9,
+      "Longtitude":29,
+      "Entity":"Moldova",
+      "Year":2008,
+      "Latitude":47
+   },
+   {
+      "Code":"MDA",
+      "Global Hunger Index":9.2,
+      "Longtitude":29,
+      "Entity":"Moldova",
+      "Year":2016,
+      "Latitude":47
+   },
+   {
+      "Code":"MDA",
+      "Global Hunger Index":7.6,
+      "Longtitude":29,
+      "Entity":"Moldova",
+      "Year":2017,
+      "Latitude":47
+   },
+   {
+      "Code":"MNG",
+      "Global Hunger Index":34,
+      "Longtitude":105,
+      "Entity":"Mongolia",
+      "Year":1992,
+      "Latitude":46
+   },
+   {
+      "Code":"MNG",
+      "Global Hunger Index":33,
+      "Longtitude":105,
+      "Entity":"Mongolia",
+      "Year":2000,
+      "Latitude":46
+   },
+   {
+      "Code":"MNG",
+      "Global Hunger Index":20.5,
+      "Longtitude":105,
+      "Entity":"Mongolia",
+      "Year":2008,
+      "Latitude":46
+   },
+   {
+      "Code":"MNG",
+      "Global Hunger Index":13.8,
+      "Longtitude":105,
+      "Entity":"Mongolia",
+      "Year":2016,
+      "Latitude":46
+   },
+   {
+      "Code":"MNG",
+      "Global Hunger Index":13.4,
+      "Longtitude":105,
+      "Entity":"Mongolia",
+      "Year":2017,
+      "Latitude":46
+   },
+   {
+      "Code":"MNG",
+      "Global Hunger Index":12.6,
+      "Longtitude":105,
+      "Entity":"Mongolia",
+      "Year":2018,
+      "Latitude":46
+   },
+   {
+      "Code":"MNE",
+      "Global Hunger Index":5.1,
+      "Longtitude":19.3,
+      "Entity":"Montenegro",
+      "Year":2008,
+      "Latitude":42.5
+   },
+   {
+      "Code":"MNE",
+      "Global Hunger Index":5,
+      "Longtitude":19.3,
+      "Entity":"Montenegro",
+      "Year":2016,
+      "Latitude":42.5
+   },
+   {
+      "Code":"MAR",
+      "Global Hunger Index":18.3,
+      "Longtitude":-5,
+      "Entity":"Morocco",
+      "Year":1992,
+      "Latitude":32
+   },
+   {
+      "Code":"MAR",
+      "Global Hunger Index":15.6,
+      "Longtitude":-5,
+      "Entity":"Morocco",
+      "Year":2000,
+      "Latitude":32
+   },
+   {
+      "Code":"MAR",
+      "Global Hunger Index":12,
+      "Longtitude":-5,
+      "Entity":"Morocco",
+      "Year":2008,
+      "Latitude":32
+   },
+   {
+      "Code":"MAR",
+      "Global Hunger Index":9.3,
+      "Longtitude":-5,
+      "Entity":"Morocco",
+      "Year":2016,
+      "Latitude":32
+   },
+   {
+      "Code":"MAR",
+      "Global Hunger Index":10.2,
+      "Longtitude":-5,
+      "Entity":"Morocco",
+      "Year":2017,
+      "Latitude":32
+   },
+   {
+      "Code":"MAR",
+      "Global Hunger Index":10.4,
+      "Longtitude":-5,
+      "Entity":"Morocco",
+      "Year":2018,
+      "Latitude":32
+   },
+   {
+      "Code":"MOZ",
+      "Global Hunger Index":65.6,
+      "Longtitude":35,
+      "Entity":"Mozambique",
+      "Year":1992,
+      "Latitude":-18.25
+   },
+   {
+      "Code":"MOZ",
+      "Global Hunger Index":49.4,
+      "Longtitude":35,
+      "Entity":"Mozambique",
+      "Year":2000,
+      "Latitude":-18.25
+   },
+   {
+      "Code":"MOZ",
+      "Global Hunger Index":38.2,
+      "Longtitude":35,
+      "Entity":"Mozambique",
+      "Year":2008,
+      "Latitude":-18.25
+   },
+   {
+      "Code":"MOZ",
+      "Global Hunger Index":31.7,
+      "Longtitude":35,
+      "Entity":"Mozambique",
+      "Year":2016,
+      "Latitude":-18.25
+   },
+   {
+      "Code":"MOZ",
+      "Global Hunger Index":30.5,
+      "Longtitude":35,
+      "Entity":"Mozambique",
+      "Year":2017,
+      "Latitude":-18.25
+   },
+   {
+      "Code":"MOZ",
+      "Global Hunger Index":30.9,
+      "Longtitude":35,
+      "Entity":"Mozambique",
+      "Year":2018,
+      "Latitude":-18.25
+   },
+   {
+      "Code":"MMR",
+      "Global Hunger Index":55.8,
+      "Longtitude":98,
+      "Entity":"Myanmar",
+      "Year":1992,
+      "Latitude":22
+   },
+   {
+      "Code":"MMR",
+      "Global Hunger Index":45.3,
+      "Longtitude":98,
+      "Entity":"Myanmar",
+      "Year":2000,
+      "Latitude":22
+   },
+   {
+      "Code":"MMR",
+      "Global Hunger Index":32,
+      "Longtitude":98,
+      "Entity":"Myanmar",
+      "Year":2008,
+      "Latitude":22
+   },
+   {
+      "Code":"MMR",
+      "Global Hunger Index":22,
+      "Longtitude":98,
+      "Entity":"Myanmar",
+      "Year":2016,
+      "Latitude":22
+   },
+   {
+      "Code":"MMR",
+      "Global Hunger Index":22.6,
+      "Longtitude":98,
+      "Entity":"Myanmar",
+      "Year":2017,
+      "Latitude":22
+   },
+   {
+      "Code":"MMR",
+      "Global Hunger Index":20.1,
+      "Longtitude":98,
+      "Entity":"Myanmar",
+      "Year":2018,
+      "Latitude":22
+   },
+   {
+      "Code":"NAM",
+      "Global Hunger Index":35.8,
+      "Longtitude":17,
+      "Entity":"Namibia",
+      "Year":1992,
+      "Latitude":-22
+   },
+   {
+      "Code":"NAM",
+      "Global Hunger Index":32.5,
+      "Longtitude":17,
+      "Entity":"Namibia",
+      "Year":2000,
+      "Latitude":-22
+   },
+   {
+      "Code":"NAM",
+      "Global Hunger Index":29.6,
+      "Longtitude":17,
+      "Entity":"Namibia",
+      "Year":2008,
+      "Latitude":-22
+   },
+   {
+      "Code":"NAM",
+      "Global Hunger Index":31.4,
+      "Longtitude":17,
+      "Entity":"Namibia",
+      "Year":2016,
+      "Latitude":-22
+   },
+   {
+      "Code":"NAM",
+      "Global Hunger Index":25.7,
+      "Longtitude":17,
+      "Entity":"Namibia",
+      "Year":2017,
+      "Latitude":-22
+   },
+   {
+      "Code":"NAM",
+      "Global Hunger Index":24.3,
+      "Longtitude":17,
+      "Entity":"Namibia",
+      "Year":2018,
+      "Latitude":-22
+   },
+   {
+      "Code":"NPL",
+      "Global Hunger Index":43.1,
+      "Longtitude":84,
+      "Entity":"Nepal",
+      "Year":1992,
+      "Latitude":28
+   },
+   {
+      "Code":"NPL",
+      "Global Hunger Index":36.8,
+      "Longtitude":84,
+      "Entity":"Nepal",
+      "Year":2000,
+      "Latitude":28
+   },
+   {
+      "Code":"NPL",
+      "Global Hunger Index":29.2,
+      "Longtitude":84,
+      "Entity":"Nepal",
+      "Year":2008,
+      "Latitude":28
+   },
+   {
+      "Code":"NPL",
+      "Global Hunger Index":21.9,
+      "Longtitude":84,
+      "Entity":"Nepal",
+      "Year":2016,
+      "Latitude":28
+   },
+   {
+      "Code":"NPL",
+      "Global Hunger Index":22,
+      "Longtitude":84,
+      "Entity":"Nepal",
+      "Year":2017,
+      "Latitude":28
+   },
+   {
+      "Code":"NPL",
+      "Global Hunger Index":21.2,
+      "Longtitude":84,
+      "Entity":"Nepal",
+      "Year":2018,
+      "Latitude":28
+   },
+   {
+      "Code":"NIC",
+      "Global Hunger Index":36.1,
+      "Longtitude":-85,
+      "Entity":"Nicaragua",
+      "Year":1992,
+      "Latitude":13
+   },
+   {
+      "Code":"NIC",
+      "Global Hunger Index":25.6,
+      "Longtitude":-85,
+      "Entity":"Nicaragua",
+      "Year":2000,
+      "Latitude":13
+   },
+   {
+      "Code":"NIC",
+      "Global Hunger Index":17.9,
+      "Longtitude":-85,
+      "Entity":"Nicaragua",
+      "Year":2008,
+      "Latitude":13
+   },
+   {
+      "Code":"NIC",
+      "Global Hunger Index":13.3,
+      "Longtitude":-85,
+      "Entity":"Nicaragua",
+      "Year":2016,
+      "Latitude":13
+   },
+   {
+      "Code":"NIC",
+      "Global Hunger Index":13.6,
+      "Longtitude":-85,
+      "Entity":"Nicaragua",
+      "Year":2017,
+      "Latitude":13
+   },
+   {
+      "Code":"NIC",
+      "Global Hunger Index":13.6,
+      "Longtitude":-85,
+      "Entity":"Nicaragua",
+      "Year":2018,
+      "Latitude":13
+   },
+   {
+      "Code":"NER",
+      "Global Hunger Index":64.8,
+      "Longtitude":8,
+      "Entity":"Niger",
+      "Year":1992,
+      "Latitude":16
+   },
+   {
+      "Code":"NER",
+      "Global Hunger Index":53,
+      "Longtitude":8,
+      "Entity":"Niger",
+      "Year":2000,
+      "Latitude":16
+   },
+   {
+      "Code":"NER",
+      "Global Hunger Index":37.1,
+      "Longtitude":8,
+      "Entity":"Niger",
+      "Year":2008,
+      "Latitude":16
+   },
+   {
+      "Code":"NER",
+      "Global Hunger Index":33.7,
+      "Longtitude":8,
+      "Entity":"Niger",
+      "Year":2016,
+      "Latitude":16
+   },
+   {
+      "Code":"NER",
+      "Global Hunger Index":34.5,
+      "Longtitude":8,
+      "Entity":"Niger",
+      "Year":2017,
+      "Latitude":16
+   },
+   {
+      "Code":"NER",
+      "Global Hunger Index":30.4,
+      "Longtitude":8,
+      "Entity":"Niger",
+      "Year":2018,
+      "Latitude":16
+   },
+   {
+      "Code":"NGA",
+      "Global Hunger Index":49.5,
+      "Longtitude":8,
+      "Entity":"Nigeria",
+      "Year":1992,
+      "Latitude":10
+   },
+   {
+      "Code":"NGA",
+      "Global Hunger Index":40.9,
+      "Longtitude":8,
+      "Entity":"Nigeria",
+      "Year":2000,
+      "Latitude":10
+   },
+   {
+      "Code":"NGA",
+      "Global Hunger Index":33.6,
+      "Longtitude":8,
+      "Entity":"Nigeria",
+      "Year":2008,
+      "Latitude":10
+   },
+   {
+      "Code":"NGA",
+      "Global Hunger Index":25.5,
+      "Longtitude":8,
+      "Entity":"Nigeria",
+      "Year":2016,
+      "Latitude":10
+   },
+   {
+      "Code":"NGA",
+      "Global Hunger Index":25.5,
+      "Longtitude":8,
+      "Entity":"Nigeria",
+      "Year":2017,
+      "Latitude":10
+   },
+   {
+      "Code":"NGA",
+      "Global Hunger Index":31.1,
+      "Longtitude":8,
+      "Entity":"Nigeria",
+      "Year":2018,
+      "Latitude":10
+   },
+   {
+      "Code":"PRK",
+      "Global Hunger Index":30.9,
+      "Longtitude":127,
+      "Entity":"North Korea",
+      "Year":1992,
+      "Latitude":40
+   },
+   {
+      "Code":"PRK",
+      "Global Hunger Index":40.4,
+      "Longtitude":127,
+      "Entity":"North Korea",
+      "Year":2000,
+      "Latitude":40
+   },
+   {
+      "Code":"PRK",
+      "Global Hunger Index":30.1,
+      "Longtitude":127,
+      "Entity":"North Korea",
+      "Year":2008,
+      "Latitude":40
+   },
+   {
+      "Code":"PRK",
+      "Global Hunger Index":28.6,
+      "Longtitude":127,
+      "Entity":"North Korea",
+      "Year":2016,
+      "Latitude":40
+   },
+   {
+      "Code":"PRK",
+      "Global Hunger Index":28.2,
+      "Longtitude":127,
+      "Entity":"North Korea",
+      "Year":2017,
+      "Latitude":40
+   },
+   {
+      "Code":"PRK",
+      "Global Hunger Index":34,
+      "Longtitude":127,
+      "Entity":"North Korea",
+      "Year":2018,
+      "Latitude":40
+   },
+   {
+      "Code":"OMN",
+      "Global Hunger Index":21.1,
+      "Longtitude":57,
+      "Entity":"Oman",
+      "Year":1992,
+      "Latitude":21
+   },
+   {
+      "Code":"OMN",
+      "Global Hunger Index":14.2,
+      "Longtitude":57,
+      "Entity":"Oman",
+      "Year":2000,
+      "Latitude":21
+   },
+   {
+      "Code":"OMN",
+      "Global Hunger Index":10.7,
+      "Longtitude":57,
+      "Entity":"Oman",
+      "Year":2008,
+      "Latitude":21
+   },
+   {
+      "Code":"OMN",
+      "Global Hunger Index":10.4,
+      "Longtitude":57,
+      "Entity":"Oman",
+      "Year":2016,
+      "Latitude":21
+   },
+   {
+      "Code":"OMN",
+      "Global Hunger Index":11.3,
+      "Longtitude":57,
+      "Entity":"Oman",
+      "Year":2017,
+      "Latitude":21
+   },
+   {
+      "Code":"OMN",
+      "Global Hunger Index":10.8,
+      "Longtitude":57,
+      "Entity":"Oman",
+      "Year":2018,
+      "Latitude":21
+   },
+   {
+      "Code":"PAK",
+      "Global Hunger Index":43.4,
+      "Longtitude":70,
+      "Entity":"Pakistan",
+      "Year":1992,
+      "Latitude":30
+   },
+   {
+      "Code":"PAK",
+      "Global Hunger Index":37.8,
+      "Longtitude":70,
+      "Entity":"Pakistan",
+      "Year":2000,
+      "Latitude":30
+   },
+   {
+      "Code":"PAK",
+      "Global Hunger Index":35.1,
+      "Longtitude":70,
+      "Entity":"Pakistan",
+      "Year":2008,
+      "Latitude":30
+   },
+   {
+      "Code":"PAK",
+      "Global Hunger Index":33.4,
+      "Longtitude":70,
+      "Entity":"Pakistan",
+      "Year":2016,
+      "Latitude":30
+   },
+   {
+      "Code":"PAK",
+      "Global Hunger Index":32.6,
+      "Longtitude":70,
+      "Entity":"Pakistan",
+      "Year":2017,
+      "Latitude":30
+   },
+   {
+      "Code":"PAK",
+      "Global Hunger Index":32.6,
+      "Longtitude":70,
+      "Entity":"Pakistan",
+      "Year":2018,
+      "Latitude":30
+   },
+   {
+      "Code":"PAN",
+      "Global Hunger Index":21.1,
+      "Longtitude":-80,
+      "Entity":"Panama",
+      "Year":1992,
+      "Latitude":9
+   },
+   {
+      "Code":"PAN",
+      "Global Hunger Index":19.9,
+      "Longtitude":-80,
+      "Entity":"Panama",
+      "Year":2000,
+      "Latitude":9
+   },
+   {
+      "Code":"PAN",
+      "Global Hunger Index":14.9,
+      "Longtitude":-80,
+      "Entity":"Panama",
+      "Year":2008,
+      "Latitude":9
+   },
+   {
+      "Code":"PAN",
+      "Global Hunger Index":9.3,
+      "Longtitude":-80,
+      "Entity":"Panama",
+      "Year":2016,
+      "Latitude":9
+   },
+   {
+      "Code":"PAN",
+      "Global Hunger Index":9.2,
+      "Longtitude":-80,
+      "Entity":"Panama",
+      "Year":2017,
+      "Latitude":9
+   },
+   {
+      "Code":"PAN",
+      "Global Hunger Index":9.1,
+      "Longtitude":-80,
+      "Entity":"Panama",
+      "Year":2018,
+      "Latitude":9
+   },
+   {
+      "Code":"PNG",
+      "Global Hunger Index":29.7,
+      "Longtitude":147,
+      "Entity":"Papua New Guinea",
+      "Year":2018,
+      "Latitude":-6
+   },
+   {
+      "Code":"PRY",
+      "Global Hunger Index":17.1,
+      "Longtitude":-57.996389,
+      "Entity":"Paraguay",
+      "Year":1992,
+      "Latitude":-22.993333
+   },
+   {
+      "Code":"PRY",
+      "Global Hunger Index":14.2,
+      "Longtitude":-57.996389,
+      "Entity":"Paraguay",
+      "Year":2000,
+      "Latitude":-22.993333
+   },
+   {
+      "Code":"PRY",
+      "Global Hunger Index":11.7,
+      "Longtitude":-57.996389,
+      "Entity":"Paraguay",
+      "Year":2008,
+      "Latitude":-22.993333
+   },
+   {
+      "Code":"PRY",
+      "Global Hunger Index":10.4,
+      "Longtitude":-57.996389,
+      "Entity":"Paraguay",
+      "Year":2016,
+      "Latitude":-22.993333
+   },
+   {
+      "Code":"PRY",
+      "Global Hunger Index":11,
+      "Longtitude":-57.996389,
+      "Entity":"Paraguay",
+      "Year":2017,
+      "Latitude":-22.993333
+   },
+   {
+      "Code":"PRY",
+      "Global Hunger Index":8.5,
+      "Longtitude":-57.996389,
+      "Entity":"Paraguay",
+      "Year":2018,
+      "Latitude":-22.993333
+   },
+   {
+      "Code":"PER",
+      "Global Hunger Index":28.4,
+      "Longtitude":-76,
+      "Entity":"Peru",
+      "Year":1992,
+      "Latitude":-10
+   },
+   {
+      "Code":"PER",
+      "Global Hunger Index":20.8,
+      "Longtitude":-76,
+      "Entity":"Peru",
+      "Year":2000,
+      "Latitude":-10
+   },
+   {
+      "Code":"PER",
+      "Global Hunger Index":15.8,
+      "Longtitude":-76,
+      "Entity":"Peru",
+      "Year":2008,
+      "Latitude":-10
+   },
+   {
+      "Code":"PER",
+      "Global Hunger Index":8.6,
+      "Longtitude":-76,
+      "Entity":"Peru",
+      "Year":2016,
+      "Latitude":-10
+   },
+   {
+      "Code":"PER",
+      "Global Hunger Index":8.7,
+      "Longtitude":-76,
+      "Entity":"Peru",
+      "Year":2017,
+      "Latitude":-10
+   },
+   {
+      "Code":"PER",
+      "Global Hunger Index":8.8,
+      "Longtitude":-76,
+      "Entity":"Peru",
+      "Year":2018,
+      "Latitude":-10
+   },
+   {
+      "Code":"PHL",
+      "Global Hunger Index":30.8,
+      "Longtitude":122,
+      "Entity":"Philippines",
+      "Year":1992,
+      "Latitude":13
+   },
+   {
+      "Code":"PHL",
+      "Global Hunger Index":26.2,
+      "Longtitude":122,
+      "Entity":"Philippines",
+      "Year":2000,
+      "Latitude":13
+   },
+   {
+      "Code":"PHL",
+      "Global Hunger Index":20.4,
+      "Longtitude":122,
+      "Entity":"Philippines",
+      "Year":2008,
+      "Latitude":13
+   },
+   {
+      "Code":"PHL",
+      "Global Hunger Index":19.9,
+      "Longtitude":122,
+      "Entity":"Philippines",
+      "Year":2016,
+      "Latitude":13
+   },
+   {
+      "Code":"PHL",
+      "Global Hunger Index":20,
+      "Longtitude":122,
+      "Entity":"Philippines",
+      "Year":2017,
+      "Latitude":13
+   },
+   {
+      "Code":"PHL",
+      "Global Hunger Index":20.2,
+      "Longtitude":122,
+      "Entity":"Philippines",
+      "Year":2018,
+      "Latitude":13
+   },
+   {
+      "Code":"ROU",
+      "Global Hunger Index":9,
+      "Longtitude":25,
+      "Entity":"Romania",
+      "Year":1992,
+      "Latitude":46
+   },
+   {
+      "Code":"ROU",
+      "Global Hunger Index":8.6,
+      "Longtitude":25,
+      "Entity":"Romania",
+      "Year":2000,
+      "Latitude":46
+   },
+   {
+      "Code":"ROU",
+      "Global Hunger Index":5.9,
+      "Longtitude":25,
+      "Entity":"Romania",
+      "Year":2008,
+      "Latitude":46
+   },
+   {
+      "Code":"ROU",
+      "Global Hunger Index":5.5,
+      "Longtitude":25,
+      "Entity":"Romania",
+      "Year":2016,
+      "Latitude":46
+   },
+   {
+      "Code":"ROU",
+      "Global Hunger Index":5.2,
+      "Longtitude":25,
+      "Entity":"Romania",
+      "Year":2017,
+      "Latitude":46
+   },
+   {
+      "Code":"RUS",
+      "Global Hunger Index":10.5,
+      "Longtitude":100,
+      "Entity":"Russia",
+      "Year":2000,
+      "Latitude":60
+   },
+   {
+      "Code":"RUS",
+      "Global Hunger Index":6.8,
+      "Longtitude":100,
+      "Entity":"Russia",
+      "Year":2008,
+      "Latitude":60
+   },
+   {
+      "Code":"RUS",
+      "Global Hunger Index":6.8,
+      "Longtitude":100,
+      "Entity":"Russia",
+      "Year":2016,
+      "Latitude":60
+   },
+   {
+      "Code":"RUS",
+      "Global Hunger Index":6.2,
+      "Longtitude":100,
+      "Entity":"Russia",
+      "Year":2017,
+      "Latitude":60
+   },
+   {
+      "Code":"RUS",
+      "Global Hunger Index":6.1,
+      "Longtitude":100,
+      "Entity":"Russia",
+      "Year":2018,
+      "Latitude":60
+   },
+   {
+      "Code":"RWA",
+      "Global Hunger Index":54.6,
+      "Longtitude":30,
+      "Entity":"Rwanda",
+      "Year":1992,
+      "Latitude":-2
+   },
+   {
+      "Code":"RWA",
+      "Global Hunger Index":58.7,
+      "Longtitude":30,
+      "Entity":"Rwanda",
+      "Year":2000,
+      "Latitude":-2
+   },
+   {
+      "Code":"RWA",
+      "Global Hunger Index":37.9,
+      "Longtitude":30,
+      "Entity":"Rwanda",
+      "Year":2008,
+      "Latitude":-2
+   },
+   {
+      "Code":"RWA",
+      "Global Hunger Index":27.4,
+      "Longtitude":30,
+      "Entity":"Rwanda",
+      "Year":2016,
+      "Latitude":-2
+   },
+   {
+      "Code":"RWA",
+      "Global Hunger Index":31.4,
+      "Longtitude":30,
+      "Entity":"Rwanda",
+      "Year":2017,
+      "Latitude":-2
+   },
+   {
+      "Code":"RWA",
+      "Global Hunger Index":28.7,
+      "Longtitude":30,
+      "Entity":"Rwanda",
+      "Year":2018,
+      "Latitude":-2
+   },
+   {
+      "Code":"SAU",
+      "Global Hunger Index":11.8,
+      "Longtitude":45,
+      "Entity":"Saudi Arabia",
+      "Year":1992,
+      "Latitude":25
+   },
+   {
+      "Code":"SAU",
+      "Global Hunger Index":10.4,
+      "Longtitude":45,
+      "Entity":"Saudi Arabia",
+      "Year":2000,
+      "Latitude":25
+   },
+   {
+      "Code":"SAU",
+      "Global Hunger Index":9.1,
+      "Longtitude":45,
+      "Entity":"Saudi Arabia",
+      "Year":2008,
+      "Latitude":25
+   },
+   {
+      "Code":"SAU",
+      "Global Hunger Index":5,
+      "Longtitude":45,
+      "Entity":"Saudi Arabia",
+      "Year":2016,
+      "Latitude":25
+   },
+   {
+      "Code":"SAU",
+      "Global Hunger Index":7.1,
+      "Longtitude":45,
+      "Entity":"Saudi Arabia",
+      "Year":2017,
+      "Latitude":25
+   },
+   {
+      "Code":"SAU",
+      "Global Hunger Index":8.5,
+      "Longtitude":45,
+      "Entity":"Saudi Arabia",
+      "Year":2018,
+      "Latitude":25
+   },
+   {
+      "Code":"SEN",
+      "Global Hunger Index":37.1,
+      "Longtitude":-14,
+      "Entity":"Senegal",
+      "Year":1992,
+      "Latitude":14
+   },
+   {
+      "Code":"SEN",
+      "Global Hunger Index":37.7,
+      "Longtitude":-14,
+      "Entity":"Senegal",
+      "Year":2000,
+      "Latitude":14
+   },
+   {
+      "Code":"SEN",
+      "Global Hunger Index":24.4,
+      "Longtitude":-14,
+      "Entity":"Senegal",
+      "Year":2008,
+      "Latitude":14
+   },
+   {
+      "Code":"SEN",
+      "Global Hunger Index":16.5,
+      "Longtitude":-14,
+      "Entity":"Senegal",
+      "Year":2016,
+      "Latitude":14
+   },
+   {
+      "Code":"SEN",
+      "Global Hunger Index":18.4,
+      "Longtitude":-14,
+      "Entity":"Senegal",
+      "Year":2017,
+      "Latitude":14
+   },
+   {
+      "Code":"SEN",
+      "Global Hunger Index":17.2,
+      "Longtitude":-14,
+      "Entity":"Senegal",
+      "Year":2018,
+      "Latitude":14
+   },
+   {
+      "Code":"SRB",
+      "Global Hunger Index":7.8,
+      "Longtitude":21,
+      "Entity":"Serbia",
+      "Year":2008,
+      "Latitude":44
+   },
+   {
+      "Code":"SRB",
+      "Global Hunger Index":7.1,
+      "Longtitude":21,
+      "Entity":"Serbia",
+      "Year":2016,
+      "Latitude":44
+   },
+   {
+      "Code":"SRB",
+      "Global Hunger Index":6.6,
+      "Longtitude":21,
+      "Entity":"Serbia",
+      "Year":2017,
+      "Latitude":44
+   },
+   {
+      "Code":"SRB",
+      "Global Hunger Index":6.5,
+      "Longtitude":21,
+      "Entity":"Serbia",
+      "Year":2018,
+      "Latitude":44
+   },
+   {
+      "Code":"SLE",
+      "Global Hunger Index":57.8,
+      "Longtitude":-11.5,
+      "Entity":"Sierra Leone",
+      "Year":1992,
+      "Latitude":8.5
+   },
+   {
+      "Code":"SLE",
+      "Global Hunger Index":53.9,
+      "Longtitude":-11.5,
+      "Entity":"Sierra Leone",
+      "Year":2000,
+      "Latitude":8.5
+   },
+   {
+      "Code":"SLE",
+      "Global Hunger Index":45.3,
+      "Longtitude":-11.5,
+      "Entity":"Sierra Leone",
+      "Year":2008,
+      "Latitude":8.5
+   },
+   {
+      "Code":"SLE",
+      "Global Hunger Index":35,
+      "Longtitude":-11.5,
+      "Entity":"Sierra Leone",
+      "Year":2016,
+      "Latitude":8.5
+   },
+   {
+      "Code":"SLE",
+      "Global Hunger Index":38.5,
+      "Longtitude":-11.5,
+      "Entity":"Sierra Leone",
+      "Year":2017,
+      "Latitude":8.5
+   },
+   {
+      "Code":"SLE",
+      "Global Hunger Index":35.7,
+      "Longtitude":-11.5,
+      "Entity":"Sierra Leone",
+      "Year":2018,
+      "Latitude":8.5
+   },
+   {
+      "Code":"SVK",
+      "Global Hunger Index":7.7,
+      "Longtitude":19.5,
+      "Entity":"Slovakia",
+      "Year":2000,
+      "Latitude":48.666667
+   },
+   {
+      "Code":"SVK",
+      "Global Hunger Index":6,
+      "Longtitude":19.5,
+      "Entity":"Slovakia",
+      "Year":2008,
+      "Latitude":48.666667
+   },
+   {
+      "Code":"SVK",
+      "Global Hunger Index":5.3,
+      "Longtitude":19.5,
+      "Entity":"Slovakia",
+      "Year":2016,
+      "Latitude":48.666667
+   },
+   {
+      "Code":"SVK",
+      "Global Hunger Index":5,
+      "Longtitude":19.5,
+      "Entity":"Slovakia",
+      "Year":2018,
+      "Latitude":48.666667
+   },
+   {
+      "Code":"ZAF",
+      "Global Hunger Index":18.5,
+      "Longtitude":26,
+      "Entity":"South Africa",
+      "Year":1992,
+      "Latitude":-30
+   },
+   {
+      "Code":"ZAF",
+      "Global Hunger Index":18.7,
+      "Longtitude":26,
+      "Entity":"South Africa",
+      "Year":2000,
+      "Latitude":-30
+   },
+   {
+      "Code":"ZAF",
+      "Global Hunger Index":16.3,
+      "Longtitude":26,
+      "Entity":"South Africa",
+      "Year":2008,
+      "Latitude":-30
+   },
+   {
+      "Code":"ZAF",
+      "Global Hunger Index":11.8,
+      "Longtitude":26,
+      "Entity":"South Africa",
+      "Year":2016,
+      "Latitude":-30
+   },
+   {
+      "Code":"ZAF",
+      "Global Hunger Index":13.2,
+      "Longtitude":26,
+      "Entity":"South Africa",
+      "Year":2017,
+      "Latitude":-30
+   },
+   {
+      "Code":"ZAF",
+      "Global Hunger Index":14.5,
+      "Longtitude":26,
+      "Entity":"South Africa",
+      "Year":2018,
+      "Latitude":-30
+   },
+   {
+      "Code":"LKA",
+      "Global Hunger Index":31.8,
+      "Longtitude":81,
+      "Entity":"Sri Lanka",
+      "Year":1992,
+      "Latitude":7
+   },
+   {
+      "Code":"LKA",
+      "Global Hunger Index":27,
+      "Longtitude":81,
+      "Entity":"Sri Lanka",
+      "Year":2000,
+      "Latitude":7
+   },
+   {
+      "Code":"LKA",
+      "Global Hunger Index":24.4,
+      "Longtitude":81,
+      "Entity":"Sri Lanka",
+      "Year":2008,
+      "Latitude":7
+   },
+   {
+      "Code":"LKA",
+      "Global Hunger Index":25.5,
+      "Longtitude":81,
+      "Entity":"Sri Lanka",
+      "Year":2016,
+      "Latitude":7
+   },
+   {
+      "Code":"LKA",
+      "Global Hunger Index":25.5,
+      "Longtitude":81,
+      "Entity":"Sri Lanka",
+      "Year":2017,
+      "Latitude":7
+   },
+   {
+      "Code":"LKA",
+      "Global Hunger Index":17.9,
+      "Longtitude":81,
+      "Entity":"Sri Lanka",
+      "Year":2018,
+      "Latitude":7
+   },
+   {
+      "Code":"SDN",
+      "Global Hunger Index":35.5,
+      "Longtitude":30,
+      "Entity":"Sudan",
+      "Year":2017,
+      "Latitude":16
+   },
+   {
+      "Code":"SDN",
+      "Global Hunger Index":34.8,
+      "Longtitude":30,
+      "Entity":"Sudan",
+      "Year":2018,
+      "Latitude":16
+   },
+   {
+      "Code":"SUR",
+      "Global Hunger Index":17.5,
+      "Longtitude":-56,
+      "Entity":"Suriname",
+      "Year":1992,
+      "Latitude":4
+   },
+   {
+      "Code":"SUR",
+      "Global Hunger Index":16.5,
+      "Longtitude":-56,
+      "Entity":"Suriname",
+      "Year":2000,
+      "Latitude":4
+   },
+   {
+      "Code":"SUR",
+      "Global Hunger Index":11.7,
+      "Longtitude":-56,
+      "Entity":"Suriname",
+      "Year":2008,
+      "Latitude":4
+   },
+   {
+      "Code":"SUR",
+      "Global Hunger Index":10.1,
+      "Longtitude":-56,
+      "Entity":"Suriname",
+      "Year":2016,
+      "Latitude":4
+   },
+   {
+      "Code":"SUR",
+      "Global Hunger Index":9.9,
+      "Longtitude":-56,
+      "Entity":"Suriname",
+      "Year":2017,
+      "Latitude":4
+   },
+   {
+      "Code":"SUR",
+      "Global Hunger Index":10.2,
+      "Longtitude":-56,
+      "Entity":"Suriname",
+      "Year":2018,
+      "Latitude":4
+   },
+   {
+      "Code":"SWZ",
+      "Global Hunger Index":24.8,
+      "Longtitude":31.5,
+      "Entity":"Swaziland",
+      "Year":1992,
+      "Latitude":-26.5
+   },
+   {
+      "Code":"SWZ",
+      "Global Hunger Index":30.9,
+      "Longtitude":31.5,
+      "Entity":"Swaziland",
+      "Year":2000,
+      "Latitude":-26.5
+   },
+   {
+      "Code":"SWZ",
+      "Global Hunger Index":30,
+      "Longtitude":31.5,
+      "Entity":"Swaziland",
+      "Year":2008,
+      "Latitude":-26.5
+   },
+   {
+      "Code":"SWZ",
+      "Global Hunger Index":24.2,
+      "Longtitude":31.5,
+      "Entity":"Swaziland",
+      "Year":2016,
+      "Latitude":-26.5
+   },
+   {
+      "Code":"SWZ",
+      "Global Hunger Index":21.2,
+      "Longtitude":31.5,
+      "Entity":"Swaziland",
+      "Year":2017,
+      "Latitude":-26.5
+   },
+   {
+      "Code":"SWZ",
+      "Global Hunger Index":22.5,
+      "Longtitude":31.5,
+      "Entity":"Swaziland",
+      "Year":2018,
+      "Latitude":-26.5
+   },
+   {
+      "Code":"TJK",
+      "Global Hunger Index":40.3,
+      "Longtitude":71,
+      "Entity":"Tajikistan",
+      "Year":2000,
+      "Latitude":39
+   },
+   {
+      "Code":"TJK",
+      "Global Hunger Index":32.4,
+      "Longtitude":71,
+      "Entity":"Tajikistan",
+      "Year":2008,
+      "Latitude":39
+   },
+   {
+      "Code":"TJK",
+      "Global Hunger Index":30,
+      "Longtitude":71,
+      "Entity":"Tajikistan",
+      "Year":2016,
+      "Latitude":39
+   },
+   {
+      "Code":"TJK",
+      "Global Hunger Index":28.7,
+      "Longtitude":71,
+      "Entity":"Tajikistan",
+      "Year":2017,
+      "Latitude":39
+   },
+   {
+      "Code":"TZA",
+      "Global Hunger Index":42.1,
+      "Longtitude":35,
+      "Entity":"Tanzania",
+      "Year":1992,
+      "Latitude":-6
+   },
+   {
+      "Code":"TZA",
+      "Global Hunger Index":42.4,
+      "Longtitude":35,
+      "Entity":"Tanzania",
+      "Year":2000,
+      "Latitude":-6
+   },
+   {
+      "Code":"TZA",
+      "Global Hunger Index":32.9,
+      "Longtitude":35,
+      "Entity":"Tanzania",
+      "Year":2008,
+      "Latitude":-6
+   },
+   {
+      "Code":"TZA",
+      "Global Hunger Index":28.4,
+      "Longtitude":35,
+      "Entity":"Tanzania",
+      "Year":2016,
+      "Latitude":-6
+   },
+   {
+      "Code":"TZA",
+      "Global Hunger Index":28.8,
+      "Longtitude":35,
+      "Entity":"Tanzania",
+      "Year":2017,
+      "Latitude":-6
+   },
+   {
+      "Code":"TZA",
+      "Global Hunger Index":29.5,
+      "Longtitude":35,
+      "Entity":"Tanzania",
+      "Year":2018,
+      "Latitude":-6
+   },
+   {
+      "Code":"THA",
+      "Global Hunger Index":26.1,
+      "Longtitude":100,
+      "Entity":"Thailand",
+      "Year":1992,
+      "Latitude":15
+   },
+   {
+      "Code":"THA",
+      "Global Hunger Index":18.3,
+      "Longtitude":100,
+      "Entity":"Thailand",
+      "Year":2000,
+      "Latitude":15
+   },
+   {
+      "Code":"THA",
+      "Global Hunger Index":11.9,
+      "Longtitude":100,
+      "Entity":"Thailand",
+      "Year":2008,
+      "Latitude":15
+   },
+   {
+      "Code":"THA",
+      "Global Hunger Index":11.8,
+      "Longtitude":100,
+      "Entity":"Thailand",
+      "Year":2016,
+      "Latitude":15
+   },
+   {
+      "Code":"THA",
+      "Global Hunger Index":10.6,
+      "Longtitude":100,
+      "Entity":"Thailand",
+      "Year":2017,
+      "Latitude":15
+   },
+   {
+      "Code":"THA",
+      "Global Hunger Index":10.4,
+      "Longtitude":100,
+      "Entity":"Thailand",
+      "Year":2018,
+      "Latitude":15
+   },
+   {
+      "Global Hunger Index":46.9,
+      "Year":2008,
+      "Code":"TLS",
+      "Entity":"Timor",
+      "Longtitude":125.7275,
+      "Latitude":-8.8742
+   },
+   {
+      "Global Hunger Index":34.3,
+      "Year":2016,
+      "Code":"TLS",
+      "Entity":"Timor",
+      "Longtitude":125.7275,
+      "Latitude":-8.8742
+   },
+   {
+      "Global Hunger Index":34.3,
+      "Year":2017,
+      "Code":"TLS",
+      "Entity":"Timor",
+      "Longtitude":125.7275,
+      "Latitude":-8.8742
+   },
+   {
+      "Global Hunger Index":34.2,
+      "Year":2018,
+      "Code":"TLS",
+      "Entity":"Timor",
+      "Longtitude":125.7275,
+      "Latitude":-8.8742
+   },
+   {
+      "Code":"TGO",
+      "Global Hunger Index":45.2,
+      "Longtitude":1.166667,
+      "Entity":"Togo",
+      "Year":1992,
+      "Latitude":8
+   },
+   {
+      "Code":"TGO",
+      "Global Hunger Index":38.5,
+      "Longtitude":1.166667,
+      "Entity":"Togo",
+      "Year":2000,
+      "Latitude":8
+   },
+   {
+      "Code":"TGO",
+      "Global Hunger Index":28.2,
+      "Longtitude":1.166667,
+      "Entity":"Togo",
+      "Year":2008,
+      "Latitude":8
+   },
+   {
+      "Code":"TGO",
+      "Global Hunger Index":22.4,
+      "Longtitude":1.166667,
+      "Entity":"Togo",
+      "Year":2016,
+      "Latitude":8
+   },
+   {
+      "Code":"TGO",
+      "Global Hunger Index":22.5,
+      "Longtitude":1.166667,
+      "Entity":"Togo",
+      "Year":2017,
+      "Latitude":8
+   },
+   {
+      "Code":"TGO",
+      "Global Hunger Index":24.3,
+      "Longtitude":1.166667,
+      "Entity":"Togo",
+      "Year":2018,
+      "Latitude":8
+   },
+   {
+      "Code":"TTO",
+      "Global Hunger Index":13.9,
+      "Longtitude":-61,
+      "Entity":"Trinidad and Tobago",
+      "Year":1992,
+      "Latitude":11
+   },
+   {
+      "Code":"TTO",
+      "Global Hunger Index":12.3,
+      "Longtitude":-61,
+      "Entity":"Trinidad and Tobago",
+      "Year":2000,
+      "Latitude":11
+   },
+   {
+      "Code":"TTO",
+      "Global Hunger Index":10.5,
+      "Longtitude":-61,
+      "Entity":"Trinidad and Tobago",
+      "Year":2008,
+      "Latitude":11
+   },
+   {
+      "Code":"TTO",
+      "Global Hunger Index":8.5,
+      "Longtitude":-61,
+      "Entity":"Trinidad and Tobago",
+      "Year":2016,
+      "Latitude":11
+   },
+   {
+      "Code":"TTO",
+      "Global Hunger Index":6.9,
+      "Longtitude":-61,
+      "Entity":"Trinidad and Tobago",
+      "Year":2017,
+      "Latitude":11
+   },
+   {
+      "Code":"TTO",
+      "Global Hunger Index":8,
+      "Longtitude":-61,
+      "Entity":"Trinidad and Tobago",
+      "Year":2018,
+      "Latitude":11
+   },
+   {
+      "Code":"TUN",
+      "Global Hunger Index":13.6,
+      "Longtitude":9,
+      "Entity":"Tunisia",
+      "Year":1992,
+      "Latitude":34
+   },
+   {
+      "Code":"TUN",
+      "Global Hunger Index":9,
+      "Longtitude":9,
+      "Entity":"Tunisia",
+      "Year":2000,
+      "Latitude":34
+   },
+   {
+      "Code":"TUN",
+      "Global Hunger Index":6.2,
+      "Longtitude":9,
+      "Entity":"Tunisia",
+      "Year":2008,
+      "Latitude":34
+   },
+   {
+      "Code":"TUN",
+      "Global Hunger Index":5.5,
+      "Longtitude":9,
+      "Entity":"Tunisia",
+      "Year":2016,
+      "Latitude":34
+   },
+   {
+      "Code":"TUN",
+      "Global Hunger Index":7.4,
+      "Longtitude":9,
+      "Entity":"Tunisia",
+      "Year":2017,
+      "Latitude":34
+   },
+   {
+      "Code":"TUN",
+      "Global Hunger Index":7.9,
+      "Longtitude":9,
+      "Entity":"Tunisia",
+      "Year":2018,
+      "Latitude":34
+   },
+   {
+      "Code":"TUR",
+      "Global Hunger Index":14.3,
+      "Longtitude":34.911546,
+      "Entity":"Turkey",
+      "Year":1992,
+      "Latitude":39.059012
+   },
+   {
+      "Code":"TUR",
+      "Global Hunger Index":10.4,
+      "Longtitude":34.911546,
+      "Entity":"Turkey",
+      "Year":2000,
+      "Latitude":39.059012
+   },
+   {
+      "Code":"TUR",
+      "Global Hunger Index":5.6,
+      "Longtitude":34.911546,
+      "Entity":"Turkey",
+      "Year":2008,
+      "Latitude":39.059012
+   },
+   {
+      "Code":"TUR",
+      "Global Hunger Index":5,
+      "Longtitude":34.911546,
+      "Entity":"Turkey",
+      "Year":2016,
+      "Latitude":39.059012
+   },
+   {
+      "Code":"TKM",
+      "Global Hunger Index":22.2,
+      "Longtitude":60,
+      "Entity":"Turkmenistan",
+      "Year":2000,
+      "Latitude":40
+   },
+   {
+      "Code":"TKM",
+      "Global Hunger Index":16.6,
+      "Longtitude":60,
+      "Entity":"Turkmenistan",
+      "Year":2008,
+      "Latitude":40
+   },
+   {
+      "Code":"TKM",
+      "Global Hunger Index":12.3,
+      "Longtitude":60,
+      "Entity":"Turkmenistan",
+      "Year":2016,
+      "Latitude":40
+   },
+   {
+      "Code":"TKM",
+      "Global Hunger Index":12.2,
+      "Longtitude":60,
+      "Entity":"Turkmenistan",
+      "Year":2017,
+      "Latitude":40
+   },
+   {
+      "Code":"TKM",
+      "Global Hunger Index":12.2,
+      "Longtitude":60,
+      "Entity":"Turkmenistan",
+      "Year":2018,
+      "Latitude":40
+   },
+   {
+      "Code":"UGA",
+      "Global Hunger Index":41.3,
+      "Longtitude":33,
+      "Entity":"Uganda",
+      "Year":1992,
+      "Latitude":2
+   },
+   {
+      "Code":"UGA",
+      "Global Hunger Index":39.4,
+      "Longtitude":33,
+      "Entity":"Uganda",
+      "Year":2000,
+      "Latitude":2
+   },
+   {
+      "Code":"UGA",
+      "Global Hunger Index":31.2,
+      "Longtitude":33,
+      "Entity":"Uganda",
+      "Year":2008,
+      "Latitude":2
+   },
+   {
+      "Code":"UGA",
+      "Global Hunger Index":26.4,
+      "Longtitude":33,
+      "Entity":"Uganda",
+      "Year":2016,
+      "Latitude":2
+   },
+   {
+      "Code":"UGA",
+      "Global Hunger Index":32,
+      "Longtitude":33,
+      "Entity":"Uganda",
+      "Year":2017,
+      "Latitude":2
+   },
+   {
+      "Code":"UGA",
+      "Global Hunger Index":31.2,
+      "Longtitude":33,
+      "Entity":"Uganda",
+      "Year":2018,
+      "Latitude":2
+   },
+   {
+      "Code":"UKR",
+      "Global Hunger Index":13.5,
+      "Longtitude":32,
+      "Entity":"Ukraine",
+      "Year":2000,
+      "Latitude":49
+   },
+   {
+      "Code":"UKR",
+      "Global Hunger Index":5,
+      "Longtitude":32,
+      "Entity":"Ukraine",
+      "Year":2008,
+      "Latitude":49
+   },
+   {
+      "Code":"UKR",
+      "Global Hunger Index":5,
+      "Longtitude":32,
+      "Entity":"Ukraine",
+      "Year":2016,
+      "Latitude":49
+   },
+   {
+      "Code":"URY",
+      "Global Hunger Index":10,
+      "Longtitude":-56,
+      "Entity":"Uruguay",
+      "Year":1992,
+      "Latitude":-33
+   },
+   {
+      "Code":"URY",
+      "Global Hunger Index":7.6,
+      "Longtitude":-56,
+      "Entity":"Uruguay",
+      "Year":2000,
+      "Latitude":-33
+   },
+   {
+      "Code":"URY",
+      "Global Hunger Index":6.7,
+      "Longtitude":-56,
+      "Entity":"Uruguay",
+      "Year":2008,
+      "Latitude":-33
+   },
+   {
+      "Code":"URY",
+      "Global Hunger Index":5.6,
+      "Longtitude":-56,
+      "Entity":"Uruguay",
+      "Year":2016,
+      "Latitude":-33
+   },
+   {
+      "Code":"UZB",
+      "Global Hunger Index":21.8,
+      "Longtitude":63.84911,
+      "Entity":"Uzbekistan",
+      "Year":2000,
+      "Latitude":41.707542
+   },
+   {
+      "Code":"UZB",
+      "Global Hunger Index":15.8,
+      "Longtitude":63.84911,
+      "Entity":"Uzbekistan",
+      "Year":2008,
+      "Latitude":41.707542
+   },
+   {
+      "Code":"UZB",
+      "Global Hunger Index":13.1,
+      "Longtitude":63.84911,
+      "Entity":"Uzbekistan",
+      "Year":2016,
+      "Latitude":41.707542
+   },
+   {
+      "Code":"UZB",
+      "Global Hunger Index":13.1,
+      "Longtitude":63.84911,
+      "Entity":"Uzbekistan",
+      "Year":2017,
+      "Latitude":41.707542
+   },
+   {
+      "Code":"UZB",
+      "Global Hunger Index":12.1,
+      "Longtitude":63.84911,
+      "Entity":"Uzbekistan",
+      "Year":2018,
+      "Latitude":41.707542
+   },
+   {
+      "Code":"VEN",
+      "Global Hunger Index":14.9,
+      "Longtitude":-66,
+      "Entity":"Venezuela",
+      "Year":1992,
+      "Latitude":8
+   },
+   {
+      "Code":"VEN",
+      "Global Hunger Index":15.3,
+      "Longtitude":-66,
+      "Entity":"Venezuela",
+      "Year":2000,
+      "Latitude":8
+   },
+   {
+      "Code":"VEN",
+      "Global Hunger Index":8.7,
+      "Longtitude":-66,
+      "Entity":"Venezuela",
+      "Year":2008,
+      "Latitude":8
+   },
+   {
+      "Code":"VEN",
+      "Global Hunger Index":7,
+      "Longtitude":-66,
+      "Entity":"Venezuela",
+      "Year":2016,
+      "Latitude":8
+   },
+   {
+      "Code":"VEN",
+      "Global Hunger Index":13,
+      "Longtitude":-66,
+      "Entity":"Venezuela",
+      "Year":2017,
+      "Latitude":8
+   },
+   {
+      "Code":"VEN",
+      "Global Hunger Index":11.4,
+      "Longtitude":-66,
+      "Entity":"Venezuela",
+      "Year":2018,
+      "Latitude":8
+   },
+   {
+      "Code":"VNM",
+      "Global Hunger Index":41.5,
+      "Longtitude":107.833333,
+      "Entity":"Vietnam",
+      "Year":1992,
+      "Latitude":16.166667
+   },
+   {
+      "Code":"VNM",
+      "Global Hunger Index":30.2,
+      "Longtitude":107.833333,
+      "Entity":"Vietnam",
+      "Year":2000,
+      "Latitude":16.166667
+   },
+   {
+      "Code":"VNM",
+      "Global Hunger Index":22.1,
+      "Longtitude":107.833333,
+      "Entity":"Vietnam",
+      "Year":2008,
+      "Latitude":16.166667
+   },
+   {
+      "Code":"VNM",
+      "Global Hunger Index":14.5,
+      "Longtitude":107.833333,
+      "Entity":"Vietnam",
+      "Year":2016,
+      "Latitude":16.166667
+   },
+   {
+      "Code":"VNM",
+      "Global Hunger Index":16,
+      "Longtitude":107.833333,
+      "Entity":"Vietnam",
+      "Year":2017,
+      "Latitude":16.166667
+   },
+   {
+      "Code":"VNM",
+      "Global Hunger Index":16,
+      "Longtitude":107.833333,
+      "Entity":"Vietnam",
+      "Year":2018,
+      "Latitude":16.166667
+   },
+   {
+      "Code":"YEM",
+      "Global Hunger Index":43.8,
+      "Longtitude":47.5,
+      "Entity":"Yemen",
+      "Year":1992,
+      "Latitude":15.5
+   },
+   {
+      "Code":"YEM",
+      "Global Hunger Index":43.2,
+      "Longtitude":47.5,
+      "Entity":"Yemen",
+      "Year":2000,
+      "Latitude":15.5
+   },
+   {
+      "Code":"YEM",
+      "Global Hunger Index":36.5,
+      "Longtitude":47.5,
+      "Entity":"Yemen",
+      "Year":2008,
+      "Latitude":15.5
+   },
+   {
+      "Code":"YEM",
+      "Global Hunger Index":35,
+      "Longtitude":47.5,
+      "Entity":"Yemen",
+      "Year":2016,
+      "Latitude":15.5
+   },
+   {
+      "Code":"YEM",
+      "Global Hunger Index":36.1,
+      "Longtitude":47.5,
+      "Entity":"Yemen",
+      "Year":2017,
+      "Latitude":15.5
+   },
+   {
+      "Code":"YEM",
+      "Global Hunger Index":39.7,
+      "Longtitude":47.5,
+      "Entity":"Yemen",
+      "Year":2018,
+      "Latitude":15.5
+   },
+   {
+      "Code":"ZMB",
+      "Global Hunger Index":47.1,
+      "Longtitude":30,
+      "Entity":"Zambia",
+      "Year":1992,
+      "Latitude":-15
+   },
+   {
+      "Code":"ZMB",
+      "Global Hunger Index":50.4,
+      "Longtitude":30,
+      "Entity":"Zambia",
+      "Year":2000,
+      "Latitude":-15
+   },
+   {
+      "Code":"ZMB",
+      "Global Hunger Index":45.2,
+      "Longtitude":30,
+      "Entity":"Zambia",
+      "Year":2008,
+      "Latitude":-15
+   },
+   {
+      "Code":"ZMB",
+      "Global Hunger Index":39,
+      "Longtitude":30,
+      "Entity":"Zambia",
+      "Year":2016,
+      "Latitude":-15
+   },
+   {
+      "Code":"ZMB",
+      "Global Hunger Index":38.2,
+      "Longtitude":30,
+      "Entity":"Zambia",
+      "Year":2017,
+      "Latitude":-15
+   },
+   {
+      "Code":"ZMB",
+      "Global Hunger Index":37.6,
+      "Longtitude":30,
+      "Entity":"Zambia",
+      "Year":2018,
+      "Latitude":-15
+   },
+   {
+      "Code":"ZWE",
+      "Global Hunger Index":36.1,
+      "Longtitude":29,
+      "Entity":"Zimbabwe",
+      "Year":1992,
+      "Latitude":-19
+   },
+   {
+      "Code":"ZWE",
+      "Global Hunger Index":41,
+      "Longtitude":29,
+      "Entity":"Zimbabwe",
+      "Year":2000,
+      "Latitude":-19
+   },
+   {
+      "Code":"ZWE",
+      "Global Hunger Index":35.1,
+      "Longtitude":29,
+      "Entity":"Zimbabwe",
+      "Year":2008,
+      "Latitude":-19
+   },
+   {
+      "Code":"ZWE",
+      "Global Hunger Index":28.8,
+      "Longtitude":29,
+      "Entity":"Zimbabwe",
+      "Year":2016,
+      "Latitude":-19
+   },
+   {
+      "Code":"ZWE",
+      "Global Hunger Index":33.8,
+      "Longtitude":29,
+      "Entity":"Zimbabwe",
+      "Year":2017,
+      "Latitude":-19
+   },
+   {
+      "Code":"ZWE",
+      "Global Hunger Index":32.9,
+      "Longtitude":29,
+      "Entity":"Zimbabwe",
+      "Year":2018,
+      "Latitude":-19
+   }
+]

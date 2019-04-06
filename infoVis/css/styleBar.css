@@ -1,0 +1,79 @@
+.main{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.legend{
+    /*text-align:center;*/
+}
+
+/*p{
+    font-size:11px;
+    margin-bottom: 2px;
+}*/
+
+.bar{
+    fill: #590219;
+}
+
+.bar-disappear{
+    display: none
+}
+
+.line-disappear{
+    display: none
+}
+
+button{
+   width:110px;
+   height: 21px;
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   outline: none;
+   border-radius:3px
+}
+.legendButtons{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.gdpBtn{
+    background-color: #590219;
+    cursor: default;
+}
+
+ .undernourishmentBtn{
+    background-color: #BF4158;
+ }
+
+.stuntingBtn{
+    background-color: #95AB5B;
+ }
+
+.wastingBtn{
+    background-color: #FFC321;
+ }
+
+ .mortalityBtn{
+    background-color: #6DBFF2;
+ }
+
+.clicked-btn{
+    background-color: #B8E986;
+}
+
+.legend{
+    display:flex;
+    justify-content: space-around;
+}
+.barchart-text-container{
+  margin-bottom: 120px;
+}
+.explore-barchart-text-container{
+  margin-top: 100px;
+}

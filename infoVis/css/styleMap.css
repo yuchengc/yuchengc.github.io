@@ -1,0 +1,30 @@
+.svgMap{
+	width: 1200px;
+
+}
+.globalMap{
+	position: relative;
+	display: table;
+	margin-top: 50px;
+	/*top:-20px;*/
+}
+.test{
+	position:absolute;
+	top: 200px;
+	left:300px;
+}
+#mapTooltip {
+      z-index: 10;
+      /* position: relative; */
+      text-align: left;
+      padding: 12px;
+      background-color: white;
+      border: 1px solid var(--colorWhite);
+      width: auto;
+      opacity: 0;
+      color: var(--colorWhite);
+      position: absolute;
+      border-radius: 10px;
+      font-weight: lighter;
+      font-size: 12px;
+}
