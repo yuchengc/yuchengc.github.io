@@ -565,3 +565,22 @@ em{
     width: 100%;
     height: auto;
 }
+.visitSite{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #CCB279;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    line-height: 50px;
+    text-align: center;
+
+    /*border:solid 1px grey;*/
+    margin-bottom: 50px;
+
+}
+.visitSite:hover{
+    background: white;
+    color:#522737;
+    background: rgba(204,178,121,0.5);
+}
