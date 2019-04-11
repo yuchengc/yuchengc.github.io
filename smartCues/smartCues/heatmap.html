@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <style>
+      rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px;
+      }
+
+      text.mono {
+        font-size: 9pt;
+        font-family: Consolas, courier;
+        fill: #aaa;
+      }
+
+      text.axis-workweek {
+        fill: #000;
+      }
+
+      text.axis-worktime {
+        fill: #000;
+      }
+    </style>
+    <script src="http://d3js.org/d3.v4.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
+    <div id="dataset-picker">
+    </div>
+    <script type="text/javascript">
+    let data=[{"day":1 ,"hour":1 ,"value":16},
+            {"day":1 ,"hour":2 ,"value":88},
+            {"day":1 ,"hour":3 ,"value":40},
+            {"day":1 ,"hour":4 ,"value":22},
+            {"day":1 ,"hour":5 ,"value":0},
+            {"day":1 ,"hour":6 ,"value":2},
+            {"day":1 ,"hour":7 ,"value":10},
+            {"day":1 ,"hour":8 ,"value":59},
+            {"day":1 ,"hour":9 ,"value":25},
+            {"day":1 ,"hour":10  ,"value":49},
+            {"day":1 ,"hour":11  ,"value":57},
+            {"day":1 ,"hour":12  ,"value":61},
+            {"day":2 ,"hour":1 ,"value":6},
+            {"day":2 ,"hour":2 ,"value":22},
+            {"day":2 ,"hour":3 ,"value":10},
+            {"day":2 ,"hour":4 ,"value":17},
+            {"day":2 ,"hour":5 ,"value":5},
+            {"day":2 ,"hour":6 ,"value":2},
+            {"day":2 ,"hour":7 ,"value":4},
+            {"day":2 ,"hour":8 ,"value":11},
+            {"day":2 ,"hour":9 ,"value":28},
+            {"day":2 ,"hour":10  ,"value":39},
+            {"day":2 ,"hour":11  ,"value":21},
+            {"day":2 ,"hour":12  ,"value":47},
+            {"day":3 ,"hour":1 ,"value":5},
+            {"day":3 ,"hour":2 ,"value":8},
+            {"day":3 ,"hour":3 ,"value":8},
+            {"day":3 ,"hour":4 ,"value":0},
+            {"day":3 ,"hour":5 ,"value":0},
+            {"day":3 ,"hour":6 ,"value":2},
+            {"day":3 ,"hour":7 ,"value":5},
+            {"day":3 ,"hour":8 ,"value":12},
+            {"day":3 ,"hour":9 ,"value":34},
+            {"day":3 ,"hour":10  ,"value":43},
+            {"day":3 ,"hour":11  ,"value":64},
+            {"day":3 ,"hour":12  ,"value":44},
+            {"day":4 ,"hour":1 ,"value":13},
+            {"day":4 ,"hour":2 ,"value":54},
+            {"day":4 ,"hour":3 ,"value":33},
+            {"day":4 ,"hour":4 ,"value":5},
+            {"day":4 ,"hour":5 ,"value":8},
+            {"day":4 ,"hour":6 ,"value":62},
+            {"day":4 ,"hour":7 ,"value":42},
+            {"day":4 ,"hour":8 ,"value":13},
+            {"day":4 ,"hour":9 ,"value":26},
+            {"day":4 ,"hour":10  ,"value":58},
+            {"day":4 ,"hour":11  ,"value":81},
+            {"day":4 ,"hour":12  ,"value":59},
+            {"day":5 ,"hour":1 ,"value":12},
+            {"day":5 ,"hour":2 ,"value":0},
+            {"day":5 ,"hour":3 ,"value":8},
+            {"day":5 ,"hour":4 ,"value":2},
+            {"day":5 ,"hour":5 ,"value":10},
+            {"day":5 ,"hour":6 ,"value":32},
+            {"day":5 ,"hour":7 ,"value":4},
+            {"day":5 ,"hour":8 ,"value":14},
+            {"day":5 ,"hour":9 ,"value":31},
+            {"day":5 ,"hour":10  ,"value":48},
+            {"day":5 ,"hour":11  ,"value":46},
+            {"day":5 ,"hour":12  ,"value":50},
+            {"day":6 ,"hour":1 ,"value":2},
+            {"day":6 ,"hour":2 ,"value":42},
+            {"day":6 ,"hour":3 ,"value":2},
+            {"day":6 ,"hour":4 ,"value":70},
+            {"day":6 ,"hour":5 ,"value":0},
+            {"day":6 ,"hour":6 ,"value":25},
+            {"day":6 ,"hour":7 ,"value":4},
+            {"day":6 ,"hour":8 ,"value":8},
+            {"day":6 ,"hour":9 ,"value":8},
+            {"day":6 ,"hour":10  ,"value":6},
+            {"day":6 ,"hour":11  ,"value":14},
+            {"day":6 ,"hour":12  ,"value":12},
+            {"day":7 ,"hour":1 ,"value":4},
+            {"day":7 ,"hour":2 ,"value":6},
+            {"day":7 ,"hour":3 ,"value":0},
+            {"day":7 ,"hour":4 ,"value":19},
+            {"day":7 ,"hour":5 ,"value":20},
+            {"day":7 ,"hour":6 ,"value":55},
+            {"day":7 ,"hour":7 ,"value":0},
+            {"day":7 ,"hour":8 ,"value":3},
+            {"day":7 ,"hour":9 ,"value":49},
+            {"day":7 ,"hour":10 ,"value":0},
+            {"day":7 ,"hour":11  ,"value":2},
+            {"day":7 ,"hour":12  ,"value":2},]
+    </script>
+    <script type="text/javascript">
+      const margin = { top: 50, right: 0, bottom: 100, left: 30 },
+          width = 960 - margin.left - margin.right,
+          height = 700 - margin.top - margin.bottom,
+          gridSize = Math.floor(width / 12),
+          legendElementWidth = gridSize*1,
+          buckets = 9,
+          colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
+          days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]
+          dayconvert = {"1":"Mo", "2":"Tu", "3":"We", "4":"Th", "5":"Fr", "6":"Sa", "7":"Su"}
+          times = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+          // times = ["1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p", "12p"];
+          // datasets = ["data.tsv", "data2.tsv"];
+      let x = d3.scaleBand()
+                .domain(times)
+                .range([0, gridSize*times.length])
+                .padding(0);
+      let y = d3.scaleBand()
+                .domain(days)
+                .range([0, gridSize*days.length])
+                .padding(0);
+      const svg = d3.select("#chart").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      // add the x Axis
+      const dayLabels = svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform","translate("+0+"," + -25 + ")")
+          .call(d3.axisBottom(x));
+
+          dayLabels.selectAll("line").style("opacity","0")
+          dayLabels.selectAll("path").style("opacity","0")
+            // .attr("class", "x axis")
+            // .selectAll(".dayLabel")
+            // .data(days)
+            // .enter().append("text")
+            // .text(function (d) { return d; })
+            // .attr("x", 0)
+            // .attr("y", (d, i) => i * gridSize)
+            // .style("text-anchor", "end")
+            // .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+            // .attr("class", (d, i) => ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"));
+            // add the y Axis
+        const timeLabels = svg.append("g")
+                .attr("class", "y axis")
+                .attr("transform", "translate(-6," + 0 + ")")
+                .call(d3.axisLeft(y));
+
+                timeLabels.selectAll("line").style("opacity","0")
+                timeLabels.selectAll("path").style("opacity","0")
+      // const timeLabels = svg.append("g")
+      //       .attr("class", "y axis")
+      //       .selectAll(".timeLabel")
+      //       .data(times)
+      //       .enter().append("text")
+      //       .text((d) => d)
+      //       .attr("x", (d, i) => i * gridSize)
+      //       .attr("y", 0)
+      //       .style("text-anchor", "middle")
+      //       .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+      //       .attr("class", (d, i) => ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"));
+
+      const type = (d) => {
+        return {
+          day: +d.day,
+          hour: +d.hour,
+          value: +d.value
+        };
+      };
+
+      const heatmapChart = function(data) {
+        // d3.tsv(tsvFile, type, (error, data) => {
+          const colorScale = d3.scaleQuantile()
+            .domain([0, buckets - 1, d3.max(data, (d) => d.value)])
+            .range(colors);
+
+          const cards = svg.selectAll(".hour")
+              .data(data, (d) => d.day+':'+d.hour);
+
+          cards.append("title");
+
+          cards.enter().append("rect")
+              .attr("x", (d) => (d.hour - 1) * gridSize)
+              .attr("y", (d) => (d.day - 1) * gridSize)
+              .attr("rx", 4)
+              .attr("ry", 4)
+              .attr("class", "hour bordered")
+              .attr("width", gridSize)
+              .attr("height", gridSize)
+              .style("fill", colors[0])
+            .merge(cards)
+              .transition()
+              .duration(1000)
+              .style("fill", (d) => colorScale(d.value));
+
+          cards.select("title").text((d) => d.value);
+
+          cards.exit().remove();
+
+          const legend = svg.selectAll(".legend")
+              .data([0].concat(colorScale.quantiles()), (d) => d);
+
+          const legend_g = legend.enter().append("g")
+              .attr("class", "legend");
+
+          legend_g.append("rect")
+            .attr("x", (d, i) => legendElementWidth * i)
+            .attr("y", height+gridSize)
+            .attr("width", legendElementWidth)
+            .attr("height", gridSize / 2)
+            .style("fill", (d, i) => colors[i]);
+
+          legend_g.append("text")
+            .attr("class", "mono")
+            .text((d) => "≥ " + Math.round(d))
+            .attr("x", (d, i) => legendElementWidth * i)
+            .attr("y", height + gridSize);
+
+          legend.exit().remove();
+        // });
+      };
+
+      heatmapChart(data);
+      var log = [];
+      // DIFF ANNOTATION ONLY
+      var barAnnotator = d3.annotator.touches('heatmap')
+          .attr("label", "hour")
+          .attr("value", "value")
+          .attr("autoClear", false)
+          .attr("log", log);
+                            // LIST OF ANNOTATIONS SEPARATED BY SINGLE SPACE
+      barAnnotator.settings('Diff', { style: { 'unit': 'degree', "rounding": 2 } });
+      barAnnotator.settings('Value', {measure:"Value Rank", style: { 'unit': ''} });
+
+
+      //barAnnotator.settings('Diff', {style: {'unit':'%', 'fill':'orange', 'highlight':'orange','stroke':'orange', 'stroke-width':'3'} });
+
+
+      // Mixed Initiative
+      //barAnnotator.settings('Diff', { measure: "PercentDiff", style: {} });
+
+      svg.call(barAnnotator);
+    </script>
+  </body>
+</html>

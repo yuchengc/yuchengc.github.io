@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Bar Chart</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		data=[
+		{"seats":42,"results":0},
+		{"seats":43,"results":0},
+		{"seats":44,"results":0.09},
+		{"seats":45,"results":0.23},
+		{"seats":46,"results":0.54},
+		{"seats":47,"results":1.43},
+		{"seats":48,"results":3.72},
+		{"seats":49,"results":7.78},
+		{"seats":50,"results":10.62},
+		{"seats":51,"results":8.79},
+		{"seats":52,"results":21.34},
+		{"seats":53,"results":22.42},
+		{"seats":54,"results":15.67},
+		{"seats":55,"results":7.12},
+		{"seats":56,"results":0.89},
+		{"seats":57,"results":0.14},
+		{"seats":58,"results":0.05},
+		{"seats":59,"results":0}]
+	</script>
+	<h3>2014 Senate Forecast</h3>
+	<div id="graph" class="chart-frame"></div>
+	<!-- <svg width="960" height="560" font-family="sans-serif" font-size="10" text-anchor="middle"></svg> -->
+	
+	<!-- <script type="text/javascript" src="js/draw.js"></script> -->
+	<script type="text/javascript">
+		// var data = []; // the variable that holds the data from csv file
+		var log = [];
+		var margin = { top: 20, right: 20, bottom: 30, left: 60 },
+		    width = 600 - margin.left - margin.right,
+		    height = 600 - margin.top - margin.bottom;
+
+		var x = d3.scaleBand().range([0, width])
+		var y = d3.scaleLinear().range([height, 0]);
+		$(document).ready(function () {
+			SetInfrustrature()
+			drawBarChart();
+			initialTouch();
+			// loadData();
+		});
+
+		// const loadData=()=> {
+		// 	var i = 0;
+		// 	d3.csv("data/data.csv", function(d) {         
+		// 		data = d;   
+		// 		data.forEach(function (item) {
+		// 			item.seats = parseInt(item.seats);
+		// 			item.results = parseFloat(item.results); 
+		// 		});
+		// 		SetInfrustrature()
+		// 		drawBarChart();
+		// 		console.log(data);
+		// 	}); 
+		// }
+
+		const SetInfrustrature= ()=>{
+			console.log("SetInfrustrature")
+		    x.domain(data.map(d=>d.seats))
+		    .padding(0.1);
+		    y.domain([0,  d3.max(data, d=>d.results)+1]);
+		}
+		var svg = d3.select("#graph").append("svg")
+		        .attr("width", width + margin.left + margin.right)
+		        .attr("height", height + margin.top + margin.bottom )
+		        .append("g")
+			    .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+		const drawBarChart=()=>{
+			
+			
+			const make_x_gridlines=()=>{
+		    	// console.log("x-grid bottom", d3.axisBottom(x))
+		    	return d3.axisBottom(x).ticks(data.lenght)
+		    }
+		    const make_y_gridlines=()=>{		
+			    return d3.axisLeft(y).ticks(parseInt(d3.max(data, d=>d.results)+1))
+			}
+
+		    y.domain([0,  d3.max(data, d=>d.results)+1]);
+			console.log("enter drawing")
+
+			// add the X gridlines    
+		    svg.append("g")			
+		        .attr("class", "grid-x")
+		        .attr("transform", "translate("+x.bandwidth()/2+","+ height +")")
+		        .call(make_x_gridlines()
+		            .tickSize(-height)
+		            .tickFormat("")
+		        )
+		    // add the X Axis
+		  	svg.append("g")
+			  	.attr("class", "x axis")
+		        .attr("transform", "translate(0," + height + ")")
+		        .call(d3.axisBottom(x))
+		        .selectAll("line")
+		        .attr("opacity","0");
+
+
+		    // add the Y gridlines
+		    svg.append("g")			
+		        .attr("class", "grid-y")
+		        .attr("transform", "translate("+x.bandwidth()/2+", 0)")
+		        .call(make_y_gridlines()
+		            .tickSize(-width)
+		            .tickFormat("")
+		    	) 
+
+			// add the Y Axis
+		    svg.append("g")
+		    .attr("class", "y axis")
+		    .attr("transform", "translate("+x.bandwidth()/2+", 0)")
+		        .call(d3.axisLeft(y));   
+
+
+			svg.append("defs")
+				.append("pattern")
+				.attr("id","innerPattern")
+				.attr("x","0")
+				.attr("y","0")
+				.attr("width","6")
+				.attr("height","6")
+				.attr("patternUnits","userSpaceOnUse")
+			var pattern = svg.selectAll("pattern");
+
+			pattern.append("rect")
+				.attr("x","0")
+				.attr("y","0")
+				.attr("width","3")
+				.attr("height","3")
+				.attr("stroke", "none")
+				.attr("fill", "#222")
+			pattern.append("rect")
+				.attr("x","3")
+				.attr("y","0")
+				.attr("width","3")
+				.attr("height","3")
+				.attr("stroke", "none")
+				.attr("fill", "#fff")
+			pattern.append("rect")
+				.attr("x","0")
+				.attr("y","3")
+				.attr("width","3")
+				.attr("height","3")
+				.attr("stroke", "none")
+				.attr("fill", "#fff")
+
+			pattern.append("rect")
+				.attr("x","3")
+				.attr("y","3")
+				.attr("width","3")
+				.attr("height","3")
+				.attr("stroke", "none")
+				.attr("fill", "#222")
+
+			// svg.append("g")
+			// 	.attr("class","bargroup")
+			// var bargroup = svg.selectAll(".bargroup")
+			var bar= svg.selectAll(".bar")
+		        .data(data)
+		        .enter()
+			    .append("rect")
+		        .attr("class", "bar")
+		        // .attr("fill","blue")
+		        .attr("x", d=>x(d.seats))
+		        .attr("y", d=>y(d.results))
+		        .attr("width", x.bandwidth()-3)
+		        .attr("height", (d)=>{
+		            return height-y(d.results)})
+		        .attr("fill",  "url(#innerPattern)")
+		        .attr("stroke","#111")
+		        .attr("stroke-width","1")
+		        .on("mousemove", function(d){
+		        	d3.select(this).attr("fill","#111")
+		        })
+		        .on("mouseout", function (d){
+		        	d3.select(this).attr("fill","url(#innerPattern)")
+		        })
+
+
+		}
+		const initialTouch = ()=>{
+			var barAnnotator = d3.annotator.touches('bar')
+            .attr("label", "seats")
+            .attr("value", "results")
+            .attr("autoClear", false)
+            .attr("log", log);
+	                              // LIST OF ANNOTATIONS SEPARATED BY SINGLE SPACE
+	        barAnnotator.settings('Diff', { style: { 'unit': 'degree', "rounding": 2 } });
+	        barAnnotator.settings('Value', {measure:"Value Rank", style: { 'unit': '%'} });
+
+
+	        //barAnnotator.settings('Diff', {style: {'unit':'%', 'fill':'orange', 'highlight':'orange','stroke':'orange', 'stroke-width':'3'} });
+
+
+	        // Mixed Initiative
+	        //barAnnotator.settings('Diff', { measure: "PercentDiff", style: {} });
+
+	        svg.call(barAnnotator);
+		}
+ 		
+	</script>
+</body>
+</html>

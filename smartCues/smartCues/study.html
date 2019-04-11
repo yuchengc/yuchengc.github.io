@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SmartCues</title>
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .axis {
+            font: 12px sans-serif;
+            fill: black;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-size: 14px;
+        }
+
+        .hqtext{
+            color:deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="graph">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/regression.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+    <script type="text/javascript" src="js/study.js"></script>
+    <div class="container" style="overflow: hidden">
+        <div class="row" id="Title">
+            <h2>SmartCues - Annotations for effective graph comprehension</h2>
+        </div>
+        <div class="row" id="Question">
+           <h5 style="font-weight:400;color:deepskyblue">Welcome! Thank you for taking part in this study.<br/>SmartCues is a multi-touch visualization system that helps your read graphs more accurately.</h5>
+           
+            <p style="font-weight:600">When you are ready, enter the ID given to you in the below field and press next to continue.</p><br/><input style='color:black;' type='text' placeholder="Enter id here..." id='pid'><br />
+        </div>
+        <div class="row" id="Vis">
+
+        </div>
+        <div class="row" id="Action">
+            <div class="two columns offset-by-thirteen">
+                <input class="button-primary" onclick="btnNextClick()" type="button" value="NEXT" style="float: right;">
+            </div>
+        </div>
+        
+
+
+        
+    </div>
+</body>
+</html>

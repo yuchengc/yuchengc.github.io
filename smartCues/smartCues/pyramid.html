@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bar Annotations</title>
+    <style>
+        .axis {
+            font: 12px sans-serif;
+            fill:black;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+         .axis text {
+                font-size: 14px;
+            }
+        .bar-up{
+          fill: #00cc99;
+        }
+        .bar-down{
+          fill: #999999;
+        }
+        .dot{
+          fill:#FF6600;
+          stroke:  black;
+          stroke-width: 2;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h3>Pyramid Chart Interaction</h3>
+    <div id="graph">
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+    <script>
+      var data=[{"time":"5:00","valueTop":0.5,"valueDown":-0.3},
+                {"time":"6:00","valueTop":0.6,"valueDown":-0.9},
+                {"time":"7:00","valueTop":1.1,"valueDown":-1.8},
+                {"time":"8:00","valueTop":2,"valueDown":-2.3},
+                {"time":"9:00","valueTop":2.3,"valueDown":-2.7},
+                {"time":"10:00","valueTop":1.7,"valueDown":-2.2},
+                {"time":"11:00","valueTop":1.6,"valueDown":-2.1},
+                {"time":"12:00","valueTop":1.6,"valueDown":-2.2},
+                {"time":"13:00","valueTop":1.4,"valueDown":-2},
+                {"time":"14:00","valueTop":1.5,"valueDown":-2.1},
+                {"time":"15:00","valueTop":1.6,"valueDown":-1.95},
+                {"time":"16:00","valueTop":1.8,"valueDown":-1.1},
+                {"time":"17:00","valueTop":2.2,"valueDown":-1.8},
+                {"time":"18:00","valueTop":3.1,"valueDown":-2.7},
+                {"time":"19:00","valueTop":3.2,"valueDown":-3.3},
+                {"time":"20:00","valueTop":3,"valueDown":-3.2},
+                {"time":"21:00","valueTop":3.05,"valueDown":-2.7},
+                {"time":"22:00","valueTop":3.1,"valueDown":-2.75},
+                {"time":"23:00","valueTop":2.95,"valueDown":-2.6},
+                {"time":"0:00","valueTop":1.6,"valueDown":-1.4},
+                {"time":"1:00","valueTop":0.8,"valueDown":-0.85},
+                {"time":"2:00","valueTop":0.5,"valueDown":-0.55},
+                {"time":"3:00","valueTop":0.2,"valueDown":-0.3},
+                {"time":"4:00","valueTop":0.3,"valueDown":-0.2},]
+
+        var log = [];
+
+        var margin = {top: 150, right: 60, bottom: 50, left: 50},
+            width = 1200 - margin.left - margin.right,
+            height = 700 - margin.top - margin.bottom;
+
+        // set the ranges
+        var x = d3.scaleBand()
+                  // .domain(['5:00','6:00','7:00','8:00','9:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00','24:00','1:00','2:00','3:00','4:00'])
+                  .range([0, width])
+                  .padding(0);
+        var y = d3.scaleLinear()
+                  .range([height, 0]);
+
+        // append the svg object to the body of the page
+        // append a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg = d3.select("#graph").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform",
+                  "translate(" + margin.left + "," + margin.top + ")");
+
+        // // get the data
+        // d3.csv("./valueTopStudy.csv", function(error, data) {
+        //   if (error) throw error;
+
+        //   // format the data
+        //   data.forEach(function(d) {
+        //     d.valueTop = +d.valueTop;
+        //     d.valueDown = +d.valueDown;
+        //     console.log(d.valueTop);
+        //     console.log(d.valueDown);
+        //   });
+
+
+        // });
+        console.log(data)
+        var dataLenght=data.length;
+        // Scale the range of the data in the domains
+        x.domain(data.map(function(d) { return d.time; }));
+        y.domain([d3.min(data, function(d){ return d.valueDown}), d3.max(data, function(d) { return d.valueTop; })]);
+        console.log(" x.bandwidth()", x.bandwidth())
+        // console.log(d.valueDown)
+        //append the rectangles for the bar chart
+        svg.selectAll(".bar-up")
+            .data(data)
+          .enter().append("rect")
+            .attr("class", "bar-up bar")
+            .attr("x", function(d,i) { return x.bandwidth()*i+2; })
+            .attr("width", x.bandwidth()-2)
+            .attr("y", function(d) { return y(d.valueTop); })
+            .attr("height", function(d) { return height - y(d.valueTop) - height/2; });
+
+        svg.selectAll(".bar-down")
+              .data(data)
+            .enter().append("rect")
+              .attr("class", "bar-down bar")
+              .attr("x", function(d,i) { return x.bandwidth()*i+2; })
+              .attr("width", x.bandwidth()-2)
+              .attr("y", function(d) { return height/2; })
+              .attr("height", function(d) { return Math.abs(height - y(d.valueDown) - height/2); });
+
+        // svg.selectAll(".dot")
+        //       .data(data)
+        //     .enter().append("circle")
+        //       .attr("class", "dot")
+        //       .attr("r", 8)
+        //       .attr("cy", function(d,i) { return y(d.valueTop+d.valueDown) })
+        //       .attr("cx", function(d,i) { return x.bandwidth()/data.length*i+13;});
+
+
+          // add the x Axis
+          svg.append("g")
+              .attr("class", "x axis")
+              .attr("transform", "translate(0," + height/2 + ")")
+              .call(d3.axisBottom(x));
+
+          // add the y Axis
+          svg.append("g")
+              .attr("class", "y axis")
+              .call(d3.axisLeft(y));
+
+
+        // DIFF ANNOTATION ONLYv
+        var pyramidAnnotator = d3.annotator.touches('pyramid')
+            .attr("label", "time")
+            .attr("valueUp", "valueTop")
+            .attr("valueDown", "valueDown")
+            .attr("autoClear", false)
+            .attr("log", log);
+                              // LIST OF ANNOTATIONS SEPARATED BY SINGLE SPACE
+        pyramidAnnotator.settings('Diff', { style: { 'unit': '%', "rounding": 2 } });
+        pyramidAnnotator.settings('Value', {measure:"Value", style: { 'unit': ''} });
+        pyramidAnnotator.settings('Mean', {measure:"BothMean Mean", style: { 'unit': ''} });
+
+
+        svg.call(pyramidAnnotator);
+
+
+    </script>
+
+</body>
+</html>

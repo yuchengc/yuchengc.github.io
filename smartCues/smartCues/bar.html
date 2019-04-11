@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bar Annotations</title>
+    <style>
+        .axis {
+            font: 12px sans-serif;
+            fill:black;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+         .axis text {
+                font-size: 14px;
+            }
+    </style>
+</head>
+<body>
+    <div id="graph">
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+    <script>
+        var data = [{ "Year": 2005, "Value": 24 },
+                    { "Year": 2006, "Value": 27 },
+                    { "Year": 2007, "Value": 35 },
+                    { "Year": 2008, "Value": 42 },
+                    { "Year": 2009, "Value": 19 },
+                    { "Year": 2010, "Value": 43 },
+                    { "Year": 2011, "Value": 54 },
+                    { "Year": 2012, "Value": 70 },
+                    { "Year": 2013, "Value": 21 },
+                    { "Year": 2014, "Value": 51 },
+                    { "Year": 2015, "Value": 46 }];
+
+           data = [{ "Month": "April", "Value": 1 },
+                   { "Month": "May", "Value": 1.05 },
+                   { "Month": "June", "Value": 1.1 },
+                   { "Month": "July", "Value": 0.95 },
+                   { "Month": "August", "Value": 1.08 },
+                   { "Month": "September", "Value": 1.1 },
+                   { "Month": "October", "Value": 1.25 },
+                   { "Month": "November", "Value": 1.25 },
+                   { "Month": "December", "Value": 1.35 },
+                   { "Month": "January", "Value": 1.4 },
+                   { "Month": "February", "Value": 1.55 },
+                   { "Month": "March", "Value": 1.5 }];
+
+        var log = [];
+
+        var margin = { top: 100, right: 20, bottom: 100, left: 100 },
+            width = 1200 - margin.left - margin.right,
+            height = 800 - margin.top - margin.bottom;        
+        var x = d3.scaleBand().padding(0.2)
+           .domain(data.map(function (d) { return d.Month; }))
+           .rangeRound([0, width - 20], .1);
+        var y = d3.scaleLinear()
+            .domain([0, d3.max(data, function (d) { return d.Value; })+0.2])
+            .range([height, 0]);
+
+        var xAxis = d3.axisBottom(x);
+
+        var yAxis = d3.axisLeft(y).ticks(20);
+
+        var svg = d3.select("#graph").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.append("g")
+           .attr("class", "x axis")
+           .attr("transform", "translate(0," + height + ")")
+           .call(xAxis)
+           .selectAll("text")
+           .style("text-anchor", "end")
+           .attr("dx", "-.8em")
+           .attr("dy", "-.55em")
+           .attr("transform", "rotate(-45)");
+
+        svg.append("g")
+           .attr("class", "y axis")
+           .call(yAxis)
+           .append("text")
+           .attr("transform", "rotate(-90)")
+           .attr("y", 6)
+           .attr("dy", ".71em")
+           .style("text-anchor", "end")
+           .text("Profit (%)");
+
+        svg.selectAll(".bar")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("class", "bar")
+            .attr("x", function (d) { return x(d.Month); })
+            .attr("width", x.bandwidth())
+            .attr("y", function (d) { return y(d.Value); })
+            .attr("height", function (d) { return height - y(d.Value); })
+            .style("fill", "steelblue");
+        
+        //var barAnnotator = d3.annotator('bar')
+        //                     .rootElement(function () { return document.getElementById('graph'); })
+        //                     .attr('interaction','touches');
+
+        //svg.call(barAnnotator);
+        //barAnnotator.on('touches.2BarTouch').annotate('Diff', {});
+        //barAnnotator.on('touches.YAxis').annotate('Threshold', {});
+        //barAnnotator.on('touches.SlideDiagonalUp').annotate('Rank', {});
+        //barAnnotator.on('touches.SlideDiagonalDown').annotate('Rank', {});
+
+        //var barAnnotator = d3.annotator.touches('bar')
+        //                               //.rootElement(function () { return document.getElementById('graph'); }) // OPTIONAL IF ONLY SINGLE ELEMENT
+        //                               .attr("label", "Year")
+        //                               .attr("value","Value")
+        //                               .annotateFor('Diff'); // ignore if all, else annotations separated by single space
+
+        //barAnnotator.settings('Diff', { measure: "PercentDiff", style: {} });
+
+        // BASIC IMPLEMENTATION - ALL BAR ANNOTATIONS BY DEFAULT
+        //var barAnnotator = d3.annotator.touches('bar')
+        //                     .attr("label", "Year")
+        //                     .attr("value", "Value");
+
+
+        // DIFF ANNOTATION ONLY
+        var barAnnotator = d3.annotator.touches('bar')
+            .attr("label", "Month")
+            .attr("value", "Value")
+            .attr("autoClear", false)
+            .attr("log", log);
+                              // LIST OF ANNOTATIONS SEPARATED BY SINGLE SPACE
+        barAnnotator.settings('Diff', { style: { 'unit': 'degree', "rounding": 2 } });
+        barAnnotator.settings('Value', {measure:"Value Rank", style: { 'unit': '%'} });
+
+
+        //barAnnotator.settings('Diff', {style: {'unit':'%', 'fill':'orange', 'highlight':'orange','stroke':'orange', 'stroke-width':'3'} });
+
+
+        // Mixed Initiative
+        //barAnnotator.settings('Diff', { measure: "PercentDiff", style: {} });
+
+        svg.call(barAnnotator);
+
+
+    </script>
+
+</body>
+</html>

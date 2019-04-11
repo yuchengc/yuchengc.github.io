@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>Scatter Annotations</title>
+    <style>
+        .axis {
+            font: 12px sans-serif;
+            fill: black;
+        }
+
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: #000;
+                shape-rendering: crispEdges;
+            }
+
+            .axis text {
+                font-size: 16px;
+            }
+    </style>
+</head>
+<body>
+<div id="graph">
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="js/hammer.min.js"></script>
+<script type="text/javascript" src="js/regression.js"></script>
+<script type="text/javascript" src="js/d3.annotator.js"></script>
+<script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+<script>
+    var data = null;
+    var log = [];
+    var dataconfig = [
+        { "csv": "data/emotion.csv", "xBind": "Time", "yBind": "Excitation" },
+        { "csv": "data/2011.csv", "xBind": "Sales", "yBind": "Profit" },
+        { "csv": "data/Chirp.csv", "xBind": "Temperature", "yBind": "Chirps" }
+    ];
+    var c = dataconfig[1];
+
+    $(document)
+        .ready(function () {
+            d3.csv(c.csv,
+                function (d) {
+                    data = d;
+                    data.forEach(function (item) {
+                        item.x = +item[c.xBind];
+                        item.y = +item[c.yBind];
+                    });
+                    drawGraph();
+                });
+        });
+
+    function drawGraph() {
+        var margin = { top: 200, right: 20, bottom: 100, left: 100 },
+            width = 1200 - margin.left - margin.right,
+            height = 800 - margin.top - margin.bottom;
+        var x = d3.scaleLinear()
+            .domain([0, d3.max(data, function (d) { return d.x; })]).nice()
+            .range([0, width]);
+        var y = d3.scaleLinear()
+            .domain([0, d3.max(data, function(d) { return d.y; })]).nice()
+            .range([height, 0]);
+
+        var xAxis = d3.axisBottom(x);
+
+        var yAxis = d3.axisLeft(y);
+
+        var svg = d3.select("#graph")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis)
+            .append("text")
+            .attr("class", "label")
+            .attr("x", width)
+            .attr("y", -6)
+            .style("text-anchor", "end")
+            .text(c.xBind);
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text(c.yBind);
+
+        svg.selectAll(".dot")
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("class", "dot")
+            .attr("r", 5)           
+            .attr("cx", function(d) { return x(d.x); })
+            .attr("cy", function(d) { return y(d.y); })
+            .style("fill", "steelblue")
+            .style("stroke", "black")
+            .style("stroke-thickness", "0.5");
+
+
+        var scatterAnnotator = d3.annotator.touches('scatter')
+            .attr("value", c.yBind)
+            .attr("label", c.xBind)
+            .attr("log", log);
+
+        //var scatterAnnotator = d3.annotator.touches('scatter')
+        //   .attr("value", "Profit")
+        //   .attr("label", "Sales")
+        //   .attr("autoClear", true).annotateFor("Dist");
+
+
+        //var scatterAnnotator = d3.annotator.touches('scatter')
+        //   .attr("value", "Chirps")
+        //   .attr("label", "Temperature")
+        //   .attr("autoClear", true).annotateFor("Dist");
+
+        svg.call(scatterAnnotator);
+    }
+
+
+</script>
+</body>
+</html>

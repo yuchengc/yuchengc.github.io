@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+	<div id="graph">
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.js"></script>
+    <script type="text/javascript" src="js/d3.annotator.touches.js"></script>
+<!--     <script type="text/javascript" src="../src/annotator_source.js"></script>
+    <script type="text/javascript" src="../src/annotator_touchessource.js"></script>
+    <script type="text/javascript" src="../src/bubble/_bubble.js"></script>
+    <script type="text/javascript" src="../src/bubble/_bubble_touches.js"></script> -->
+    <script type="text/javascript">
+    	let CHART_WIDTH = 900;
+		let CHART_HEIGHT = 600;
+		var margin = { top: 50, right: 40, bottom: 70, left: 60 },
+			width = CHART_WIDTH - margin.left - margin.right,
+		    height = CHART_HEIGHT - margin.top - margin.bottom;
+
+    	var data=[
+			{"country":"Turkey","code":"TR","population":79814871,"level":5.2,y:55},
+			{"country":"France","code":"FR","population":67210000,"level":7.5,y:72},
+			{"country":"United Kingdom","code":"UK","population":64100000,"level":11,y:57},
+			{"country":"Italy","code":"IT","population":60782668,"level":9,y:60},
+			{"country":"Spain","code":"ES","population":46704314,"level":8.6,y:43},
+			{"country":"Poland","code":"PL","population":38483957,"level":10.6,y:47.5},
+			{"country":"Romania","code":"RO","population":19942642,"level":6.3,y:43},
+			{"country":"Netherlands","code":"NL","population":6856620,"level":13.8,y:60},
+			{"country":"Belgium","code":"BE","population":11198638,"level":13,y:55},
+			{"country":"Greece","code":"GR","population":10816286,"level":11.7,y:50},
+			{"country":"Czech Republic","code":"CZ","population":10513209,"level":14.2,y:47},
+			{"country":"Portugal","code":"PT","population":10427301,"level":7.7,y:55},
+			{"country":"Sweden","code":"SE","population":10004962,"level":7.1,y:38},
+			{"country":"Hungary","code":"HU","population":9877365,"level":7.3,y:47},
+			{"country":"Austria","code":"AT","population":8504850,"level":10.2,y:40},
+			{"country":"Switzerland","code":"CH","population":8183800,"level":6.8,y:65},
+			{"country":"Bulgaria","code":"BG","population":7364570,"level":9.4,y:68},
+			{"country":"Denmark","code":"DK","population":5655750,"level":12.7,y:60},
+			{"country":"Finland","code":"FI","population":5470820,"level":13.9,y:54},
+			{"country":"Slovakia","code":"SK","population":5415949,"level":8.7,y:71},
+			{"country":"Norway","code":"NO","population":5136700,"level":11,y:66},
+			{"country":"Ireland","code":"IE","population":4609600,"level":15.7,y:70},
+			{"country":"Croatia","code":"HR","population":4284889,"level":6.9,y:53},
+			{"country":"Lithuania","code":"LT","population":2944459,"level":7.1,y:60},
+			{"country":"Slovenia","code":"SI","population":2061085,"level":10.6,y:70},
+			{"country":"Latvia","code":"LV","population":1990300,"level":5.3,y:48},
+			{"country":"Estonia" ,"code":"EE","population":1315819,"level":14.9,y:50},
+			{"country":"Cyprus","code":"CY","population":1117000,"level":13.2,y:65},
+			// {country:"Luxembourg","code":"LU",population:549680,level:26,y:70},
+			{"country":"Iceland","code":"IS","population":325671,"level":15.7,y:70}]
+
+		var log = [];
+		// const visualizeBubbleChart = () =>{
+			// console.log("draw")
+			// var chartdiv = d3.select("#graph").append("div").attr("id" ,  "holder").attr("class",  "chartholder");
+		var svg= d3.select("#graph").append("svg")
+			.attr("class",  "bubblesets") 
+			.attr("width", CHART_WIDTH)
+			.attr("height", CHART_HEIGHT)
+			.append("g")
+			.attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+		var defs = svg.append("defs");
+		var linearGradient = defs.append("linearGradient")
+		.attr("id", "linear-gradient");
+
+		var coloursYGB = ["#FFFFDD","#AAF191","#80D385","#61B385","#3E9583","#217681","#285285","#1F2D86","#000086"];
+		var colourRangeYGB = d3.range(0, 1, 1.0 / (coloursYGB.length - 1));
+		colourRangeYGB.push(1);
+				   
+		//Create color gradient
+		var colorScaleYGB = d3.scaleLinear()
+			.domain(colourRangeYGB)
+			.range(coloursYGB)
+			.interpolate(d3.interpolateHcl);
+
+		//Needed to map the values of the dataset to the color scale
+		var colorInterpolateYGB = d3.scaleLinear()
+			.domain(d3.extent(data.map(item =>{
+				// console.log(item.level)
+				return item.level
+			})))
+			.range([0,1]);
+		var colorScale = d3.scaleSequential(d3.interpolateRdYlGn)
+
+		
+
+		var xScale = d3.scaleLinear().domain([d3.min(data,d=>d.level)-1, d3.max(data,d=>d.level)+1]).range([0, width]);
+		var yScale = d3.scaleLinear().domain([d3.min(data,d=>d.y), d3.max(data,d=>d.y)]).range([0, height]);
+		var radiusScale= d3.scaleLog().base(10).domain([d3.min(data,d=>d.population), d3.max(data,d=>d.population)]).range([0, 50])
+
+		const make_x_gridlines=()=>{
+	    	// console.log("x-grid bottom", d3.axisBottom(xScale))
+	    	return d3.axisBottom(xScale).ticks(14)
+	    }
+
+		
+	  	// add the X gridlines    
+	    svg.append("g")			
+	        .attr("class", "grid-x")
+	        .attr("transform", "translate(0,"+ (height+50) +")")
+	        .call(make_x_gridlines()
+	            .tickSize(-(height+100))
+	            .tickFormat("")
+	        )
+	        .selectAll("line")
+	        .attr("stroke","#ccc")
+	        .attr("stroke-dasharray","3")
+
+	    svg.selectAll(".grid-x")
+		    .selectAll("path")
+	        .attr("opacity","0")
+
+        // add the X axis    
+		svg.append("g")
+			.attr("class", "x axis")
+	        .attr("transform", "translate(0," + (height+50) + ")")
+	        .call(d3.axisBottom(xScale))
+	        .selectAll("path")
+
+		var u=d3.select('svg g')
+			.selectAll("circle")
+			.data(data);
+		
+		u.enter()
+			.append("circle")
+			.attr("class", function(d){return "bubble bubble"+d.code})
+			.attr("r", function(d) { 
+				return parseInt(radiusScale(d.population)) })
+			.style("fill", 
+				function(d){ 
+				return colorScaleYGB(colorInterpolateYGB(d.level))
+				}
+			)
+			.merge(u)
+			.attr('cx', d=>xScale(d.level))
+		    .attr('cy', d=> yScale(d.y));
+
+		u.exit().remove();
+		
+
+
+		 // DIFF ANNOTATION ONLY
+        var bubbleAnnotator = d3.annotator.touches('bubble')
+            .attr("label", "code")
+            .attr("value", "level")
+            .attr("autoClear", false)
+            .attr("log", log);
+            // .attr("autoClear", false).attr("log", log);
+                              // LIST OF ANNOTATIONS SEPARATED BY SINGLE SPACE
+        bubbleAnnotator.settings('Diff', { style: { 'unit': 'degree', "rounding": 2 } });
+        bubbleAnnotator.settings('Value', {measure:"Value Rank", style: { 'unit': '%'} });
+
+    </script>
+    
+</body>
+</html>
