@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CA Congressional Data</title>
+	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js'></script>
+</head>
+<body>
+	<div class="leftPanel">
+		<h3>California</h3>
+		<div id="caMembers"></div>
+	</div>
+	<dir class="rightPanel">
+		<div class="personalData">
+			<h3 class="title-vote">Voting pattern</h3>
+			<div id="votesPattern" class="widget vote-widget">
+				
+				<div id="pieChart"></div>
+				<div id="voteDetail">
+					<div id="voteLine">
+						<div>Selected Votes</div>
+					</div>
+					<div id="voteDetailPanel">
+						<div id="voteDescription">
+						</div>
+						<div id="voteTotal">
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3 class="title-statement">Congressional Statements</h3>
+			<div id="statements" class="widget statement-widget">
+				
+				<div id="statementsList"></div>
+			</div>
+			<h3 class="title-travel">Travel expenses</h3>
+			<div id="travelExpense" class="widget travel-widget">
+				
+				<div id="travelExpenseSvg"></div>
+			</div>
+		</div>
+		
+	</dir>
+	<script src="cache/caMembers.js"></script>
+	<script src="cache/H001048vote.js"></script>
+	<script src="cache/travel.js"></script>
+	<script src="cache/statement.js"></script>
+	<script type="text/javascript" src="js/drawVoteList.js"></script>
+	<script type="text/javascript" src="js/drawVoteTimeline.js"></script>
+	<script type="text/javascript" src="js/drawPieChart.js"></script>
+	<script type="text/javascript" src="js/drawGroupedBarChart.js"></script>
+	<script type="text/javascript" src="js/drawStatement.js"></script>
+	<script type="text/javascript" src="js/render.js"></script>
+	<script type="text/javascript" src="js/loadData.js"></script>
+</body>
+</html>

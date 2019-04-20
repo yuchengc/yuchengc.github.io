@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background: #f9f9f9;
+	height:100vh;
+	overflow: hidden;
+	position: relative;
+}
+h3{
+	margin-left: 20px;
+	margin-top: 20px;
+	/*width: 100%;*/
+	color:#996699;
+
+}
+.leftPanel{
+	width:20vw;
+	height:100vh;
+	overflow: auto;
+	position: absolute;
+	left:0;
+	top: 0;
+}
+.rightPanel{
+	width:80vw;
+	height:100vh;
+	overflow: auto;
+	position: absolute;
+	left:20vw;
+	top: 0;
+}
+.member-card{
+	overflow: auto;
+	width: calc(100% - 60px);
+	height: 50px;
+	background: white;
+	box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	margin: 10px 20px;
+	/*text-align: center;*/
+	line-height: 50px;
+	padding: 10px;
+}
+.member-card span i{
+	font-size: 2rem;
+	color:#006699;
+	position: relative;
+	top: 0.23rem;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.party-d{
+	color:#0099CC !important;
+}
+.party-r{
+	color:#FF3300 !important;
+}
+.member-card:hover{
+	background:rgba(102,102,153,0.2);
+}
+.member-card-selected{
+	background:rgba(102,102,153,0.4);
+	/*color: white;*/
+}
+.member-card:focus{
+	background:#BEF7FF;
+}
+.personalData{
+	margin-top:0px;
+}
+.widget{
+	width: calc(100% - 40px);
+	height:200px;
+	box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.2);
+	box-sizing: border-box;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	background: white;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
+.vote-widget{
+	height: 370px;
+	margin-top: 10px;
+}
+#pieChart{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+#voteLine{
+	position: absolute;
+	top: 40px;
+	left: 340px;
+}
+.voteListTitle{
+	position: absolute;
+	top: 30px;
+	left: 340px;
+	/*width: 100%;*/
+	width:calc(100% - 280px);
+}
+.voteListTitle span{
+	font-size: 0.8rem;
+	color:#5691A2;
+	margin-left: 10px;
+	display: inline-flex;
+
+}
+.label-description{
+	width: 60%;
+	position: relative;
+	left:0;
+	display: inline-flex;
+
+}
+.label-result{
+	/*margin-left: 8%;*/
+	width: 20%;
+	position: relative;
+	/*left:;*/
+}
+.label-date{
+	width: 12%;
+	position: relative;
+	left:-50px;
+}
+#voteList{
+	position: absolute;
+	top: 150px;
+	left: 340px;
+	overflow: auto;
+	height: 180px;
+}
+#voteDetailPanel{
+	position: absolute;
+	top: 130px;
+	left: 340px;
+	overflow: auto;
+	width:calc(100% - 380px);
+	height: 200px;
+	background: #f5f5f5 ;
+	display: block;
+}
+.vote-list{
+	overflow: auto;
+	height: auto;
+	background: #f8f8f8;
+	margin-bottom: 10px;
+	/*box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.2);*/
+	width:calc(100% - 40px);
+	align-items:flex-start;
+	justify-content:space-between;
+	padding: 10px;
+
+}
+.vote-description{
+	width: 60%;
+	display: inline-flex;
+	font-size: 0.8rem;
+	color:#4A4A4A;
+	/*padding:0px 10px;*/
+	/*align-items:flex-start;*/
+}
+.vote-result{
+	margin-left: 10%;
+	width: 18%;
+	display: inline-flex;
+	font-size: 0.8rem;
+	color:#4A4A4A;
+	/*align-items:flex-start;*/
+}
+.vote-date{
+	width: 11%;
+	display: inline-flex;
+	font-size: 0.8rem;
+	color:#4A4A4A;
+	/*align-items:flex-start;*/
+}
+.statement-widget{
+	width: calc(40% - 30px);
+	display: inline-block;
+	height: 340px;
+	overflow: hidden;
+	position: absolute;
+	top:470px;
+}
+#statementsList{
+	overflow: auto;
+	width:calc(100% - 40px);
+	margin-left: 20px;
+	margin-top: 20px;
+	height:270px;
+}
+.travel-widget{
+	width: calc(60% - 30px);
+	display: inline-block;
+	height: 340px;
+	overflow: auto;
+	position: absolute;
+	top:470px;
+	left: calc(40% - 10px);
+}
+
+.statement-card{
+	overflow: auto;
+	height: auto;
+	background: #f8f8f8;
+	margin-bottom: 10px;
+	/*box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.2);*/
+	width:calc(100% - 30px);
+	align-items:flex-start;
+	justify-content:space-between;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1rem;
+	
+}
+.statement-card a{
+	text-decoration: none;
+	color:#3F3F3F;
+	display: inline-block;
+	width:100%;
+}
+.statement-title{
+	display: inline-block;
+	width:70%;
+}
+.statement-time{
+	display: inline-block;
+	width:20%;
+	font-size: 0.6rem;
+}
+#voteDescription{
+	padding:20px;
+	width: 50%;
+}
+.vote-timeline-description{
+	font-size: 1rem;
+	height: 100px;
+
+}
+.vote-timeline-result{
+	font-size: 1rem;
+}
+.vote-timeline-date{
+	float: right;
+}
+#voteTotal{
+	position: absolute;
+	right:20px;
+	bottom: 0px;
+}
+.title-vote{
+	margin-left: 5px;
+}
+.title-statement, .title-travel{
+	position: absolute;
+	margin-left: 5px;
+}
+.title-travel{
+	top:425px;
+	left: calc(40% - 10px);
+}
+.title-statement{
+	top:425px;
+}
+.dot:hover{
+	fill:#555555;
+}
