@@ -1,0 +1,28 @@
+.brand-logo{
+	margin-bottom: 60px;
+}
+.canopy-all-mock img{
+	width:100%;
+}
+
+.design-overview img{
+	width: 100%;
+}
+.design-overview{
+	text-align: center;
+}
+
+.feature-entery-1{
+	/*background-color: #777777;*/
+	color: #ffffff;
+	/*max-height: 300px;*/
+}
+.step-card img{
+	width: 100%;
+	padding-top: 50px;
+}
+.canopy-step-content{
+	width: 100%;
+	padding: 20px;
+	min-height: 320px;
+}
