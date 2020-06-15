@@ -26,3 +26,22 @@
 	padding: 20px;
 	min-height: 320px;
 }
+.highlight-text{
+	color: #1BC8C7;
+	font-weight: bold;
+}
+.product-concept{
+	width: 100%;
+}
+.product-concept img{
+	width: 100%;
+}
+p em{
+	color:#FF3300;
+	font-weight: bold;
+	font-style: normal;
+}
+.roadmap-content{
+	margin-top: 30px;
+	padding-left: 30px;
+}
