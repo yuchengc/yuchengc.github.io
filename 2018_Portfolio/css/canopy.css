@@ -7,19 +7,34 @@
 
 .design-overview img{
 	width: 100%;
+
 }
 .design-overview{
 	text-align: center;
 }
 
-.feature-entery-1{
+.feature-entery0{
 	/*background-color: #777777;*/
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 60px; 
+	/*width: 80%;*/
 	color: #ffffff;
-	/*max-height: 300px;*/
+	min-height: 80px;
+	border: #101A22 1px solid;
 }
 .step-card img{
 	width: 100%;
 	padding-top: 50px;
+}
+.step-img img{
+	width: 100%;
+}
+.step-key-question{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 36px;
 }
 .canopy-step-content{
 	width: 100%;
@@ -44,4 +59,10 @@ p em{
 .roadmap-content{
 	margin-top: 30px;
 	padding-left: 30px;
+}
+.design-process-step{
+	margin-top: 80px;
+}
+.feature-detail-entry-frame{
+	padding: 20px;
 }
