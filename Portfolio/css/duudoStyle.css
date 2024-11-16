@@ -1,0 +1,99 @@
+em{
+    font-style: normal;
+    /*color: black;*/
+    color: #FE5C27;
+    font-weight: bold;
+}
+
+.duudo-project-goal{
+	background: #eeeeee;
+
+}
+.duudo-emphasized-title em{
+	/*color: white;*/
+	color: black;
+}
+
+.principle-box{
+	height: auto;
+} 
+.principle-margin{
+    margin-top: 4rem;
+}
+.principle-number{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: #FE5C27;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 1.5rem;
+
+}
+.margin-top-section{
+	margin-top: 15rem;
+}
+.margin-top-sub-section{
+	margin-top: 8rem;
+}
+.duudo-emphasized-title{
+	margin-bottom: 5rem;
+}
+
+.duudo-goal-title em{
+	color: #FE5C27 !important;
+}
+.scroll-top{
+	bottom: 15px;
+
+}
+.scroll-section{
+	position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    /*width: 20px;*/
+    height: 20px;
+    /*background-color: #333;*/
+    text-align: center;
+    color: #bbb;
+    z-index: 9;
+}
+.scroll-research{
+	/*bottom: 165px;*/
+    bottom: 135px;
+    right: 15px;
+}
+.scroll-design-iteration{
+	/*bottom: 135px;*/
+    bottom: 105px;
+    right: 15px;
+}
+.scroll-design-testing{
+	bottom: 105px;
+    right: 15px;
+}
+.scroll-design-final{
+	bottom: 75px;
+    right: 15px;
+}
+.scroll-bullet{
+	display: inline-block;
+	width: 18px;
+    height: 18px;
+    border: solid 2px #888;
+    box-sizing: border-box;
+    /*background-color: #333;*/
+    margin-left: 7px;
+}
+.scroll-section-selected{
+	color:#333;
+
+}
+.scroll-section-selected > .scroll-bullet{
+	border: solid 2px #333;
+	background-color: #333;
+}

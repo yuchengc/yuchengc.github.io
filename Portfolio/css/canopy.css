@@ -1,0 +1,68 @@
+.brand-logo{
+	margin-bottom: 60px;
+}
+.canopy-all-mock img{
+	width:100%;
+}
+
+.design-overview img{
+	width: 100%;
+
+}
+.design-overview{
+	text-align: center;
+}
+
+.feature-entery0{
+	/*background-color: #777777;*/
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 60px; 
+	/*width: 80%;*/
+	color: #ffffff;
+	min-height: 120px;
+	border: #101A22 1px solid;
+}
+.step-card img{
+	width: 100%;
+	padding-top: 50px;
+}
+.step-img img{
+	width: 100%;
+}
+.step-key-question{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 36px;
+}
+.canopy-step-content{
+	width: 100%;
+	padding: 20px;
+	min-height: 320px;
+}
+.highlight-text{
+	color: #1BC8C7;
+	font-weight: bold;
+}
+.product-concept{
+	width: 100%;
+}
+.product-concept img{
+	width: 100%;
+}
+p em{
+	color:#FF3300;
+	font-weight: bold;
+	font-style: normal;
+}
+.roadmap-content{
+	margin-top: 30px;
+	padding-left: 30px;
+}
+.design-process-step{
+	margin-top: 80px;
+}
+.feature-detail-entry-frame{
+	padding: 20px;
+}
